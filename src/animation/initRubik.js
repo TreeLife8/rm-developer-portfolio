@@ -23,7 +23,7 @@ export function init() {
     1000
   );
   scene = new THREE.Scene();
-  camera.position.z = 5;
+  camera.position.z = 0;
 
   // Rubik cube
   geometry = new THREE.BoxGeometry(1.2, 1.2, 1.2);
@@ -38,6 +38,49 @@ export function init() {
   rubik.position.setX(-3.5);
   rubik.position.setZ(20);
   rubik.position.setY(-0.3);
+
+  // Wireframe triangle
+  triMaterial = new THREE.LineBasicMaterial({
+    color: 0xf1f1f1,
+  });
+  const points = [];
+  points.push(new THREE.Vector3(-2, -1.5, 0));
+  points.push(new THREE.Vector3(0, 1.5, 0));
+  points.push(new THREE.Vector3(2, -1.5, 0));
+  points.push(new THREE.Vector3(-2, -1.5, 0));
+  trigeometry = new THREE.BufferGeometry().setFromPoints(points);
+  line = new THREE.Line(trigeometry, triMaterial);
+  scene.add(line);
+  line.position.setX(-3.5);
+
+  // Solid triangle
+  solidTriangle = new THREE.BufferGeometry();
+  const vertices = new Float32Array([
+    -2, -1.5, 0, 0, 1.5, 0, 2, -1.5, 0, -2, -1.5, 0,
+  ]);
+
+  solidTriangle.setAttribute(
+    "position",
+    new THREE.BufferAttribute(vertices, 3)
+  );
+  const solidTriMaterial = new THREE.MeshBasicMaterial({ color: 0xc7a44e });
+  triangle = new THREE.Mesh(solidTriangle, solidTriMaterial);
+  scene.add(triangle);
+  triangle.position.setX(0.5);
+  triangle.position.setZ(0.8);
+  triangle.position.setY(0.2);
+  triangle.position.setX(-3.5);
+
+  // Animate on load
+  gsap.to(rubik.position, {
+    z: 0,
+    ease: "back.out(1.1)",
+    duration: 2,
+  });
+  gsap.to(camera.position, {
+    z: -5,
+    duration: 2,
+  });
 
   // Rendering
   renderer = new THREE.WebGLRenderer({ antialias: true });
