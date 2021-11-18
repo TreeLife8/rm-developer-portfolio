@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-gold: #c7a44e;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: "hikouOutline";
+  src: url("/src/Fonts/webfontkit-20211111-190046/hikou_outline-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 200px;
+}
+@font-face {
+  font-family: "hikouRough";
+  src: url("/src/Fonts/webfontkit-20211111-190046/hikou_rough-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 200px;
+}
+@font-face {
+  font-family: "hikouUrban";
+  src: url("/src/Fonts/webfontkit-20211111-190046/hikou_urban-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 200px;
 }
