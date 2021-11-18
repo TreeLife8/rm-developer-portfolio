@@ -59,6 +59,12 @@ export function init() {
 
   controls = new OrbitControls(camera, renderer.domElement);
 
+  window.addEventListener("resize", () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, 600);
+  });
+
   // Animation
   function animation(time) {
     rubik.rotation.z = time / 4000;
