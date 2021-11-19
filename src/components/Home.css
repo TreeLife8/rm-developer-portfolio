@@ -1,21 +1,3 @@
-.Home .title {
-  font-family: hikouOutline;
-  font-size: 10rem;
-  color: var(--primary-gold);
-  padding: 0 0 20px;
-  margin-top: 0;
-  text-shadow: 0 0 7px #fff, 0 0 20px #c7a54ef3, 0 0 30px #c7a44e,
-    0 0 40px #c7a54ee3, 0 0 50px #c7a54ec4, 0 0 70px #c7a54eb4;
-  line-height: 0.8;
-}
-.Home .title-heading {
-  color: var(--dark-gold);
-  font-style: italic;
-  padding: 20px 5px 0;
-  margin: 20px 0px 0;
-  font-family: var(--serif-font);
-  font-size: 4rem;
-}
 .Home .lines {
   margin-top: 5px;
 }
@@ -25,16 +7,12 @@
   padding: 1px;
   margin: 6px;
 }
-.Home .subtitle {
-  color: var(--text-colour);
-  font-family: hikouRough;
-  padding-top: 0;
-  margin-top: 0;
-  font-size: 2.1rem;
+
+.Home img.chemical {
+  z-index: 5;
+  width: 130px;
 }
-.Home .heading {
-  font-family: hikouRough;
-  color: var(--medium-gold);
-  font-size: 3rem;
-  margin-top: 4rem;
+
+.Home .chem-three {
+  margin-top: 100px;
 }

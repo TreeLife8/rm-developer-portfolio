@@ -1,7 +1,10 @@
 import React from "react";
 import Button from "./Button";
 import "./Home.css";
-// import dopamine from "";
+import dopamine from "./images/Dopamine.png";
+import love from "./images/Love chemical.png";
+import mind from "./images/Mind chemical.png";
+import SkillsGlance from "./SkillsGlance";
 
 export default function Home() {
   return (
@@ -10,7 +13,7 @@ export default function Home() {
         <div className="hero">
           <h2 className="title-heading">Frontend</h2>
           <h1 className="title">DEVELOPER</h1>
-          <div className="row">
+          <div className="row mb-2">
             <div className="col-8 lines">
               <hr className="banner" />
               <hr className="banner" />
@@ -35,8 +38,27 @@ export default function Home() {
             </p>
             <Button text="contact" />
           </div>
-          <div className="col-sm-6">{/* <img src="" alt=""></img> */}</div>
+          <div className="col-sm-6">
+            <div className="d-flex justify-content-around mt-3">
+              <img
+                className="img-fluid chemical"
+                src={dopamine}
+                alt="the chemical structure of dopamine"
+              ></img>
+              <img
+                className="img-fluid chemical"
+                src={love}
+                alt="the chemical structure of a chemical that increases the activity of the neurotransmitters serotonin"
+              ></img>
+            </div>
+            <img
+              className="img-fluid chemical chem-three"
+              src={mind}
+              alt="the chemical structure of mind opening chemical"
+            ></img>
+          </div>
         </div>
+        <SkillsGlance />
       </div>
     </div>
   );
