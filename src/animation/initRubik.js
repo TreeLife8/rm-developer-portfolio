@@ -37,7 +37,7 @@ export function init() {
   scene.add(rubik);
   rubik.position.setX(-4.1);
   rubik.position.setZ(20);
-  rubik.position.setY(-2.3);
+  rubik.position.setY(-2.5);
 
   // Wireframe triangle
   triMaterial = new THREE.LineBasicMaterial({
@@ -52,7 +52,7 @@ export function init() {
   line = new THREE.Line(trigeometry, triMaterial);
   scene.add(line);
   line.position.setX(-4);
-  line.position.setY(-2);
+  line.position.setY(-2.3);
 
   // Solid triangle
   solidTriangle = new THREE.BufferGeometry();
@@ -69,7 +69,7 @@ export function init() {
   scene.add(triangle);
   triangle.position.setX(0.5);
   triangle.position.setZ(0.8);
-  triangle.position.setY(-2);
+  triangle.position.setY(-2.3);
   triangle.position.setX(-4);
 
   // Animate on load

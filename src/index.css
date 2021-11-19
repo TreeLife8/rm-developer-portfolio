@@ -8,6 +8,10 @@
   --primary-silver: #eeeef1;
   --text-colour: #7f7262;
   --serif-font: "Cormorant Garamond", serif;
+  --dark-colour: #272727;
+}
+body {
+  background: var(--dark-colour);
 }
 
 @font-face {
@@ -44,5 +48,5 @@ canvas {
   top: 0;
   left: 0;
   z-index: -10;
-  height: 800px;
+  height: 900px;
 }
