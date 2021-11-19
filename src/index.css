@@ -1,5 +1,13 @@
 :root {
   --primary-gold: #c7a44e;
+  --dark-gold: #8c7940;
+  --medium-gold: #ae9951;
+  --light-gold: #c8a54e;
+  --orange-gold: #d78d37;
+  --gradient-gold: linear-gradient(15deg, #e0ba74 0%, #d28b42 100%);
+  --primary-silver: #eeeef1;
+  --text-colour: #7f7262;
+  --serif-font: "Cormorant Garamond", serif;
 }
 
 @font-face {
@@ -22,4 +30,19 @@
     format("woff");
   font-style: normal;
   font-weight: 200px;
+}
+@font-face {
+  font-family: "hikouLight";
+  src: url("/src/Fonts/webfontkit-20211111-190046/hikou_light-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 200px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  height: 800px;
 }

@@ -1,0 +1,35 @@
+.Home .title {
+  font-family: hikouOutline;
+  font-size: 10rem;
+  color: var(--primary-gold);
+  padding: 0 0 20px;
+  margin-top: 0;
+  text-shadow: 0 0 7px #fff, 0 0 20px #c7a54ef3, 0 0 30px #c7a44e,
+    0 0 40px #c7a54ee3, 0 0 50px #c7a54ec4, 0 0 70px #c7a54eb4;
+  line-height: 0.8;
+}
+.Home .heading-title {
+  color: var(--dark-gold);
+  font-style: italic;
+  padding: 20px 5px 0;
+  margin: 20px 0px 0;
+  font-family: var(--serif-font);
+  font-size: 4rem;
+  /* opacity: 0.7; */
+}
+.Home .lines {
+  margin-top: 5px;
+}
+.Home hr.banner {
+  color: var(--text-colour);
+  opacity: 1;
+  padding: 1px;
+  margin: 6px;
+}
+.Home .subtitle {
+  color: var(--text-colour);
+  font-family: hikouRough;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 2.1rem;
+}
