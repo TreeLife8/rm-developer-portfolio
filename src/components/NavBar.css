@@ -1,0 +1,40 @@
+nav {
+  padding: 3px 5px 10px;
+}
+
+nav a {
+  color: var(--text-colour);
+  letter-spacing: 0.6rem;
+  font-family: hikouLight;
+  font-size: 1.1rem;
+}
+nav a.nav-link {
+  color: var(--text-colour);
+  transition: all 200ms ease-in-out;
+}
+nav a.nav-link:hover,
+nav a.nav-link:active,
+nav a.nav-link:focus {
+  color: var(--medium-gold);
+}
+nav a:hover {
+  color: var(--primary-gold);
+}
+nav .navbar {
+  display: inline-block;
+  justify-content: space-between;
+}
+nav button.navbar-toggler {
+  border: var(--text-colour) 1px solid;
+}
+nav button.navbar-toggler:focus {
+  border: var(--text-colour) 1px solid;
+}
+nav .navbar-toggler-icon {
+  margin: 5px 0 0;
+}
+nav .navbar-toggler-icon .burger {
+  color: var(--text-colour);
+  opacity: 1;
+  margin: 5px 1px;
+}

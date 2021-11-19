@@ -4,7 +4,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 let torus, torusGeometry, material;
 
-export function init() {
+export function initTorus() {
   camera = new THREE.PerspectiveCamera(
     75,
     window.innerWidth / window.innerHeight,

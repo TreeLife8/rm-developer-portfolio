@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { init } from "../animation/InitTorus";
+import { initTorus } from "../animation/InitTorus";
 
 export default function TorusAnimation() {
   useEffect(() => {
-    init();
+    initTorus();
   }, []);
   return <div className="TorusAnimation"></div>;
 }

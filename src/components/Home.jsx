@@ -9,6 +9,7 @@ import Title from "./Title";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ProjectSection from "./ProjectSection";
+import RubikAnimation from "./RubikAnimation";
 
 export default function Home() {
   const line = [
@@ -33,8 +34,9 @@ export default function Home() {
     <div className="Home">
       <div className="container-fluid">
         <div className="hero">
-          <h2 className="title-heading">Frontend</h2>
+          <h2 className="title-heading mt-5">Frontend</h2>
           <Title />
+          <RubikAnimation />
           <div className="row mb-2">
             <div className="col-8 lines">
               {line.map((line, index) => {
