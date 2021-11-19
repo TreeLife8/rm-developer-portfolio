@@ -5,6 +5,7 @@ import dopamine from "./images/Dopamine.png";
 import love from "./images/Love chemical.png";
 import mind from "./images/Mind chemical.png";
 import SkillsGlance from "./SkillsGlance";
+import Title from "./Title";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <div className="container-fluid">
         <div className="hero">
           <h2 className="title-heading">Frontend</h2>
-          <h1 className="title">DEVELOPER</h1>
+          {/* <h1 className="title">DEVELOPER</h1> */}
+          <Title />
           <div className="row mb-2">
             <div className="col-8 lines">
               <hr className="banner" />
