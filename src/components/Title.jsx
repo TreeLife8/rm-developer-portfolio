@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Animate, AnimateGroup } from "react-simple-animate";
-import "./Title.css";
 
 function Title() {
   const [state, toggle] = useState(false);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "./Button";
 import "./Home.css";
 import dopamine from "./images/Dopamine.png";
@@ -6,20 +6,49 @@ import love from "./images/Love chemical.png";
 import mind from "./images/Mind chemical.png";
 import SkillsGlance from "./SkillsGlance";
 import Title from "./Title";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  const line = [
+    {
+      duration: 1000,
+      delay: 100,
+    },
+    {
+      duration: 2000,
+      delay: 500,
+    },
+    {
+      duration: 3000,
+      delay: 900,
+    },
+  ];
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  });
+
   return (
     <div className="Home">
       <div className="container-fluid">
         <div className="hero">
           <h2 className="title-heading">Frontend</h2>
-          {/* <h1 className="title">DEVELOPER</h1> */}
           <Title />
           <div className="row mb-2">
             <div className="col-8 lines">
-              <hr className="banner" />
-              <hr className="banner" />
-              <hr className="banner" />
+              {line.map((line, index) => {
+                return (
+                  <hr
+                    key={index}
+                    className="banner"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-mirror="true"
+                    duration={line.duration}
+                    data-aos-delay={line.delay}
+                  />
+                );
+              })}
             </div>
             <div className="col-4">
               <h4 className="subtitle">full stack in the making</h4>
@@ -28,7 +57,14 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <h3 className="heading">from chemist to coder</h3>
+            <h3
+              data-aos="zoom-in"
+              data-aos-easing="ease-in-sine"
+              data-aos-mirror="true"
+              className="heading"
+            >
+              from chemist to coder
+            </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -45,7 +81,7 @@ export default function Home() {
               <img
                 className="img-fluid chemical"
                 src={dopamine}
-                alt="the chemical structure of dopamine"
+                alt="the chemical structure of the chemical messenger of pleasure"
               ></img>
               <img
                 className="img-fluid chemical"

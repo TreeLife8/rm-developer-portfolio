@@ -22,7 +22,9 @@
   border-bottom: var(--primary-silver) solid 0.5px;
   text-align: center;
   padding-top: 13px;
+  transition: all 200ms ease-in-out;
 }
+
 .Button button.btn-text.margin {
   margin-left: 30px;
 }
