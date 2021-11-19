@@ -8,6 +8,7 @@ import SkillsGlance from "./SkillsGlance";
 import Title from "./Title";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ProjectSection from "./ProjectSection";
 
 export default function Home() {
   const line = [
@@ -41,7 +42,7 @@ export default function Home() {
                   <hr
                     key={index}
                     className="banner"
-                    data-aos="fade-right"
+                    data-aos="flip-right"
                     data-aos-easing="ease-in-sine"
                     data-aos-mirror="true"
                     duration={line.duration}
@@ -58,7 +59,7 @@ export default function Home() {
         <div className="row">
           <div className="col-sm-6">
             <h3
-              data-aos="zoom-in"
+              data-aos="fade-in"
               data-aos-easing="ease-in-sine"
               data-aos-mirror="true"
               className="heading"
@@ -97,6 +98,7 @@ export default function Home() {
           </div>
         </div>
         <SkillsGlance />
+        <ProjectSection />
       </div>
     </div>
   );

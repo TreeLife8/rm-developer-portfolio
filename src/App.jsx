@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./components/Home";
-import RubikAnimation from "./RubikAnimation";
+import RubikAnimation from "./components/RubikAnimation";
 
 function App() {
   return (

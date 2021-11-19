@@ -1,0 +1,8 @@
+.ProjectSection .heading {
+  font-size: 12rem;
+  text-align: center;
+  color: var(--dark-gold);
+}
+.ProjectSection .dark {
+  opacity: 0.4;
+}
