@@ -1,0 +1,8 @@
+.Contact .page-title {
+  position: absolute;
+  top: 200px;
+  font-size: 14rem;
+  left: 70px;
+  font-family: hikouUrban;
+  color: var(--medium-gold);
+}

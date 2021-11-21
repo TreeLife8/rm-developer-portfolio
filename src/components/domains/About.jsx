@@ -1,8 +1,11 @@
 import React from "react";
-// import ParticleWaves from "./ParticleWaves";
 
 function About() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>hi meow about</h1>
+    </div>
+  );
 }
 
 export default About;

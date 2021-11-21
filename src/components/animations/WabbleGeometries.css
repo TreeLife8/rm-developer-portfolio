@@ -1,0 +1,13 @@
+html,
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.WabbleGeometries {
+  width: 100vw;
+  height: 600px;
+  background-color: var(--dark-colour);
+  position: absolute;
+  z-index: -10;
+}

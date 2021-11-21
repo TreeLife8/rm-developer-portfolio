@@ -8,7 +8,7 @@ import {
   useLoader,
   useThree,
 } from "@react-three/fiber";
-import circleImg from "./images/circle.png";
+import circleImg from "../images/circle.png";
 extend({ OrbitControls });
 import "./ParticleWaves.css";
 
@@ -91,7 +91,7 @@ function Points() {
       <pointsMaterial
         attach="material"
         map={imgTex}
-        color={0xc8a54e}
+        color={0x7f7262}
         size={0.5}
         sizeAttenuation
         transparent={false}

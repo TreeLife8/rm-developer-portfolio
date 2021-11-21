@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
-import Button from "./Button";
+import Button from "../buttons/Button";
 import "./Home.css";
-import dopamine from "./images/Dopamine.png";
-import love from "./images/Love chemical.png";
-import mind from "./images/Mind chemical.png";
+import dopamine from "../../images/Dopamine.png";
+import love from "../../images/Love chemical.png";
+import mind from "../../images/Mind chemical.png";
 import SkillsGlance from "./SkillsGlance";
 import Title from "./Title";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ProjectSection from "./ProjectSection";
-import RubikAnimation from "./RubikAnimation";
+import RubikAnimation from "../../animations/RubikAnimation";
 
 export default function Home() {
   const line = [

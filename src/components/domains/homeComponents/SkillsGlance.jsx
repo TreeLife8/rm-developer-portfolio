@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import Button from "./Button";
+import Button from "../buttons/Button";
 import "./SkillsGlance.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ParticleWaves from "./ParticleWaves";
+import ParticleWaves from "../../animations/ParticleWaves";
 
 export default function SkillsGlance() {
   useEffect(() => {
@@ -20,9 +20,8 @@ export default function SkillsGlance() {
         >
           skills at a glance
         </h3>
-        <section>
-          <ParticleWaves />
-        </section>
+        <section></section>
+        <ParticleWaves />
         <div className="d-flex justify-content-center">
           <Button text="contact" hidden={true} />
         </div>
