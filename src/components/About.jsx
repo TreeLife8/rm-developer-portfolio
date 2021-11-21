@@ -1,12 +1,8 @@
 import React from "react";
-import Skills from "./Skills";
+// import ParticleWaves from "./ParticleWaves";
 
 function About() {
-  return (
-    <div>
-      <Skills />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default About;

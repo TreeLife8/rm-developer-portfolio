@@ -11,7 +11,7 @@ function Navbar() {
             RM
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -19,7 +19,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon">
+            <span className="navbar-toggler-icon">
               <hr className="burger" />
               <hr className="burger" />
               <hr className="burger" />

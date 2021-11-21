@@ -10,6 +10,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import ProjectSection from "./ProjectSection";
 import RubikAnimation from "./RubikAnimation";
+// import ParticleWaves from "./ParticleWaves";
 
 export default function Home() {
   const line = [
@@ -37,6 +38,7 @@ export default function Home() {
           <h2 className="title-heading mt-5">Frontend</h2>
           <Title />
           <RubikAnimation />
+          {/* <ParticleWaves /> */}
           <div className="row mb-2">
             <div className="col-8 lines">
               {line.map((line, index) => {

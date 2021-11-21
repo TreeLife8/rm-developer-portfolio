@@ -1,0 +1,7 @@
+.ParticleWaves {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vw;
+  background-color: black;
+}
