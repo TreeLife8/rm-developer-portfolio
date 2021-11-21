@@ -1,7 +1,14 @@
-.ParticleWaves {
+html,
+body {
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.ParticleWaves {
   width: 100vw;
-  height: 100vw;
-  background-color: black;
+  height: 600px;
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  top: 800px;
 }

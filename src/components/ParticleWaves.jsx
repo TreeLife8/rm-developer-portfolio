@@ -88,7 +88,6 @@ function Points() {
           itemSize={3}
         />
       </bufferGeometry>
-
       <pointsMaterial
         attach="material"
         map={imgTex}
@@ -118,15 +117,7 @@ export default function ParticleWaves() {
   return (
     <div className="ParticleWaves">
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="row">
-          <div className="col-sm-6">
-            <h1>meow</h1>
-            <AnimationCanvas />
-          </div>
-          <div className="col-sm-6">
-            <h2>babababa</h2>
-          </div>
-        </div>
+        <AnimationCanvas />
       </Suspense>
     </div>
   );

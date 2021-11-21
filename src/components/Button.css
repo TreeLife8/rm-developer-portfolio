@@ -1,6 +1,9 @@
 .Button {
   margin: 60px 0;
 }
+.Button .hidden {
+  display: none;
+}
 
 .Button button.btn-square {
   border: none;

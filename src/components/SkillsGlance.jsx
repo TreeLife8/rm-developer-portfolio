@@ -3,6 +3,7 @@ import Button from "./Button";
 import "./SkillsGlance.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ParticleWaves from "./ParticleWaves";
 
 export default function SkillsGlance() {
   useEffect(() => {
@@ -19,7 +20,9 @@ export default function SkillsGlance() {
         >
           skills at a glance
         </h3>
-        <section></section>
+        <section>
+          <ParticleWaves />
+        </section>
         <div className="d-flex justify-content-center">
           <Button text="contact" hidden={true} />
         </div>
