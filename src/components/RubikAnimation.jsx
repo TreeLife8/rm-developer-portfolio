@@ -27,6 +27,16 @@ function RubikCube() {
     </>
   );
 }
+function Triangle() {
+  return (
+    <>
+      <mesh position={[-5, 10, -10]} rotation={[Math.PI / 4, -4.7, 28]}>
+        <circleBufferGeometry attach="geometry" args={[15, 3]} />
+        <meshStandardMaterial attach="material" color={0x7f7262} />
+      </mesh>
+    </>
+  );
+}
 
 function Line({ start, end }) {
   const ref = useRef();
@@ -77,6 +87,7 @@ function AnimationCanvas() {
         {triangleOutline.map((line, index) => {
           return <Line key={index} start={line.start} end={line.finish} />;
         })}
+        <Triangle />
       </Suspense>
     </Canvas>
   );
