@@ -23,7 +23,7 @@ export default function SkillsGlance() {
         <section></section>
         <ParticleWaves />
         <div className="d-flex justify-content-center">
-          <Button text="contact" hidden={true} />
+          <Button text="contact" hidden={true} href="./Contact" />
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React, { useRef, Suspense, useState } from "react";
+import React, { useRef, Suspense, useState, useEffect } from "react";
 import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { MeshWobbleMaterial } from "@react-three/drei";
@@ -6,8 +6,6 @@ import "./WabbleGeometries.css";
 
 function Cube({ position, size, speed, factor, rotation }) {
   const mesh = useRef();
-  const [hovered, setHover] = useState(false);
-  const [active, setActive] = useState(false);
   useFrame(
     () =>
       (mesh.current.rotation.x =
@@ -17,20 +15,13 @@ function Cube({ position, size, speed, factor, rotation }) {
   );
   return (
     <>
-      <mesh
-        position={position}
-        ref={mesh}
-        scale={active ? 1.2 : 1}
-        onClick={(event) => setActive(!active)}
-        onPointerOver={(event) => setHover(true)}
-        onPointerOut={(event) => setHover(false)}
-      >
+      <mesh position={position} ref={mesh}>
         <boxBufferGeometry attach="geometry" args={size} />
         <MeshWobbleMaterial
           speed={speed}
           factor={factor}
           attach="material"
-          color={hovered ? 0x7f7262 : 0x1d1e22}
+          color={0x1d1e22}
         />
       </mesh>
     </>
@@ -50,8 +41,8 @@ function AnimationCanvas() {
     this.factor = factor;
     this.rotation = rotation;
     parameters.push({
-      sizeCube: [r * this.size, r * this.size, r * this.size],
-      sizeRec: [r * this.size, (r * this.size) / 4],
+      sizeCube: [(r / 3) * this.size, (r / 3) * this.size, (r / 3) * this.size],
+      sizeRec: [(r / 3) * this.size, ((r / 3) * this.size) / 4],
       positionCube: [
         xr * this.position,
         yr * this.position,
@@ -64,10 +55,10 @@ function AnimationCanvas() {
       ],
       speed: this.speed * r,
       factor: (this.factor * r) / 2,
-      rotation: (this.rotation * ro) / 100,
+      rotation: (this.rotation * ro) / 80,
     });
   }
-  for (let i = 0; i < 80; i++) {
+  for (let i = 0; i < 500; i++) {
     new RandomParameters(i * 0.5, i * 0.5, 1, 1, 0.5);
   }
   return (

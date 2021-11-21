@@ -1,8 +1,11 @@
 .Contact .page-title {
   position: absolute;
-  top: 200px;
-  font-size: 14rem;
-  left: 70px;
+  font-size: 15rem;
+  top: 50%;
+  left: 50%;
+  line-height: 0.9;
+  transform: translate(-50%, -50%);
+  margin: 0;
   font-family: hikouUrban;
-  color: var(--medium-gold);
+  color: var(--text-colour);
 }
