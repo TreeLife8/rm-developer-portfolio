@@ -27,7 +27,36 @@ function RubikCube() {
     </>
   );
 }
+
+function Line({ start, end }) {
+  const ref = useRef();
+  useLayoutEffect(() => {
+    ref.current.geometry.setFromPoints(
+      [start, end].map((point) => new THREE.Vector3(...point))
+    );
+  }, [start, end]);
+  return (
+    <line ref={ref}>
+      <bufferGeometry />
+      <lineBasicMaterial color={0xeeeef1} />
+    </line>
+  );
+}
 function AnimationCanvas() {
+  const triangleOutline = [
+    {
+      start: [0, 23, -15],
+      finish: [0, 0, 0],
+    },
+    {
+      start: [0, 23, -15],
+      finish: [0, 0, -30],
+    },
+    {
+      start: [0, 0, 0],
+      finish: [0, 0, -30],
+    },
+  ];
   return (
     <Canvas colourManagement camera={{ position: [50, 0, 0], fov: 50 }}>
       <Suspense fallback={null}>
@@ -45,6 +74,9 @@ function AnimationCanvas() {
           shadow-camera-bottm={-30}
         />
         <RubikCube />
+        {triangleOutline.map((line, index) => {
+          return <Line key={index} start={line.start} end={line.finish} />;
+        })}
       </Suspense>
     </Canvas>
   );

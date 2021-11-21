@@ -5,9 +5,9 @@ body {
 }
 
 .RubikAnimation {
-  width: 120vw;
+  width: 130vw;
   height: 600px;
   position: absolute;
   z-index: -10;
-  top: 400px;
+  top: 430px;
 }
