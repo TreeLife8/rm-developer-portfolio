@@ -34,7 +34,7 @@ export default function Home() {
     <div className="Home">
       <div className="container-fluid">
         <div className="hero">
-          <h2 className="title-heading mt-5">Frontend</h2>
+          <h2 className="title-heading mt-5 pt-5">Frontend</h2>
           <Title />
           <RubikAnimation />
           <div className="row mb-2">
@@ -55,6 +55,7 @@ export default function Home() {
             </div>
             <div className="col-4">
               <h4 className="subtitle">full stack in the making</h4>
+              <h4 className="dev-name">Regina Maher</h4>
             </div>
           </div>
         </div>

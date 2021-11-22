@@ -8,7 +8,7 @@
   --primary-silver: #eeeef1;
   --text-colour: #7f7262;
   --serif-font: "Cormorant Garamond", serif;
-  --dark-colour: #272727;
+  --dark-colour: #1f1f1f;
 }
 body {
   background: var(--dark-colour);
@@ -41,12 +41,4 @@ body {
     format("woff");
   font-style: normal;
   font-weight: 200px;
-}
-
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -10;
-  height: 900px;
 }

@@ -1,5 +1,6 @@
 .Home .lines {
-  margin-top: 5px;
+  margin: 5px 0;
+  padding-right: 0;
 }
 .Home hr.banner {
   color: var(--text-colour);
@@ -8,6 +9,16 @@
   margin: 6px;
 }
 
+.Home .dev-name {
+  font-family: hikouLight;
+  letter-spacing: 0.7rem;
+  color: var(--primary-silver);
+  font-size: 1.5rem;
+  margin: 20px 34px 0;
+  padding-bottom: 0;
+  text-align: end;
+  opacity: 0.7;
+}
 .Home img.chemical {
   z-index: 5;
   width: 130px;
@@ -16,3 +27,33 @@
 .Home .chem-three {
   margin-top: 100px;
 }
+/* @media (prefers-reduced-motion: no-preference) {
+  .chemical {
+    animation-duration: 8s;
+    animation-name: slide-fade, spin;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+@keyframes slide-fade {
+  from {
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    opacity: 1;
+  }
+
+  to {
+    margin-top: 0%;
+    margin-left: 0%;
+    opacity: 0.9;
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+} */

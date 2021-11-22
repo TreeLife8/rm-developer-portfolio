@@ -1,4 +1,4 @@
-import React, { useRef, Suspense, useState, useEffect } from "react";
+import React, { useRef, Suspense, useState } from "react";
 import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { MeshWobbleMaterial } from "@react-three/drei";
@@ -6,6 +6,8 @@ import "./WabbleGeometries.css";
 
 function Cube({ position, size, speed, factor, rotation }) {
   const mesh = useRef();
+  const [hovered, setHover] = useState(false);
+  const [active, setActive] = useState(false);
   useFrame(
     () =>
       (mesh.current.rotation.x =
@@ -14,24 +16,29 @@ function Cube({ position, size, speed, factor, rotation }) {
           rotation)
   );
   return (
-    <>
-      <mesh position={position} ref={mesh}>
-        <boxBufferGeometry attach="geometry" args={size} />
-        <MeshWobbleMaterial
-          speed={speed}
-          factor={factor}
-          attach="material"
-          color={0x1d1e22}
-        />
-      </mesh>
-    </>
+    <mesh
+      position={position}
+      ref={mesh}
+      scale={active ? 1.4 : 1}
+      onClick={() => setActive(!active)}
+      onPointerOver={() => setHover(true)}
+      onPointerOut={() => setHover(false)}
+    >
+      <boxBufferGeometry attach="geometry" args={size} />
+      <MeshWobbleMaterial
+        speed={speed}
+        factor={factor}
+        attach="material"
+        // color={0x1d1e22}
+        color={hovered ? 0x7f7262 : 0x1d1e22}
+      />
+    </mesh>
   );
 }
 function AnimationCanvas() {
   const parameters = [];
   function RandomParameters(size, position, speed, factor, rotation) {
     const r = Math.ceil(Math.random());
-    const ro = Math.ceil(Math.random() - 0.5);
     const xr = Math.ceil(10 * (Math.random() - 0.5));
     const yr = Math.ceil(10 * (Math.random() - 0.5));
     const zr = Math.ceil(10 * (Math.random() - 0.5));
@@ -55,7 +62,7 @@ function AnimationCanvas() {
       ],
       speed: this.speed * r,
       factor: (this.factor * r) / 2,
-      rotation: (this.rotation * ro) / 80,
+      rotation: (this.rotation * xr) / 200,
     });
   }
   for (let i = 0; i < 500; i++) {

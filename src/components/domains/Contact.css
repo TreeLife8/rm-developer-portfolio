@@ -1,11 +1,19 @@
-.Contact .page-title {
+.Contact .title-group {
   position: absolute;
-  font-size: 15rem;
   top: 50%;
   left: 50%;
-  line-height: 0.9;
   transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.Contact .page-title {
+  font-size: 15rem;
+  line-height: 0.9;
   margin: 0;
   font-family: hikouUrban;
   color: var(--text-colour);
+  opacity: 0.5;
+}
+.Contact a {
+  text-decoration: none;
+  display: flex;
 }

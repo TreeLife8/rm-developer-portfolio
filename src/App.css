@@ -14,8 +14,8 @@
 .App .title-heading {
   color: var(--dark-gold);
   font-style: italic;
-  padding: 20px 5px 0;
-  margin: 20px 0px 0;
+  padding: 0px 5px;
+  margin: 0;
   font-family: var(--serif-font);
   font-size: 3rem;
 }
@@ -32,4 +32,8 @@
   color: var(--medium-gold);
   font-size: 3rem;
   margin-top: 4rem;
+}
+.App .squashed {
+  margin: 0;
+  padding: 0;
 }
