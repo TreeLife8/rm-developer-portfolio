@@ -6,21 +6,12 @@ import "./RubikAnimation.css";
 
 function RubikCube() {
   const mesh = useRef();
-  const [hovered, setHover] = useState(false);
   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.005));
   return (
     <>
-      <mesh
-        position={[5, 7, -15]}
-        ref={mesh}
-        onPointerOver={(event) => setHover(true)}
-        onPointerOut={(event) => setHover(false)}
-      >
+      <mesh position={[5, 7, -15]} ref={mesh}>
         <boxBufferGeometry attach="geometry" args={[10, 10, 10]} />
-        <meshStandardMaterial
-          attach="material"
-          color={hovered ? 0x7f7262 : 0xc8a54e}
-        />
+        <meshStandardMaterial attach="material" color={0xc7a44e} />
       </mesh>
     </>
   );

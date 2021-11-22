@@ -170,8 +170,8 @@ export default function SkillBar() {
         <div className="col-10">
           {spring.map((spring, index) => (
             <animated.div
-              className="mt-3"
               key={spring[index]}
+              className="mt-3"
               style={{
                 ...spring,
                 height: "15px",

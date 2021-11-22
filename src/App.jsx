@@ -18,7 +18,7 @@ function App() {
         <Route exact path="Projects" element={<Projects />} />
         <Route exact path="Contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
