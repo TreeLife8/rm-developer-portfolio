@@ -2,23 +2,17 @@ import React, { useRef, useLayoutEffect, Suspense, useState } from "react";
 import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import "./RubikAnimation.css";
-import { useSpring, animated } from "@react-spring/three";
+// import { useSpring, animated } from "@react-spring/three";
 
 function RubikCube() {
-  // const { scale } = useSpring({ scale: active ? 1.5 : 1 });
   const mesh = useRef();
   const [hovered, setHover] = useState(false);
-  const [active, setActive] = useState(false);
   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.005));
   return (
     <>
       <mesh
-        // scale={scale}
-        onClick={() => setActive(!active)}
         position={[5, 7, -15]}
         ref={mesh}
-        scale={active ? 1.1 : 1}
-        onClick={(event) => setActive(!active)}
         onPointerOver={(event) => setHover(true)}
         onPointerOut={(event) => setHover(false)}
       >

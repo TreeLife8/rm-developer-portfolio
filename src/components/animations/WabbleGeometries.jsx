@@ -29,7 +29,6 @@ function Cube({ position, size, speed, factor, rotation }) {
         speed={speed}
         factor={factor}
         attach="material"
-        // color={0x1d1e22}
         color={hovered ? 0x7f7262 : 0x1d1e22}
       />
     </mesh>
@@ -75,8 +74,6 @@ function AnimationCanvas() {
         <directionalLight
           position={[25, 30, 10]}
           intensity={1}
-          shadow-mapSize-width={1024}
-          shadow-mapSize-height={1024}
           shadow-camera-far={50}
           shadow-camera-left={30}
           shadow-camera-right={30}

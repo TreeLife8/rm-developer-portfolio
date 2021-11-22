@@ -1,4 +1,5 @@
 import React from "react";
+import Boxes from "../animations/Boxes";
 import "./Footer.css";
 
 function Footer() {
@@ -10,7 +11,7 @@ function Footer() {
             data-aos="flip-right"
             data-aos-easing="ease-in-sine"
             data-aos-mirror="true"
-            className="underline"
+            className="underline mb-5"
           />
           <div className="col-sm-4">
             <h4 className="subtitle mb-3">Regina Maher</h4>
@@ -26,8 +27,21 @@ function Footer() {
             </h6>
             <h6 className="contact">0415 925 230</h6>
           </div>
-          <div className="col-sm-4"></div>
-          <div className="col-sm-4"></div>
+          <div className="col-sm-4 d-flex justify-content-center pt-4">
+            <Boxes />
+          </div>
+          <div className="col-sm-4 text-end pe-4">
+            <h4 className="subtitle mb-3">explore</h4>
+            <h6>
+              <a href="/About">about</a>
+            </h6>
+            <h6>
+              <a href="/Projects">projects</a>
+            </h6>
+            <h6>
+              <a href="/Contact">contact</a>
+            </h6>
+          </div>
         </div>
       </div>
     </footer>

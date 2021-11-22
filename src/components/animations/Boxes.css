@@ -5,10 +5,6 @@ body {
 }
 
 .Boxes {
-  width: 100vw;
-  height: 600px;
-  /* position: absolute;
-  z-index: -10;
-  left: 0;
-  top: 800px; */
+  width: 100px;
+  height: 100px;
 }
