@@ -5,7 +5,6 @@ import "./Boxes.css";
 function Box(props) {
   const ref = useRef();
   const [hovered, setHover] = useState(false);
-  const [clicked, setClick] = useState(false);
   useFrame(
     (state, delta) =>
       (ref.current.rotation.x =
@@ -17,8 +16,7 @@ function Box(props) {
     <mesh
       {...props}
       ref={ref}
-      scale={clicked ? 1.5 : 1}
-      onClick={(event) => setClick(!clicked)}
+      scale={hovered ? 1.1 : 1}
       onPointerOver={(event) => setHover(true)}
       onPointerOut={(event) => setHover(false)}
     >

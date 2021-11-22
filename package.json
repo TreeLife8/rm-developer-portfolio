@@ -15,6 +15,7 @@
     "react-dom": "^17.0.0",
     "react-router-dom": "^6.0.2",
     "react-simple-animate": "^3.3.12",
+    "react-spring": "^9.3.1",
     "three": "^0.134.0"
   },
   "devDependencies": {

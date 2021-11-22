@@ -1,0 +1,6 @@
+.SkillBar .skill-name {
+  font-weight: 100;
+  font-size: 0.7rem;
+  text-align: end;
+  padding-top: 10px;
+}

@@ -38,7 +38,7 @@ function AnimationCanvas() {
   const parameters = [];
   function RandomParameters(size, position, speed, factor, rotation) {
     const r = Math.ceil(Math.random());
-    const xr = Math.ceil(10 * (Math.random() - 0.5));
+    const xr = Math.ceil(20 * (Math.random() * -1));
     const yr = Math.ceil(10 * (Math.random() - 0.5));
     const zr = Math.ceil(10 * (Math.random() - 0.5));
     this.size = size;
@@ -68,7 +68,7 @@ function AnimationCanvas() {
     new RandomParameters(i * 0.5, i * 0.5, 1, 1, 0.5);
   }
   return (
-    <Canvas colourManagement camera={{ position: [50, 0, 0], fov: 50 }}>
+    <Canvas colourManagement camera={{ position: [100, 0, 0], fov: 50 }}>
       <Suspense fallback={null}>
         <ambientLight intensity={0.2} />
         <directionalLight

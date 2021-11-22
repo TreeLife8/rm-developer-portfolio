@@ -1,0 +1,6 @@
+.About .heading {
+  color: var(--primary-silver);
+  font-family: hikouUrban;
+  opacity: 0.7;
+  font-size: 5rem;
+}
