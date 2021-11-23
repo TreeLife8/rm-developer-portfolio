@@ -6,3 +6,10 @@
 .ProjectSection .dark {
   opacity: 0.4;
 }
+.ProjectSection .subtitle {
+  text-align: center;
+  font-size: 2rem;
+}
+.ProjectSection .project-tile {
+  padding: 0;
+}

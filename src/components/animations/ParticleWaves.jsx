@@ -91,12 +91,12 @@ function Points() {
       <pointsMaterial
         attach="material"
         map={imgTex}
-        color={0x7f7262}
+        color={0xeeeef1}
         size={0.5}
         sizeAttenuation
         transparent={false}
         alphaTest={0.5}
-        opacity={1.0}
+        opacity={1}
       />
     </points>
   );

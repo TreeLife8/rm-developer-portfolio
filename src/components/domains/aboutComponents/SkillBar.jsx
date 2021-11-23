@@ -5,7 +5,7 @@ import "./SkillBar.css";
 const skillBarData = [
   {
     id: 1,
-    name: "HTML & CSS",
+    name: "responsive HTML & CSS",
     from: {
       backgroundColor: "#eeeef1",
       width: "10px",
@@ -20,8 +20,8 @@ const skillBarData = [
     },
   },
   {
-    id: 2,
-    name: "responsive",
+    id: 1,
+    name: "frontend web developement",
     from: {
       backgroundColor: "#eeeef1",
       width: "10px",
@@ -53,7 +53,7 @@ const skillBarData = [
   },
   {
     id: 4,
-    name: "react",
+    name: "reactjs",
     from: {
       backgroundColor: "#eeeef1",
       width: "90px",
@@ -77,22 +77,6 @@ const skillBarData = [
     to: {
       backgroundColor: "#7f7262",
       width: "480px",
-    },
-    config: {
-      mass: 25,
-      friction: 40,
-    },
-  },
-  {
-    id: 6,
-    name: "animation",
-    from: {
-      backgroundColor: "#eeeef1",
-      width: "90px",
-    },
-    to: {
-      backgroundColor: "#7f7262",
-      width: "400px",
     },
     config: {
       mass: 25,
@@ -158,7 +142,7 @@ export default function SkillBar() {
     <div className="SkillBar">
       <h4 className="subtitle">skills</h4>
       <div className="row">
-        <div className="col-2">
+        <div className="col-3">
           {skillBarData.map((skill, index) => {
             return (
               <h4 className="skill-name" key={index}>
@@ -167,18 +151,21 @@ export default function SkillBar() {
             );
           })}
         </div>
-        <div className="col-10">
-          {spring.map((spring, index) => (
-            <animated.div
-              key={spring[index]}
-              className="mt-3"
-              style={{
-                ...spring,
-                height: "15px",
-                margin: "10px",
-              }}
-            ></animated.div>
-          ))}
+        <div className="col-9">
+          {spring.map((spring, index) => {
+            console.log(spring);
+            return (
+              <animated.div
+                key={spring[index]}
+                className="mt-3"
+                style={{
+                  ...spring,
+                  height: "15px",
+                  margin: "10px",
+                }}
+              ></animated.div>
+            );
+          })}
         </div>
       </div>
     </div>

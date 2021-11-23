@@ -4,3 +4,10 @@
   opacity: 0.7;
   font-size: 9rem;
 }
+.About .bio-description {
+  font-size: 1.1rem;
+  max-width: 900px;
+}
+.About .skill-bars {
+  padding-left: 60px;
+}

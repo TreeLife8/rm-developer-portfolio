@@ -1,0 +1,20 @@
+.SkillsGlance .listed-skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+.SkillsGlance .skill-icon {
+  max-width: 60px;
+  margin: 20px 40px;
+  opacity: 0.8;
+}
+.SkillsGlance .incomplete {
+  opacity: 0.2;
+}
+.SkillsGlance .skills-description {
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin: 20px 40px;
+  text-align: center;
+  color: var(--primary-silver);
+  opacity: 0.5;
+}

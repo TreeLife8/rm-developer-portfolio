@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import ProjectSection from "./ProjectSection";
 import Hero from "./Hero";
 import Intro from "./Intro";
+import Footer from "../Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function Home() {
         <Intro />
         <SkillsGlance />
         <ProjectSection />
+        <Footer />
       </div>
     </div>
   );
