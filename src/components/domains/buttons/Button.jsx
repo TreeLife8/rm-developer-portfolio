@@ -8,7 +8,7 @@ export default function Button(props) {
     Aos.init({ duration: 1500 });
   });
   return (
-    <div className="Button">
+    <div className={props.margin ? "Button" : "Button btn-margin"}>
       <a href={props.href}>
         <button className={props.hidden ? "hidden" : "btn-square"}> </button>
         <button className={props.hidden ? "btn-text" : "margin btn-text"}>

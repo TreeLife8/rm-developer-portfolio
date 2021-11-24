@@ -65,7 +65,7 @@ export default function FurtherSkills() {
       </div>
       <div className="upcoming ps-4">
         <h2
-          className="title-heading  pb-4"
+          className="title-heading pb-4"
           data-aos="fade-in"
           data-aos-easing="ease-in-sine"
           data-aos-mirror="true"

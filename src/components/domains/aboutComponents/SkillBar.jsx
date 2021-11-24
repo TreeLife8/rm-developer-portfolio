@@ -21,7 +21,7 @@ const skillBarData = [
   },
   {
     id: 1,
-    name: "frontend web developement",
+    name: "web developement",
     from: {
       backgroundColor: "#eeeef1",
       width: "10px",
@@ -67,22 +67,7 @@ const skillBarData = [
       friction: 40,
     },
   },
-  {
-    id: 5,
-    name: "api",
-    from: {
-      backgroundColor: "#eeeef1",
-      width: "90px",
-    },
-    to: {
-      backgroundColor: "#7f7262",
-      width: "480px",
-    },
-    config: {
-      mass: 25,
-      friction: 40,
-    },
-  },
+
   {
     id: 7,
     name: "data analytics",
@@ -140,7 +125,7 @@ export default function SkillBar() {
   );
   return (
     <div className="SkillBar">
-      <h4 className="subtitle">skills</h4>
+      <h4 className="subtitle mb-4">skills</h4>
       <div className="row">
         <div className="col-3">
           {skillBarData.map((skill, index) => {

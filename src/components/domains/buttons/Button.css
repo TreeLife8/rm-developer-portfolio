@@ -4,7 +4,6 @@
 .Button .hidden {
   display: none;
 }
-
 .Button button.btn-square {
   border: none;
   border-radius: 4px;
@@ -14,7 +13,6 @@
   position: absolute;
   z-index: -1;
 }
-
 .Button button.btn-text {
   font-family: hikouLight;
   letter-spacing: 0.7rem;
@@ -27,7 +25,6 @@
   transition: all 200ms ease-in-out;
   z-index: 2;
 }
-
 .Button hr.underline {
   color: var(--primary-silver);
   opacity: 0.7;
@@ -37,4 +34,7 @@
 }
 .Button button.btn-text.margin {
   margin-left: 30px;
+}
+.btn-margin {
+  margin: 10px 0;
 }

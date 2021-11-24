@@ -27,33 +27,3 @@
 .Home .chem-three {
   margin-top: 100px;
 }
-/* @media (prefers-reduced-motion: no-preference) {
-  .chemical {
-    animation-duration: 8s;
-    animation-name: slide-fade, spin;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-}
-
-@keyframes slide-fade {
-  from {
-    margin-top: 0.5%;
-    margin-left: 0.5%;
-    opacity: 1;
-  }
-
-  to {
-    margin-top: 0%;
-    margin-left: 0%;
-    opacity: 0.9;
-  }
-}
-@keyframes spin {
-  from {
-    transform: rotate(-5deg);
-  }
-  to {
-    transform: rotate(5deg);
-  }
-} */

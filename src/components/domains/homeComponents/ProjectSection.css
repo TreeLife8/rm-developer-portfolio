@@ -13,3 +13,6 @@
 .ProjectSection .project-tile {
   padding: 0;
 }
+.ProjectSection a {
+  text-decoration: none;
+}

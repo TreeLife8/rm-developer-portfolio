@@ -22,7 +22,7 @@ export default function SkillsGlance() {
           >
             skills at a glance
           </h3>
-          <Button text="contact" hidden={true} href="./Contact" />
+          <Button text="about" hidden={true} href="./Contact" />
         </div>
       </div>
     </div>

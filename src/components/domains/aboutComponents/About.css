@@ -6,8 +6,39 @@
 }
 .About .bio-description {
   font-size: 1.1rem;
-  max-width: 900px;
+}
+.About .silhouette-title {
+  font-size: 16rem;
+  font-family: hikouRough;
+  opacity: 0.1;
+  transform: rotate(-90deg);
+  position: absolute;
+  end: 0;
+  top: 200px;
 }
 .About .skill-bars {
   padding-left: 60px;
+}
+.About .continued {
+  font-size: 4rem;
+  font-weight: 100;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fade-name {
+    animation-duration: 3s;
+    animation-name: slide-fade;
+    animation-direction: alternate;
+  }
+}
+
+@keyframes slide-fade {
+  from {
+    margin-left: 20%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 0.7;
+  }
 }

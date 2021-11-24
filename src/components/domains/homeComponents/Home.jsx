@@ -15,13 +15,11 @@ export default function Home() {
 
   return (
     <div className="Home">
-      <div className="container-fluid">
-        <Hero />
-        <Intro />
-        <SkillsGlance />
-        <ProjectSection />
-        <Footer />
-      </div>
+      <Hero />
+      <Intro />
+      <SkillsGlance />
+      <ProjectSection />
+      <Footer />
     </div>
   );
 }
