@@ -6,11 +6,13 @@ import Projects from "./components/domains/projectComponents/Projects";
 import Navbar from "./components/domains/Navbar";
 import Contact from "./components/domains/Contact";
 import { Routes, Route } from "react-router-dom";
+// import NavBurger from "./components/domains/NavBurger";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      {/* <NavBurger /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="About" element={<About />} />

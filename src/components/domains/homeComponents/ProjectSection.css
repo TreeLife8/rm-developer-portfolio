@@ -3,9 +3,7 @@
   text-align: center;
   color: var(--dark-gold);
 }
-.ProjectSection .dark {
-  opacity: 0.4;
-}
+
 .ProjectSection .subtitle {
   text-align: center;
   font-size: 2rem;

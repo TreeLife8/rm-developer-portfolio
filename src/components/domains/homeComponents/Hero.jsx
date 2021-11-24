@@ -23,7 +23,7 @@ export default function Hero() {
     Aos.init({ duration: 1500 });
   });
   return (
-    <div className="Hero">
+    <div className="Hero ms-2">
       <h2 className="title-heading mt-5 pt-5">Frontend</h2>
       <Title />
       <RubikAnimation />

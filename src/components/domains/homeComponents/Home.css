@@ -27,3 +27,23 @@
 .Home .chem-three {
   margin-top: 100px;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-name {
+    animation-duration: 3s;
+    animation-name: slide-fade;
+    animation-direction: alternate;
+  }
+}
+
+@keyframes slide-fade {
+  from {
+    margin-right: 20%;
+    opacity: 0;
+  }
+
+  to {
+    margin-right: 0%;
+    opacity: 0.7;
+  }
+}

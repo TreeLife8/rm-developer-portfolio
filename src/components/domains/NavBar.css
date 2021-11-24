@@ -1,5 +1,6 @@
 nav {
-  padding: 3px 5px 10px;
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
@@ -11,6 +12,7 @@ nav a {
 nav a.nav-link {
   color: var(--text-colour);
   transition: all 200ms ease-in-out;
+  font-size: 2rem;
 }
 nav a.nav-link:hover,
 nav a.nav-link:active,
@@ -37,4 +39,18 @@ nav .navbar-toggler-icon .burger {
   color: var(--text-colour);
   opacity: 1;
   margin: 5px 1px;
+}
+nav button {
+  text-align: end;
+  margin: 20px;
+}
+nav .navbar-nav {
+  background-color: var(--dark-colour);
+  opacity: 0.9;
+  padding: 25px;
+}
+nav #banner {
+  background-color: var(--dark-colour);
+  opacity: 0.9;
+  padding: 20px;
 }

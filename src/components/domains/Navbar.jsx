@@ -1,23 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 function Navbar() {
+  const [state, toggle] = useState(false);
   return (
-    <nav className="navbar navbar-expand-lg fixed-top  justify-content-between">
-      <div className="container-fluid">
-        <div className="d-inline-flex">
-          <Link className="navbar-brand" to="/">
-            RM
-          </Link>
+    <nav className="navbar navbar-expand-xxl fixed-top">
+      <div
+        className="container-fluid d-flex justify-content-end me-3"
+        id={state ? "banner" : ""}
+      >
+        <div className="">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => toggle(!state)}
           >
             <span className="navbar-toggler-icon">
               <hr className="burger" />
@@ -26,31 +28,34 @@ function Navbar() {
             </span>
           </button>
         </div>
-        <div>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="./About">
-                  about
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="./Projects">
-                  projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="./Contact">
-                  contact
-                </Link>
-              </li>
-            </ul>
-          </div>
+      </div>
+      <div>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/">
+                home
+                <hr className="burger" />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./About">
+                about
+                <hr className="burger" />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./Projects">
+                projects
+                <hr className="burger" />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./Contact">
+                contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
