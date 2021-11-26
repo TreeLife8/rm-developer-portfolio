@@ -10,13 +10,9 @@ export default function Intro() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-6">
-            <h3
-              // data-aos="zoom-left"
-              // data-aos-easing="ease-in-sine"
-              // data-aos-mirror="true"
-              className="heading fade-name"
-            >
-              from chemist to <span className="gold-highlight"> coder</span>
+            <h3 className="heading fade-name">
+              from chemist to{" "}
+              <span className="gold-highlight fade-word"> coder</span>
             </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

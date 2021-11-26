@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.css";
 import SkillsGlance from "./SkillsGlance";
 import Aos from "aos";
@@ -7,19 +7,37 @@ import ProjectSection from "./ProjectSection";
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Footer from "../Footer";
+import Loader from "react-loader-spinner";
 
-export default function Home() {
+export default function Home(props) {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   });
-
-  return (
-    <div className="Home">
-      <Hero />
-      <Intro />
-      <SkillsGlance />
-      <ProjectSection />
-      <Footer />
-    </div>
-  );
+  const [loaded, setLoading] = useState(false);
+  if (loaded) {
+    return (
+      <div className="Home">
+        <div className="container-fluid">
+          <Hero />
+          <Intro />
+          <SkillsGlance />
+          <ProjectSection projects={props.projects} />
+          <Footer />
+        </div>
+      </div>
+    );
+  } else {
+    setLoading(true);
+    return (
+      <div className="d-flex loader">
+        <Loader
+          type="Puff"
+          color="#c7a44e"
+          height={100}
+          width={100}
+          timeout={3000}
+        />
+      </div>
+    );
+  }
 }

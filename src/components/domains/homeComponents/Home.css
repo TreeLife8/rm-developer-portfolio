@@ -34,6 +34,11 @@
     animation-name: slide-fade;
     animation-direction: alternate;
   }
+  .fade-word {
+    animation-duration: 4s;
+    animation-name: slide-fade;
+    animation-direction: alternate;
+  }
 }
 
 @keyframes slide-fade {

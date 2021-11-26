@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Skills from "./Skills";
 import "./About.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import FurtherSkills from "./FurtherSkills";
-import Footer from "../Footer";
+import Button from "../buttons/Button";
 
 export default function About() {
   return (
     <div className="About container-fluid">
       <Parallax pages={3} style={{ top: "0", left: "0" }}>
-        <ParallaxLayer offset={0} speed={2.5}>
+        <ParallaxLayer offset={0} speed={0.5} factor={0.5}>
           <div className="container">
             <h1 className="heading fade-name">regina maher</h1>
             <div className="row">
@@ -42,10 +42,12 @@ export default function About() {
           offset={1}
           speed={2}
           style={{ backgroundColor: "#eeeef1" }}
+          factor={1.5}
         />
         <ParallaxLayer
           offset={1}
-          speed={0.5}
+          speed={0.7}
+          factor={1.5}
           style={{
             display: "flex",
             justifyContent: "center",
@@ -62,17 +64,18 @@ export default function About() {
           speed={1}
           style={{ backgroundColor: "#1f1f1f" }}
         />
-        <ParallaxLayer offset={2} speed={0.5}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+        <ParallaxLayer offset={2} speed={0.5} factor={1.5}>
+          <div className="d-flex justify-content-evenly mt-5">
             <FurtherSkills />
           </div>
-          <Footer />
+          <div className="nav-links d-flex justify-content-end pt-4 pe-5 pb-5">
+            <Button
+              text="projects"
+              href={"../Projects"}
+              hidden={false}
+              margin={false}
+            />
+          </div>
         </ParallaxLayer>
       </Parallax>
     </div>

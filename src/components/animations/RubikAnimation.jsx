@@ -2,7 +2,6 @@ import React, { useRef, useLayoutEffect, Suspense, useState } from "react";
 import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import "./RubikAnimation.css";
-// import { useSpring, animated } from "@react-spring/three";
 
 function RubikCube() {
   const mesh = useRef();

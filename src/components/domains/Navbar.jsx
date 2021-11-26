@@ -6,13 +6,10 @@ function Navbar() {
   const [state, toggle] = useState(false);
   return (
     <nav className="navbar navbar-expand-xxl fixed-top">
-      <div
-        className="container-fluid d-flex justify-content-end me-3"
-        id={state ? "banner" : ""}
-      >
+      <div className="container-fluid d-flex me-3" id={state ? "banner" : ""}>
         <div className="">
           <button
-            className="navbar-toggler "
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -30,8 +27,11 @@ function Navbar() {
         </div>
       </div>
       <div>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+        <div
+          className={state ? "collapse" : "collapse navbar-collapse"}
+          id="navbarNav"
+        >
+          <ul className="navbar-nav" onClick={() => toggle(!state)}>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
                 home

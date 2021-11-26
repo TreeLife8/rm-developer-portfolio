@@ -138,7 +138,6 @@ export default function SkillBar() {
         </div>
         <div className="col-9">
           {spring.map((spring, index) => {
-            console.log(spring);
             return (
               <animated.div
                 key={spring[index]}

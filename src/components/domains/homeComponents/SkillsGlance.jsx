@@ -11,17 +11,10 @@ export default function SkillsGlance() {
   });
   return (
     <div className="SkillsGlance">
-      <div className="container-fluid">
+      <div className="container-fluid pb-5">
         <ParticleWaves />
         <div className="mt-5 text-center">
-          <h3
-            data-aos="fade-in"
-            data-aos-easing="ease-in-sine"
-            data-aos-mirror="true"
-            className="heading mb-5"
-          >
-            skills at a glance
-          </h3>
+          <h3 className="heading mb-5 fade">skills at a glance</h3>
           <Button text="about" hidden={true} href="./Contact" />
         </div>
       </div>

@@ -10,14 +10,17 @@ nav a {
   font-size: 1.1rem;
 }
 nav a.nav-link {
-  color: var(--text-colour);
+  color: var(--primary-silver);
   transition: all 200ms ease-in-out;
   font-size: 2rem;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 nav a.nav-link:hover,
 nav a.nav-link:active,
 nav a.nav-link:focus {
-  color: var(--medium-gold);
+  color: var(--text-colour);
 }
 nav a:hover {
   color: var(--primary-gold);
@@ -25,6 +28,9 @@ nav a:hover {
 nav .navbar {
   display: inline-block;
   justify-content: space-between;
+}
+.navbar {
+  padding: 0;
 }
 nav button.navbar-toggler {
   border: var(--text-colour) 1px solid;
@@ -52,5 +58,5 @@ nav .navbar-nav {
 nav #banner {
   background-color: var(--dark-colour);
   opacity: 0.9;
-  padding: 20px;
+  padding: 0px 12px;
 }

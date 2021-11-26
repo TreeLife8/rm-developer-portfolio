@@ -25,8 +25,9 @@ export default function Hero() {
   return (
     <div className="Hero ms-2">
       <h2 className="title-heading mt-5 pt-5">Frontend</h2>
-      <Title />
+      <Title title={"DEVELOPER"} />
       <RubikAnimation />
+
       <div className="row mb-2">
         <div className="col-8 lines">
           {line.map((line, index) => {

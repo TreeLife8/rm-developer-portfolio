@@ -14,3 +14,35 @@
 .ProjectSection a {
   text-decoration: none;
 }
+.ProjectSection a {
+  text-decoration: none;
+}
+img {
+  transition: all 200ms ease-in-out;
+  position: relative;
+  z-index: -1;
+}
+.ProjectSection .img-overlay:hover {
+  box-shadow: 0 0 15px rgb(125, 125, 125);
+}
+.img-overlay {
+  opacity: 0.9;
+  position: relative;
+  z-index: 5;
+  background-color: var(--dark-colour);
+}
+.img-overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  right: 0;
+  background: #0d0e10;
+  transition: all 0.3s linear;
+}
+.img-overlay:hover:before {
+  background: none;
+}

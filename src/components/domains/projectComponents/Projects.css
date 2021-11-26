@@ -1,0 +1,26 @@
+.Projects .project-tile {
+  width: 400px;
+  padding-top: 150px;
+}
+.Projects .listed-skills {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 20px;
+  text-align: center;
+}
+.Projects .skill-icon {
+  max-width: 40px;
+  opacity: 0.5;
+}
+.Projects .skills-description {
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--primary-silver);
+  opacity: 0.5;
+}
+.Projects .title-heading {
+  text-align: left;
+  font-size: 1.9rem;
+  color: var(--text-colour);
+}
