@@ -23,7 +23,7 @@ export default function Intro() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <Button text="contact" href="./Contact" />
+            <Button text="contact" href="./Contact" target={false} />
           </div>
           <div className="col-sm-6">
             <div className="d-flex justify-content-around mt-3">

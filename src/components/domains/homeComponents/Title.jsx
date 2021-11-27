@@ -17,11 +17,13 @@ function Title(props) {
                 sequenceIndex={index}
                 iterationCount="infinite"
                 direction="alternate"
-                duration={0.3}
+                duration={0.1}
                 end={{
-                  transform: "rotate(3600deg)",
+                  transform: "rotate(360deg)",
                 }}
-                start={{ transform: "rotate(0)" }}
+                start={{
+                  transform: "rotate(0)",
+                }}
               >
                 <h1
                   className="title"

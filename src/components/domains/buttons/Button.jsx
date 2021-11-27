@@ -9,17 +9,27 @@ export default function Button(props) {
   });
   return (
     <div className={props.margin ? "Button" : "Button btn-margin"}>
-      <a href={props.href}>
+      <a
+        href={props.href}
+        target={props.target ? "_blank" : null}
+        rel={props.target ? "noopener noreferrer" : null}
+      >
         <button className={props.hidden ? "hidden" : "btn-square"}> </button>
-        <button className={props.hidden ? "btn-text" : "margin btn-text"}>
-          {props.text}
-          <hr
-            data-aos="flip-right"
-            data-aos-easing="ease-in-sine"
-            data-aos-mirror="true"
-            className="underline"
-          />
-        </button>
+        <div className={props.hidden ? "" : "margin"}>
+          <button
+            className={props.backgroundWhite ? "btn-text white" : "btn-text"}
+          >
+            {props.text}
+            <hr
+              data-aos="flip-right"
+              data-aos-easing="ease-in-sine"
+              data-aos-mirror="true"
+              className={
+                props.backgroundWhite ? "white underline" : "underline"
+              }
+            />
+          </button>
+        </div>
       </a>
     </div>
   );

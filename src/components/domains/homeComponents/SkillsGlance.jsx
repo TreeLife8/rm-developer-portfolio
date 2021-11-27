@@ -15,7 +15,7 @@ export default function SkillsGlance() {
         <ParticleWaves />
         <div className="mt-5 text-center">
           <h3 className="heading mb-5 fade">skills at a glance</h3>
-          <Button text="about" hidden={true} href="./Contact" />
+          <Button text="about" hidden={true} href="./Contact" target={false} />
         </div>
       </div>
     </div>

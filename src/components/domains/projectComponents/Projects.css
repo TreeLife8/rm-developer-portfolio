@@ -1,5 +1,11 @@
+.Projects .white-section .heading {
+  color: var(--text-colour);
+}
+.Projects .heading {
+  font-size: 4rem;
+}
 .Projects .project-tile {
-  width: 400px;
+  width: 500px;
   padding-top: 150px;
 }
 .Projects .listed-skills {
@@ -19,8 +25,37 @@
   color: var(--primary-silver);
   opacity: 0.5;
 }
-.Projects .title-heading {
-  text-align: left;
-  font-size: 1.9rem;
-  color: var(--text-colour);
+.Projects .skill-name {
+  font-size: 7rem;
+  opacity: 0.1;
+}
+.Projects .img {
+  width: 300px;
+  opacity: 0.5;
+}
+.Projects .img-middle {
+  display: block;
+  margin: auto;
+}
+.Projects .landscape {
+  width: 500px;
+}
+.Projects .align-right {
+  font-size: 1.3rem;
+  text-align: end;
+  padding-right: 70px;
+}
+.Projects .align-left {
+  font-size: 1.3rem;
+  text-align: start;
+  padding-left: 70px;
+}
+.Projects a {
+  opacity: 0.7;
+  text-decoration: none;
+  color: var(--dark-gold);
+}
+.project-link {
+  position: relative;
+  z-index: 5;
 }

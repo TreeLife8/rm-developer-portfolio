@@ -22,7 +22,13 @@ export default function ProjectSection(props) {
         </h3>
       </div>
       <div className="text-center mb-5">
-        <Button href="./Projects" text="explore" hidden={true} margin={false} />
+        <Button
+          href="./Projects"
+          text="explore"
+          hidden={true}
+          margin={false}
+          target={false}
+        />
       </div>
       <div className="container">
         <div className="row">
