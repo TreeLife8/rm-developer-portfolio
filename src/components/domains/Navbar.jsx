@@ -40,7 +40,13 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="./About">
-                about
+                About
+                <hr className="burger" />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./Skills">
+                skills
                 <hr className="burger" />
               </Link>
             </li>

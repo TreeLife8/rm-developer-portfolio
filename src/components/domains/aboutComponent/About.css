@@ -1,0 +1,19 @@
+.About {
+  display: block;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0px;
+}
+.About .container {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.About .values-bio {
+  background-color: var(--orange-gold);
+}
+.About .values {
+  background-color: var(--primary-silver);
+}

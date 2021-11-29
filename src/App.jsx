@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import Home from "./components/domains/homeComponents/Home";
-import About from "./components/domains/aboutComponents/About";
+import About from "./components/domains/aboutComponent/About";
+import Skills from "./components/domains/skillsComponents/Skills";
 import Projects from "./components/domains/projectComponents/Projects";
 import Navbar from "./components/domains/Navbar";
 import Contact from "./components/domains/Contact";
@@ -60,6 +61,7 @@ function App() {
         {/* {routesSound} */}
         <Route exact path="/" element={<Home projects={projects} />} />
         <Route exact path="About" element={<About />} />
+        <Route exact path="Skills" element={<Skills />} />
         <Route
           exact
           path="Projects"

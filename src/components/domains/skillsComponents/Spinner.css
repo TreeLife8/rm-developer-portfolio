@@ -1,0 +1,8 @@
+.Spinners {
+  background: var(--dark-colour);
+}
+.Spinners .cell {
+  border: var(--text-colour) 1px solid;
+  padding: 40px 20px;
+  text-align: center;
+}

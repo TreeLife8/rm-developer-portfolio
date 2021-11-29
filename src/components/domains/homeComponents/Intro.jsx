@@ -1,7 +1,7 @@
 import React from "react";
-import dopamine from "../../images/Dopamine.png";
-import love from "../../images/Love chemical.png";
-import mind from "../../images/Mind chemical.png";
+import dopamine from "../../images/graphicElements/Dopamine.png";
+import love from "../../images/graphicElements/Love chemical.png";
+import mind from "../../images/graphicElements/Mind chemical.png";
 import Button from "../buttons/Button";
 
 export default function Intro() {
@@ -23,7 +23,7 @@ export default function Intro() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <Button text="contact" href="./Contact" target={false} />
+            <Button text="about" href="./About" target={false} hidden={false} />
           </div>
           <div className="col-sm-6">
             <div className="d-flex justify-content-around mt-3">

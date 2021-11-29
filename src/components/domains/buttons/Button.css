@@ -36,7 +36,7 @@
 .Button hr.white {
   color: var(--text-colour);
 }
-.Button button.btn-text.margin {
+.Button .margin button.btn-text {
   margin-left: 30px;
 }
 .btn-margin {

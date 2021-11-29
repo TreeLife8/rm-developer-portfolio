@@ -1,86 +1,55 @@
 import React from "react";
-import DicCode from "../../images/projects/dictionaryCode.png";
-import DicAPICode from "../../images/projects/dictionaryAPICode.png";
-import DicPhotos from "../../images/projects/dicPhotosAPI.png";
-import DicApp from "../../images/projects/DicApp.png";
 import { ParallaxLayer } from "@react-spring/parallax";
 import Button from "../buttons/Button";
-import "./DictionaryApp.css";
+import TodoCode from "../../images/projects/TodoCode.png";
 
-export default function DictionaryApp(props) {
+export default function Todo(props) {
   const contentImgs = [
     {
-      src: `${props.projects[0].img}`,
-      alt: `${props.projects[0].alt}`,
+      src: `${props.projects[2].img}`,
+      alt: `${props.projects[2].alt}`,
       className: "img-fluid project-tile ps-5",
       align: "align-left",
-      offset: 0,
-      speed: 0.8,
+      offset: 1.3,
+      speed: 0.5,
       factor: 1,
     },
     {
-      src: `${DicCode}`,
-      alt: "screenshot of the dictionay app code, showing the phenetic component",
-      className: "img img-fluid img-middle",
+      src: `${TodoCode}`,
+      alt: "Code snapshot for colour pallet selection on todo list",
+      className: "img img-fluid",
       align: "",
-      offset: 0.63,
-      speed: 4,
-      factor: 0.5,
-    },
-    {
-      src: `${DicAPICode}`,
-      alt: "screenshot of the dictionay app code, showing the API calls",
-      className: "img-middle img landscape img-fluid sm-padding-top",
-      align: "",
-      offset: 0.99,
-      speed: 1.1,
-      factor: 1,
-    },
-    {
-      src: `${DicPhotos}`,
-      alt: "dictionay app showing the photos related to the searched word",
-      className: "img landscape img-fluid md-padding-top ps-5",
-      align: "align-right",
-      offset: 0.99,
-      speed: 1.1,
-      factor: 1,
-    },
-    {
-      src: `${DicApp}`,
-      alt: "dictionay app showing the photosearch results of a word",
-      className: "img img-fluid lg-padding-top ps-3",
-      align: "mx-auto",
-      offset: 0.99,
-      speed: 2.2,
+      offset: 2,
+      speed: 3,
       factor: 1,
     },
   ];
   const contentText = [
     {
-      text: "dictionary app",
-      className: "heading",
+      text: "todo list app",
+      className: "heading sm-padding-right",
       align: "align-right",
-      offset: 0.1,
-      speed: 1.1,
+      offset: 1.5,
+      speed: 1.3,
     },
     {
       text: "APIs",
       className: "skill-name sm-padding-top sm-padding-right",
       align: "align-right",
-      offset: 0.6,
-      speed: 0.9,
+      offset: 2.7,
+      speed: 3,
     },
     {
       text: "React",
       className: "skill-name lg-padding-top md-padding-left",
       align: "align-left",
-      offset: 0.99,
+      offset: 1.99,
       speed: 1.4,
     },
   ];
   return (
-    <div className="DictionaryApp container">
-      <ParallaxLayer offset={0} speed={0.5} factor={0.1}>
+    <div className="Todo">
+      <ParallaxLayer offset={2} speed={0.5} factor={2}>
         {contentImgs.map((content, index) => {
           return (
             <ParallaxLayer
@@ -100,7 +69,7 @@ export default function DictionaryApp(props) {
           );
         })}
         <div className="links">
-          <ParallaxLayer offset={0.4} speed={1.5}>
+          <ParallaxLayer offset={1.4} speed={1.5}>
             <p className="align-right">
               open-sourced on{" "}
               <a
@@ -112,11 +81,11 @@ export default function DictionaryApp(props) {
                 github
               </a>
             </p>
-            <ParallaxLayer offset={0.1} speed={0.3}>
+            <ParallaxLayer offset={1.1} speed={0.3}>
               <div className="align-right">
                 <Button
                   text="view project"
-                  href={props.projects[0].href}
+                  href={props.projects[2].href}
                   hidden={true}
                   target={true}
                 />

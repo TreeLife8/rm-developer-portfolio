@@ -8,7 +8,7 @@ import {
   useLoader,
   useThree,
 } from "@react-three/fiber";
-import circleImg from "../images/circle.png";
+import circleImg from "../images/graphicElements/circle.png";
 extend({ OrbitControls });
 import "./ParticleWaves.css";
 

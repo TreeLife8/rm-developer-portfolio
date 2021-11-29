@@ -1,31 +1,37 @@
-.About .heading {
+.AboutBio .heading,
+.AboutBio .subtitle {
   color: var(--primary-silver);
-  font-family: hikouUrban;
   opacity: 0.7;
-  font-size: 9rem;
 }
-.About .bio-description {
-  font-size: 1.1rem;
+.AboutBio .heading {
+  font-family: hikouUrban;
+  font-size: 6.5rem;
 }
-.About .silhouette-title {
+
+.AboutBio .bio-description {
+  font-size: 1.25rem;
+  width: 600px;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.AboutBio .silhouette-title {
   font-size: 16rem;
   font-family: hikouRough;
   opacity: 0.1;
+  color: var(--orange-gold);
   transform: rotate(-90deg);
   position: absolute;
-  end: 0;
+  right: -200px;
   top: 200px;
-}
-.About .skill-bars {
-  padding-left: 60px;
-}
-.About .continued {
-  font-size: 4rem;
-  font-weight: 100;
 }
 @media (prefers-reduced-motion: no-preference) {
   .fade-name {
     animation-duration: 3s;
+    animation-name: slide-fade;
+    animation-direction: alternate;
+  }
+  .fade-nickname {
+    animation-duration: 5s;
     animation-name: slide-fade;
     animation-direction: alternate;
   }

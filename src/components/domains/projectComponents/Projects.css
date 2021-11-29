@@ -1,9 +1,6 @@
 .Projects .white-section .heading {
   color: var(--text-colour);
 }
-.Projects .heading {
-  font-size: 4rem;
-}
 .Projects .project-tile {
   width: 500px;
   padding-top: 150px;
@@ -40,15 +37,49 @@
 .Projects .landscape {
   width: 500px;
 }
-.Projects .align-right {
-  font-size: 1.3rem;
-  text-align: end;
-  padding-right: 70px;
+.Projects .big {
+  width: 750px;
 }
 .Projects .align-left {
   font-size: 1.3rem;
-  text-align: start;
+  text-align: left;
   padding-left: 70px;
+}
+.Projects .align-right {
+  font-size: 1.3rem;
+  text-align: right;
+  padding-right: 70px;
+}
+.sm-padding-top {
+  padding-top: 150px;
+}
+.md-padding-top {
+  padding-top: 350px;
+}
+.lg-padding-top {
+  padding-top: 450px;
+}
+.sm-padding-left {
+  padding-left: 150px;
+}
+.md-padding-left {
+  padding-left: 350px;
+}
+.lg-padding-left {
+  padding-left: 450px;
+}
+.sm-padding-right {
+  padding-right: 150px;
+}
+.md-padding-right {
+  padding-right: 350px;
+}
+.lg-padding-right {
+  padding-right: 450px;
+}
+.links {
+  position: relative;
+  z-index: 5;
 }
 .Projects a {
   opacity: 0.7;
