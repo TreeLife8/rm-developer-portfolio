@@ -1,23 +1,18 @@
 .Values {
-  padding-top: 200px;
   margin: 0;
+  padding: 150px 0;
+}
+.Values .heading {
+  text-align: center;
+  font-size: 10rem;
+  opacity: 0.2;
 }
 .Values .values-bio {
   background-color: var(--orange-gold);
   color: var(--primary-silver);
-  padding-left: 50px;
+  padding: 0;
 }
-.Values ul {
-  list-style: none;
-  padding-left: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  font-family: hikouLight;
-  letter-spacing: 0.3rem;
-  font-size: 1.2rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
 .Values .values {
   background-color: var(--primary-silver);
 }

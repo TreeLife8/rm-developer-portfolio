@@ -1,0 +1,11 @@
+.ScrollingText {
+  margin: 0;
+  padding: 0;
+}
+.ScrollingText .scroll-text {
+  display: inline-flex;
+  font-size: 6rem;
+  font-family: hikouOutline;
+  line-height: 1.2;
+  margin-bottom: -20px;
+}

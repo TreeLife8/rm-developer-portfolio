@@ -7,7 +7,11 @@
   font-family: hikouUrban;
   font-size: 6.5rem;
 }
-
+.AboutBio a {
+  color: var(--primary-silver);
+  text-decoration: none;
+  opacity: 0.7;
+}
 .AboutBio .bio-description {
   font-size: 1.25rem;
   width: 600px;
@@ -15,7 +19,7 @@
   line-height: 30px;
 }
 .AboutBio .silhouette-title {
-  font-size: 16rem;
+  font-size: 18rem;
   font-family: hikouRough;
   opacity: 0.1;
   color: var(--orange-gold);
