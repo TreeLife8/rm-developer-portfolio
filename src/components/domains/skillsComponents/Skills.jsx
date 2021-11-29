@@ -3,8 +3,8 @@ import "./Skills.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import FurtherSkills from "./FurtherSkills";
 import Button from "../buttons/Button";
-import Spinners from "./Spinners";
 import SkillBar from "./SkillBar";
+import Loader from "react-loader-spinner";
 
 export default function Skills() {
   return (
@@ -31,7 +31,9 @@ export default function Skills() {
         >
           <div className="mt-5 mb-5 pt-5 pb-5">
             <SkillBar />
-            <div className="text-end continued">...</div>
+            <div className="text-end continued">
+              <Loader type="Rings" color="#7f7262" height={50} width={50} />
+            </div>
           </div>
         </ParallaxLayer>
         <ParallaxLayer
@@ -40,23 +42,16 @@ export default function Skills() {
           style={{ backgroundColor: "#1f1f1f" }}
         />
         <ParallaxLayer offset={2} speed={0.5} factor={1.5}>
-          <div className="row">
-            <div className="col-sm-6">
-              <div className="d-flex justify-content-evenly mt-5">
-                <FurtherSkills />
-              </div>
-              <div className="nav-links d-flex justify-content-end pt-4 pe-5 pb-5">
-                <Button
-                  text="projects"
-                  href={"../Projects"}
-                  hidden={false}
-                  margin={false}
-                />
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <Spinners />
-            </div>
+          <div className="d-flex justify-content-evenly mt-5">
+            <FurtherSkills />
+          </div>
+          <div className="nav-links d-flex justify-content-end pt-4 pe-5 pb-5">
+            <Button
+              text="projects"
+              href={"../Projects"}
+              hidden={false}
+              margin={false}
+            />
           </div>
         </ParallaxLayer>
       </Parallax>

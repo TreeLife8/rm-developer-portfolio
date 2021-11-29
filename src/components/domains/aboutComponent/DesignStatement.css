@@ -1,0 +1,18 @@
+.DesignStatement {
+  background: var(--primary-silver);
+  text-align: center;
+}
+.DesignStatement .heading {
+  color: var(--dark-colour);
+  margin: 0;
+  padding: 100px 10px 20px;
+  text-shadow: none;
+  font-family: hikouOutline;
+  letter-spacing: 0.3rem;
+  font-size: 5.5rem;
+}
+.DesignStatement .description {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  color: var(--dark-colour);
+}

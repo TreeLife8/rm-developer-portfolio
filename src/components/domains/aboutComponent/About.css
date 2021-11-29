@@ -13,7 +13,14 @@
 }
 .About .values-bio {
   background-color: var(--orange-gold);
+  padding: 0;
 }
 .About .values {
   background-color: var(--primary-silver);
+}
+.About .section-heading {
+  text-align: center;
+  font-size: 10rem;
+  opacity: 0.5;
+  font-family: hikouDiagonal;
 }

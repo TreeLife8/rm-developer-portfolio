@@ -1,0 +1,13 @@
+.Interests .section-heading {
+  font-family: hikouCorroded;
+  color: var(--primary-silver);
+  font-size: 5rem;
+}
+.Interests .list {
+  justify-content: space-evenly;
+}
+.Interests .interest-list {
+  color: var(--primary-silver);
+  justify-content: space-evenly;
+  padding: 5px;
+}

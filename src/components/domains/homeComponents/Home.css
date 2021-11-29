@@ -8,7 +8,9 @@
   padding: 1px;
   margin: 6px;
 }
-
+.Home .intro-description {
+  font-weight: 300;
+}
 .Home .dev-name {
   font-family: hikouLight;
   letter-spacing: 0.7rem;

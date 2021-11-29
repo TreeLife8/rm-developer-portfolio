@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../buttons/Button";
 import "./AboutBio.css";
 
 export default function AboutBio() {
@@ -14,8 +15,8 @@ export default function AboutBio() {
           target="_blank"
         >
           ENFP-A
-        </a>
-        , personality type, I'm an extremely enthusiastic individual with a
+        </a>{" "}
+        personality type, I'm an extremely enthusiastic individual with a
         passion for problem-solving, data analytics and creative development. I
         began my career as an analytical chemist, which gave me many years of
         experience in dealing with complex data sets to design practical
@@ -31,6 +32,7 @@ export default function AboutBio() {
         use whilst I further develope my skills in backend, data science and
         machine learning.
       </p>
+      <Button text="contact" href="./Contact" target={false} margin={true} />
       <h2 className="silhouette-title">about</h2>
     </div>
   );

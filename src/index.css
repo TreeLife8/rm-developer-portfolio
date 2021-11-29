@@ -9,6 +9,7 @@
   --text-colour: #7f7262;
   --serif-font: "Cormorant Garamond", serif;
   --dark-colour: #1f1f1f;
+  --text-font: "Red Hat Mono", monospace;
 }
 body {
   background: var(--dark-colour);
@@ -16,6 +17,7 @@ body {
   font-kerning: auto;
   width: 100%;
   padding: 0;
+  font-family: var(--text-font);
 }
 
 @font-face {
@@ -35,6 +37,20 @@ body {
 @font-face {
   font-family: "hikouUrban";
   src: url("/src/Fonts/webfontkit-20211111-190046/hikou_urban-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 200px;
+}
+@font-face {
+  font-family: "hikouCorroded";
+  src: url("/src/Fonts/webfontkit-20211111-190046/hikou_corroded-webfont.woff")
+    format("woff");
+  font-style: normal;
+  font-weight: 200px;
+}
+@font-face {
+  font-family: "hikouDiagonal";
+  src: url("/src/Fonts/webfontkit-20211111-190046/hikou_diagonal-webfont.woff")
     format("woff");
   font-style: normal;
   font-weight: 200px;

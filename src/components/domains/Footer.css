@@ -1,3 +1,6 @@
+footer {
+  margin: 0 50px;
+}
 .Footer hr.underline,
 .Footer .subtitle,
 .Footer .contact,
@@ -14,10 +17,10 @@
 .Footer a,
 .Footer .contact {
   font-weight: 100;
-  font-family: var(--serif-font);
-  font-size: 1.1rem;
+  font-family: var(--text-font);
+  font-size: 0.9rem;
   margin: 10px 0 0;
-  line-height: 0.9;
+  line-height: 1.1;
   padding: 0;
   opacity: 0.6;
 }

@@ -1,28 +1,36 @@
 .AboutBio .heading,
 .AboutBio .subtitle {
-  color: var(--primary-silver);
   opacity: 0.7;
 }
+.AboutBio .subtitle {
+  color: var(--orange-gold);
+  font-family: hikouDiagonal;
+  font-size: 2.5rem;
+}
 .AboutBio .heading {
+  color: var(--primary-silver);
   font-family: hikouUrban;
   font-size: 6.5rem;
 }
 .AboutBio a {
-  color: var(--primary-silver);
+  color: var(--orange-gold);
   text-decoration: none;
   opacity: 0.7;
 }
 .AboutBio .bio-description {
   font-size: 1.25rem;
+  color: var(--primary-silver);
+  opacity: 0.9;
   width: 600px;
   padding-left: 5px;
   line-height: 30px;
+  font-weight: 300;
 }
 .AboutBio .silhouette-title {
   font-size: 18rem;
   font-family: hikouRough;
   opacity: 0.1;
-  color: var(--orange-gold);
+  color: var(--primary-silver);
   transform: rotate(-90deg);
   position: absolute;
   right: -200px;

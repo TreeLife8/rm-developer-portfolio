@@ -10,7 +10,7 @@ function RubikCube() {
     <>
       <mesh position={[5, 7, -15]} ref={mesh}>
         <boxBufferGeometry attach="geometry" args={[10, 10, 10]} />
-        <meshStandardMaterial attach="material" color={0xc7a44e} />
+        <meshStandardMaterial attach="material" color={0xeeeef1} />
       </mesh>
     </>
   );
@@ -20,7 +20,7 @@ function Triangle() {
     <>
       <mesh position={[-5, 10, -10]} rotation={[Math.PI / 4, -4.7, 28]}>
         <circleBufferGeometry attach="geometry" args={[15, 3]} />
-        <meshStandardMaterial attach="material" color={0x7f7262} />
+        <meshStandardMaterial attach="material" color={0xd78d37} />
       </mesh>
     </>
   );

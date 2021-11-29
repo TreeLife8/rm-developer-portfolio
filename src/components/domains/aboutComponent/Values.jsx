@@ -7,7 +7,7 @@ export default function Values() {
     <div className="Values">
       <div className="row">
         <div className="col-sm-6 values-bio">
-          <h2 className="heading">values</h2>
+          <h2 className="section-heading heading">values</h2>
           <ScrollingText />
         </div>
         <div className="col-sm-6 values"></div>

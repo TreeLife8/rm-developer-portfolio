@@ -7,7 +7,7 @@ export default function ScrollingText() {
     <div className="ScrollingText pt-5">
       <Marquee
         pauseOnHover={true}
-        speed={100}
+        speed={150}
         gradientWidth={0}
         className="scroll-text"
       >

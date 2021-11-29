@@ -1,12 +1,8 @@
 .Values {
   margin: 0;
-  padding: 150px 0;
+  padding: 50px 0 0;
 }
-.Values .heading {
-  text-align: center;
-  font-size: 10rem;
-  opacity: 0.2;
-}
+
 .Values .values-bio {
   background-color: var(--orange-gold);
   color: var(--primary-silver);

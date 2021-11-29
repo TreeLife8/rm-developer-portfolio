@@ -14,7 +14,7 @@ export default function Intro() {
               from chemist to{" "}
               <span className="gold-highlight fade-word"> coder</span>
             </h3>
-            <p>
+            <p className="intro-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

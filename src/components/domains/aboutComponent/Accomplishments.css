@@ -1,0 +1,21 @@
+.Accomplishments .subheading {
+  color: var(--orange-gold);
+  font-size: 4.5rem;
+  font-family: hikouUrban;
+  text-align: center;
+}
+.Accomplishments ul {
+  list-style: none;
+  padding-left: 45px;
+  font-family: hikouLight;
+  letter-spacing: 0.2rem;
+  font-size: 1.1rem;
+}
+.Accomplishments .details {
+  padding-left: 15px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.Accomplishments .detail-group {
+  padding-bottom: 15px;
+}
