@@ -13,6 +13,7 @@ import dictonTile from "./components/images/tiles/Tile - Dic_Ipad.png";
 import iaauTile from "./components/images/tiles/Tile - IAAU.png";
 import todoTile from "./components/images/tiles/Tile - TOdo.png";
 import WeatherTile from "./components/images/tiles/Tile - Weather_Ipad.png";
+import ScrollToTop from "./components/domains/ScrollToTop";
 
 // const routesSound = (
 //   <Route element={<SoundCloud />}>
@@ -56,6 +57,7 @@ function App() {
   ];
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         {/* {routesSound} */}
