@@ -1,61 +1,61 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
 import Button from "../buttons/Button";
-import BookHero from "../../images/projects/BookHero.png";
-import BookWebCodeMethod from "../../images/projects/BookCodeSerivces.png";
+import MarketingService from "../../images/projects/MarketingService.png";
+import marketingCode from "../../images/projects/marketingCode.png";
 
-export default function BookkeepingWebsite(props) {
+export default function MarketingWebsite(props) {
   const contentImgs = [
     {
-      src: `${props.projects[1].img}`,
-      alt: `${props.projects[1].alt}`,
+      src: `${props.projects[3].img}`,
+      alt: `${props.projects[3].alt}`,
       className: "img-fluid project-tile pe-5",
       align: "align-right",
-      offset: 0.3,
+      offset: 0.9,
       speed: 0.5,
       factor: 1,
     },
     {
-      src: `${BookHero}`,
-      alt: "screenshot of the dictionay app code, showing the API calls",
+      src: `${MarketingService}`,
+      alt: "support services displayed for bike purchases on bike marketing website",
       className: "img img-fluid big  lg-padding-top",
       align: "align-left",
-      offset: 0.99,
+      offset: 1.7,
       speed: 1.4,
       factor: 1,
     },
     {
-      src: `${BookWebCodeMethod}`,
-      alt: "bookkeeping website testimonials",
-      className: "img img-fluid big",
+      src: `${marketingCode}`,
+      alt: "snapshot of the code used in the marketing website",
+      className: "img img-fluid",
       align: "align-right",
-      offset: 1,
-      speed: 1.7,
+      offset: 2.1,
+      speed: 3,
       factor: 1,
     },
   ];
   const contentText = [
     {
-      text: "Bookkeeping Website",
+      text: "Marketing Website",
       className: "heading md-padding-top",
-      align: "align-left",
-      offset: 0.25,
+      align: "align-left md-padding-top",
+      offset: 0.99,
       speed: 0.95,
     },
     {
-      text: "netlify",
-      className: "skill-name sm-padding-top",
-      align: "align-left",
-      offset: 1,
-      speed: 3,
+      text: "ReactJS",
+      className: "skill-name lg-padding-top md-padding-right",
+      align: "text-center pt-5",
+      offset: 1.99,
+      speed: 2,
     },
   ];
   return (
-    <div className="BookkeepingWebsite">
+    <div className="MarketingWebsite">
       <ParallaxLayer
-        offset={0.99}
+        offset={2}
         speed={0.5}
-        factor={1.1}
+        factor={1.5}
         style={{ backgroundColor: "#eeeef1" }}
       >
         <div className="white-section">
@@ -79,7 +79,7 @@ export default function BookkeepingWebsite(props) {
           })}
           <div className="links">
             <ParallaxLayer
-              offset={0.9}
+              offset={1.2}
               speed={0.9}
               style={{
                 paddingTop: "50px",
@@ -88,18 +88,18 @@ export default function BookkeepingWebsite(props) {
               <p className="align-left ps-5 ms-4">
                 open-sourced on{" "}
                 <a
-                  href="https://github.com/TreeLife8/js-italladdsup"
+                  href="https://github.com/TreeLife8/marketing-website-bikes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   github
                 </a>
               </p>
-              <ParallaxLayer offset={0.4} speed={0.3}>
+              <ParallaxLayer offset={0.8} speed={0.3}>
                 <div className="align-left">
                   <Button
                     text="view project"
-                    href={props.projects[1].href}
+                    href={props.projects[3].href}
                     hidden={true}
                     target={true}
                     backgroundWhite={true}

@@ -1,61 +1,61 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
 import Button from "../buttons/Button";
-import TodoCode from "../../images/projects/TodoCode.png";
-import todo from "../../images/projects/todo.png";
+import weatherReact from "../../images/projects/weatherReact.png";
+import weatherReactCode from "../../images/projects/weatherReactCode.png";
 
-export default function Todo(props) {
+export default function WeatherApp(props) {
   const contentImgs = [
     {
-      src: `${props.projects[2].img}`,
-      alt: `${props.projects[2].alt}`,
+      src: `${props.projects[4].img}`,
+      alt: `${props.projects[4].alt}`,
       className: "img-fluid project-tile ps-5 lg-padding-top",
-      align: "align-left",
-      offset: 0.7,
+      align: "align-left sm-padding-top",
+      offset: 0.99,
       speed: 0.5,
       factor: 1,
     },
     {
-      src: `${TodoCode}`,
-      alt: "Code snapshot for colour pallet selection on todo list",
-      className: "img img-fluid img-middle sm-padding-top",
-      align: "",
-      offset: 1.99,
-      speed: 4,
+      src: `${weatherReact}`,
+      alt: "coloured image of the weather app created with react",
+      className: "img img-fluid",
+      align: " align-right",
+      offset: 2.1,
+      speed: 2,
       factor: 1,
     },
     {
-      src: `${todo}`,
-      alt: "Display of the colour pallet selection on todo list",
-      className: "img img-fluid lg-padding-top landscape",
+      src: `${weatherReactCode}`,
+      alt: "image of the code setting the units for the weather react app",
+      className: "img img-fluid big md-padding-right sm-padding-top",
       align: "align-right",
-      offset: 1.99,
-      speed: 3,
+      offset: 2.99,
+      speed: 4,
       factor: 1,
     },
   ];
   const contentText = [
     {
-      text: "todo list app",
+      text: "weather app",
       className: "heading me-5 pe-3 lg-padding-top",
       align: "align-right sm-padding-top",
-      offset: 0.99,
+      offset: 1.4,
       speed: 1.3,
     },
     {
-      text: "ES5/ES6",
-      className: "skill-name sm-padding-top md-padding-left",
-      align: "text-center",
-      offset: 1.1,
+      text: "npm",
+      className: "skill-name md-padding-left lg-padding-top",
+      align: "text-start md-padding-top",
+      offset: 1.99,
       speed: 1.4,
     },
   ];
   return (
-    <div className="Todo">
+    <div className="WeatherApp">
       <ParallaxLayer
-        offset={1.58}
+        offset={2.99}
         speed={0.5}
-        factor={1}
+        factor={0.9}
         style={{ backgroundColor: "#1f1f1f" }}
       >
         {contentImgs.map((content, index) => {
@@ -78,7 +78,7 @@ export default function Todo(props) {
         })}
         <div className="links">
           <ParallaxLayer
-            offset={0.9}
+            offset={1.1}
             speed={0.9}
             style={{
               paddingTop: "500px",
@@ -87,7 +87,7 @@ export default function Todo(props) {
             <p className="align-right ps-5 ms-4">
               open-sourced on{" "}
               <a
-                href="https://github.com/TreeLife8/todo-list"
+                href="https://github.com/TreeLife8/banana-react-weather"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="pe-5 me-3"
@@ -96,7 +96,7 @@ export default function Todo(props) {
               </a>
             </p>
             <ParallaxLayer
-              offset={0.5}
+              offset={0.9}
               speed={0.3}
               style={{
                 paddingTop: "480px",
@@ -105,7 +105,7 @@ export default function Todo(props) {
               <div className="align-right me-5">
                 <Button
                   text="view project"
-                  href={props.projects[2].href}
+                  href={props.projects[4].href}
                   hidden={true}
                   target={true}
                   backgroundWhite={true}

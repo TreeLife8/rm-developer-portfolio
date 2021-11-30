@@ -37,20 +37,11 @@ export default function DictionaryApp(props) {
       factor: 1,
     },
     {
-      src: `${DicPhotos}`,
-      alt: "dictionay app showing the photos related to the searched word",
-      className: "img landscape img-fluid md-padding-top ps-5",
-      align: "align-right",
-      offset: 0.99,
-      speed: 1.1,
-      factor: 1,
-    },
-    {
       src: `${DicApp}`,
       alt: "dictionay app showing the photosearch results of a word",
       className: "img img-fluid lg-padding-top ps-3",
-      align: "mx-auto",
-      offset: 0.99,
+      align: "align-right",
+      offset: 0.7,
       speed: 2.2,
       factor: 1,
     },
@@ -67,16 +58,10 @@ export default function DictionaryApp(props) {
       text: "APIs",
       className: "skill-name sm-padding-top sm-padding-right",
       align: "align-right",
-      offset: 0.6,
+      offset: 0.5,
       speed: 0.9,
     },
-    {
-      text: "React",
-      className: "skill-name lg-padding-top md-padding-left",
-      align: "align-left",
-      offset: 0.99,
-      speed: 1.4,
-    },
+    ,
   ];
   return (
     <div className="DictionaryApp container">

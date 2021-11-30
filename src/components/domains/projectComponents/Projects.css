@@ -86,6 +86,11 @@
   text-decoration: none;
   color: var(--dark-gold);
 }
+.Projects .footer a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: var(--primary-silver);
+}
 .project-link {
   position: relative;
   z-index: 5;
