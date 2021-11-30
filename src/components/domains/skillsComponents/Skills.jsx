@@ -1,31 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Skills.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import FurtherSkills from "./FurtherSkills";
 import Button from "../buttons/Button";
 import SkillBar from "./SkillBar";
 import Loader from "react-loader-spinner";
+import Footer from "../Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Skills() {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  });
   return (
     <div className="Skills container">
-      <Parallax pages={2} style={{ top: "0", left: "0" }}>
+      <Parallax pages={1.7} style={{ top: "0", left: "0" }}>
         <ParallaxLayer
           offset={0}
           speed={2}
           style={{ backgroundColor: "#eeeef1" }}
-          factor={1.5}
+          factor={1}
         />
-        <ParallaxLayer
-          offset={0}
-          speed={0.7}
-          factor={1.5}
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <ParallaxLayer offset={0} speed={0.7} factor={1}>
           <div className="pb-5">
             <SkillBar />
             <div className="text-end continued">
@@ -38,11 +35,11 @@ export default function Skills() {
           speed={2}
           style={{ backgroundColor: "#1f1f1f" }}
         />
-        <ParallaxLayer offset={1} speed={0.5} factor={1.5}>
-          <div className="d-flex justify-content-evenly mt-5">
+        <ParallaxLayer offset={0.99} speed={0.6} factor={0.1}>
+          <div className="d-flex justify-content-around">
             <FurtherSkills />
           </div>
-          <div className="nav-links d-flex justify-content-end pt-4 pe-5 pb-5">
+          <div className="nav-links d-flex justify-content-end pt-4 pe-5">
             <Button
               text="projects"
               href={"../Projects"}
@@ -50,6 +47,11 @@ export default function Skills() {
               margin={false}
             />
           </div>
+          <ParallaxLayer offset={0.99} speed={0.5}>
+            <div className="footer">
+              <Footer />
+            </div>
+          </ParallaxLayer>
         </ParallaxLayer>
       </Parallax>
     </div>

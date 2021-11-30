@@ -1,12 +1,7 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import "./FurtherSkills.css";
 
 export default function FurtherSkills() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  });
   const inProgress = [
     {
       category: "frontend",
@@ -36,26 +31,14 @@ export default function FurtherSkills() {
     },
   ];
   return (
-    <div className="FurtherSkills d-flex">
-      <div className="inprogress">
-        <h2
-          className="title-heading pb-4"
-          data-aos="fade-in"
-          data-aos-easing="ease-in-sine"
-          data-aos-mirror="true"
-        >
-          in progress...
-        </h2>
+    <div className="FurtherSkills row">
+      <div className="inprogress col-sm">
+        <h2 className="title-heading pb-4">in progress...</h2>
         <ul>
           {inProgress.map((skill) =>
             skill.topics.map((topic, index) => {
               return (
-                <li
-                  key={index}
-                  data-aos="fade-in"
-                  data-aos-easing="ease-in-sine"
-                  data-aos-mirror="true"
-                >
+                <li key={index}>
                   <h6 className="inprogress-skill">{topic}</h6>
                 </li>
               );
@@ -63,25 +46,13 @@ export default function FurtherSkills() {
           )}
         </ul>
       </div>
-      <div className="upcoming ps-4">
-        <h2
-          className="title-heading pb-4"
-          data-aos="fade-in"
-          data-aos-easing="ease-in-sine"
-          data-aos-mirror="true"
-        >
-          upcoming...
-        </h2>
+      <div className="upcoming ps-4 col-sm">
+        <h2 className="title-heading pb-4">upcoming...</h2>
         <ul>
           {upComing.map((skill) =>
             skill.topics.map((topic, index) => {
               return (
-                <li
-                  key={index}
-                  data-aos="fade-in"
-                  data-aos-easing="ease-in-sine"
-                  data-aos-mirror="true"
-                >
+                <li key={index}>
                   <h6 className="inprogress-skill">{topic}</h6>
                 </li>
               );

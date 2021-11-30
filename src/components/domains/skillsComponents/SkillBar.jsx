@@ -8,11 +8,11 @@ const skillBarData = [
     name: "responsive HTML & CSS",
     from: {
       backgroundColor: "#eeeef1",
-      width: "10px",
+      width: "10%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "600px",
+      width: "100%",
     },
     config: {
       mass: 15,
@@ -24,11 +24,11 @@ const skillBarData = [
     name: "web developement",
     from: {
       backgroundColor: "#eeeef1",
-      width: "10px",
+      width: "10%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "600px",
+      width: "100%",
     },
     config: {
       mass: 15,
@@ -40,11 +40,11 @@ const skillBarData = [
     name: "javascript",
     from: {
       backgroundColor: "#eeeef1",
-      width: "40px",
+      width: "20%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "520px",
+      width: "90%",
     },
     config: {
       mass: 20,
@@ -56,11 +56,11 @@ const skillBarData = [
     name: "reactjs",
     from: {
       backgroundColor: "#eeeef1",
-      width: "90px",
+      width: "20%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "490px",
+      width: "70%",
     },
     config: {
       mass: 25,
@@ -73,11 +73,11 @@ const skillBarData = [
     name: "data analytics",
     from: {
       backgroundColor: "#eeeef1",
-      width: "90px",
+      width: "40%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "600px",
+      width: "95%",
     },
     config: {
       mass: 25,
@@ -89,11 +89,11 @@ const skillBarData = [
     name: "sql",
     from: {
       backgroundColor: "#eeeef1",
-      width: "90px",
+      width: "20%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "200px",
+      width: "30%",
     },
     config: {
       mass: 25,
@@ -105,11 +105,11 @@ const skillBarData = [
     name: "node.js",
     from: {
       backgroundColor: "#eeeef1",
-      width: "90px",
+      width: "20%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "150px",
+      width: "20%",
     },
     config: {
       mass: 25,
@@ -125,9 +125,9 @@ export default function SkillBar() {
   );
   return (
     <div className="SkillBar">
-      <h4 className="subtitle mb-4">skills</h4>
+      <h4 className="subtitle">skills</h4>
       <div className="row">
-        <div className="col-3">
+        <div className="col-4">
           {skillBarData.map((skill, index) => {
             return (
               <h4 className="skill-name" key={index}>
@@ -136,16 +136,15 @@ export default function SkillBar() {
             );
           })}
         </div>
-        <div className="col-9">
+        <div className="col-8">
           {spring.map((spring, index) => {
             return (
               <animated.div
                 key={spring[index]}
-                className="mt-3"
                 style={{
                   ...spring,
-                  height: "15px",
-                  margin: "10px",
+                  height: "18px",
+                  margin: "17px",
                 }}
               ></animated.div>
             );

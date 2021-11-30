@@ -1,9 +1,12 @@
+.FurtherSkills .upcoming,
+.FurtherSkills .inprogress {
+  width: 370px;
+}
 .FurtherSkills ul {
   list-style-type: none;
 }
 .FurtherSkills .inprogress-skill {
   font-weight: 200;
-  justify-content: space-evenly;
   color: var(--primary-silver);
   opacity: 0.7;
   margin-right: 5px;

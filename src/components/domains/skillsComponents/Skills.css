@@ -4,6 +4,7 @@
 .Skills .continued {
   font-size: 4rem;
   font-weight: 100;
+  padding-right: 200px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .fade-name {
@@ -12,7 +13,6 @@
     animation-direction: alternate;
   }
 }
-
 @keyframes slide-fade {
   from {
     margin-left: 20%;
@@ -23,4 +23,13 @@
     margin-left: 0%;
     opacity: 0.7;
   }
+}
+@media (max-width: 576px) {
+  .Skills .footer {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
 }
