@@ -49,63 +49,77 @@ export default function Todo(props) {
   ];
   return (
     <div className="Todo">
-      <ParallaxLayer offset={2} speed={0.5} factor={2}>
-        {contentImgs.map((content, index) => {
-          return (
-            <ParallaxLayer
-              key={index}
-              offset={content.offset}
-              speed={content.speed}
-              factor={content.factor}
-            >
-              <div className={content.align}>
-                <img
-                  className={content.className}
-                  src={content.src}
-                  alt={content.alt}
-                />
-              </div>
-            </ParallaxLayer>
-          );
-        })}
-        <div className="links">
-          <ParallaxLayer offset={1.4} speed={1.5}>
-            <p className="align-right">
-              open-sourced on{" "}
-              <a
-                href="https://github.com/TreeLife8/dictionary-react-project"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pe-3"
+      <ParallaxLayer offset={1} speed={0.5} factor={1.5}>
+        <div className="white-section">
+          {contentImgs.map((content, index) => {
+            return (
+              <ParallaxLayer
+                key={index}
+                offset={content.offset}
+                speed={content.speed}
+                factor={content.factor}
               >
-                github
-              </a>
-            </p>
-            <ParallaxLayer offset={1.1} speed={0.3}>
-              <div className="align-right">
-                <Button
-                  text="view project"
-                  href={props.projects[2].href}
-                  hidden={true}
-                  target={true}
-                />
-              </div>
-            </ParallaxLayer>
-          </ParallaxLayer>
-        </div>
-        {contentText.map((content, index) => {
-          return (
+                <div className={content.align}>
+                  <img
+                    className={content.className}
+                    src={content.src}
+                    alt={content.alt}
+                  />
+                </div>
+              </ParallaxLayer>
+            );
+          })}
+          <div className="links">
             <ParallaxLayer
-              key={index}
-              offset={content.offset}
-              speed={content.speed}
+              offset={0.9}
+              speed={0.9}
+              style={{
+                paddingTop: "150px",
+              }}
             >
-              <div className={content.align}>
-                <h2 className={content.className}>{content.text}</h2>
-              </div>
+              <p className="align-left ps-5 ms-4">
+                open-sourced on{" "}
+                <a
+                  href="https://github.com/TreeLife8/js-italladdsup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github
+                </a>
+              </p>
+              <ParallaxLayer
+                offset={0.5}
+                speed={0.3}
+                style={{
+                  paddingTop: "50px",
+                }}
+              >
+                <div className="align-left">
+                  <Button
+                    text="view project"
+                    href={props.projects[1].href}
+                    hidden={true}
+                    target={true}
+                    backgroundWhite={true}
+                  />
+                </div>
+              </ParallaxLayer>
             </ParallaxLayer>
-          );
-        })}
+          </div>
+          {contentText.map((content, index) => {
+            return (
+              <ParallaxLayer
+                key={index}
+                offset={content.offset}
+                speed={content.speed}
+              >
+                <div className={content.align}>
+                  <h2 className={content.className}>{content.text}</h2>
+                </div>
+              </ParallaxLayer>
+            );
+          })}
+        </div>
       </ParallaxLayer>
     </div>
   );

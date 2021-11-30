@@ -20,36 +20,28 @@ export default function BookkeepingWebsite(props) {
     {
       src: `${BookWebCode}`,
       alt: "screenshot of the bookkeeping website code",
-      className: "img img-fluid img-middle landscape",
+      className: "img img-fluid img-middle",
       align: "",
       offset: 1,
       speed: 3,
-      factor: 1,
+      factor: 1.5,
     },
     {
       src: `${BookHero}`,
       alt: "screenshot of the dictionay app code, showing the API calls",
       className: "img img-fluid big",
       align: "align-left",
-      offset: 1.3,
-      speed: 1.5,
+      offset: 1,
+      speed: 1.4,
       factor: 1,
     },
-    {
-      src: `${BookTestimonials}`,
-      alt: "bookkeeping website testimonials",
-      className: "img img-fluid landscape md-padding-top",
-      align: "align-right",
-      offset: 1.9,
-      speed: 2.5,
-      factor: 1,
-    },
+
     {
       src: `${BookWebCodeMethod}`,
       alt: "bookkeeping website testimonials",
-      className: "img img-fluid img-middle lg-padding-top big",
-      align: "",
-      offset: 1.9,
+      className: "img img-fluid lg-padding-top big sm-padding-right",
+      align: "align-right",
+      offset: 1.1,
       speed: 2,
       factor: 1,
     },
@@ -59,21 +51,21 @@ export default function BookkeepingWebsite(props) {
       text: "Bookkeeping Website",
       className: "heading lg-padding-top",
       align: "align-left",
-      offset: 0.5,
-      speed: 1.3,
+      offset: 0.25,
+      speed: 0.95,
     },
     {
       text: "netlify",
       className: "skill-name sm-padding-top",
       align: "align-right pt-5",
-      offset: 1.7,
+      offset: 1.5,
       speed: 3,
     },
     {
       text: "github",
       className: "skill-name lg-padding-top",
       align: "align-left",
-      offset: 1.9,
+      offset: 1.5,
       speed: 3,
     },
   ];
@@ -82,6 +74,7 @@ export default function BookkeepingWebsite(props) {
       <ParallaxLayer
         offset={1}
         speed={0.5}
+        factor={1.5}
         style={{ backgroundColor: "#eeeef1" }}
       >
         <div className="white-section">
@@ -122,7 +115,7 @@ export default function BookkeepingWebsite(props) {
                 </a>
               </p>
               <ParallaxLayer
-                offset={0.6}
+                offset={0.5}
                 speed={0.3}
                 style={{
                   paddingTop: "50px",

@@ -29,7 +29,7 @@ export default function Hero() {
       <RubikAnimation />
 
       <div className="row mb-2">
-        <div className="col-8 lines">
+        <div className="col lines">
           {line.map((line, index) => {
             return (
               <hr
@@ -44,9 +44,8 @@ export default function Hero() {
             );
           })}
         </div>
-        <div className="col-4">
+        <div className="col">
           <h4 className="subtitle">full stack in the making</h4>
-          <h4 className="dev-name">Regina Maher</h4>
         </div>
       </div>
     </div>

@@ -42,3 +42,19 @@
 .btn-margin {
   margin: 10px 0;
 }
+@media (max-width: 576px) {
+  .Button button.btn-text {
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+    padding-top: 13px;
+  }
+  .Button button.btn-square {
+    padding: 30px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
+}

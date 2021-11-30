@@ -45,3 +45,24 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 576px) {
+  .App .title-heading {
+    font-size: 1.5rem;
+  }
+  .App .title {
+    font-size: 3.5rem;
+  }
+  .App .subtitle {
+    font-size: 1.05rem;
+    padding-top: 5px;
+  }
+  .App .heading {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
+}

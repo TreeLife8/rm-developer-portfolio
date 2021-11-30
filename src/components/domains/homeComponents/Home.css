@@ -7,20 +7,12 @@
   opacity: 1;
   padding: 1px;
   margin: 6px;
+  width: 950px;
 }
 .Home .intro-description {
   font-weight: 300;
 }
-.Home .dev-name {
-  font-family: hikouLight;
-  letter-spacing: 0.7rem;
-  color: var(--primary-silver);
-  font-size: 1.5rem;
-  margin: 20px 34px 0;
-  padding-bottom: 0;
-  text-align: end;
-  opacity: 0.7;
-}
+
 .Home img.chemical {
   z-index: 5;
   width: 130px;
@@ -53,4 +45,27 @@
     margin-right: 0%;
     opacity: 0.7;
   }
+}
+@media (max-width: 576px) {
+  .Home hr.banner {
+    width: 170px;
+    margin: 4px 0;
+  }
+  .Home .col {
+    padding: 0;
+  }
+  .Home .intro-description {
+    font-size: 0.9rem;
+  }
+  .Home img.chemical {
+    width: 100px;
+  }
+
+  .Home .chem-three {
+    margin-top: 180px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
 }
