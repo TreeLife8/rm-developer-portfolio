@@ -13,14 +13,12 @@
   font-size: 6.5rem;
 }
 .AboutBio a {
-  color: var(--orange-gold);
   text-decoration: none;
   opacity: 0.7;
+  color: var(--primary-silver);
 }
 .AboutBio .bio-description {
   font-size: 1.25rem;
-  color: var(--primary-silver);
-  opacity: 0.9;
   width: 600px;
   padding-left: 5px;
   line-height: 30px;

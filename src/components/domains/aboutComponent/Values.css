@@ -8,7 +8,11 @@
   color: var(--primary-silver);
   padding: 0;
 }
-
-.Values .values {
-  background-color: var(--primary-silver);
+.Values .heading {
+  margin-top: 3.45rem;
+}
+.Values .value-img {
+  padding: 0px;
+  position: relative;
+  z-index: 2;
 }

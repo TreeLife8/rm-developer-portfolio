@@ -32,7 +32,13 @@ export default function AboutBio() {
         use whilst I further develope my skills in backend, data science and
         machine learning.
       </p>
-      <Button text="contact" href="./Contact" target={false} margin={true} />
+      <Button
+        text="contact"
+        href="./Contact"
+        target={false}
+        hidden={true}
+        margin={true}
+      />
       <h2 className="silhouette-title">about</h2>
     </div>
   );

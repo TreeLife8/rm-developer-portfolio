@@ -5,7 +5,7 @@ import "./NavBar.css";
 function Navbar() {
   const [state, toggle] = useState(false);
   return (
-    <nav className="navbar navbar-expand-xxl fixed-top">
+    <nav className="navbar navbar-expand-xxxl fixed-top">
       <div className="container-fluid d-flex me-3" id={state ? "banner" : ""}>
         <div className="">
           <button

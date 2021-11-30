@@ -1,21 +1,26 @@
-.Accomplishments .subheading {
-  color: var(--orange-gold);
+.Accomplishments .section-heading {
+  color: var(--dark-colour);
   font-size: 4.5rem;
-  font-family: hikouUrban;
-  text-align: center;
+  padding: 20px 0 10px;
+  margin-top: 0;
 }
 .Accomplishments ul {
+  color: var(--dark-colour);
+  font-family: hikouLight;
   list-style: none;
   padding-left: 45px;
-  font-family: hikouLight;
   letter-spacing: 0.2rem;
   font-size: 1.1rem;
 }
 .Accomplishments .details {
+  color: var(--orange-gold);
   padding-left: 15px;
-  font-size: 0.8rem;
-  opacity: 0.6;
+  font-size: 0.95rem;
+  opacity: 0.8;
 }
 .Accomplishments .detail-group {
   padding-bottom: 15px;
+}
+.col-sm-6 {
+  padding: 0;
 }

@@ -30,41 +30,35 @@ export default function ProjectSection(props) {
           target={false}
         />
       </div>
-      <div className="container">
-        <div className="row">
-          {props.projects.map((project, index) => {
-            return (
-              <div key={index} className="col-sm project-tile">
-                <a
-                  href={project.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+      <div className="row">
+        {props.projects.map((project, index) => {
+          return (
+            <div key={index} className="col-sm project-tile">
+              <a href={project.href} target="_blank" rel="noopener noreferrer">
+                <div
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-mirror="true"
+                  className="img-overlay"
                 >
-                  <div
-                    data-aos="zoom-in"
-                    data-aos-easing="ease-in-sine"
-                    data-aos-mirror="true"
-                    className="img-overlay"
-                  >
-                    <img
-                      className="img-fluid"
-                      src={project.img}
-                      alt={project.alt}
-                    />
-                  </div>
-                  <h3
-                    className="subtitle"
-                    data-aos="fade-in"
-                    data-aos-easing="ease-in-sine"
-                    data-aos-mirror="true"
-                  >
-                    {project.text}
-                  </h3>
-                </a>
-              </div>
-            );
-          })}
-        </div>
+                  <img
+                    className="img-fluid w-100"
+                    src={project.img}
+                    alt={project.alt}
+                  />
+                </div>
+                <h3
+                  className="subtitle"
+                  data-aos="fade-in"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-mirror="true"
+                >
+                  {project.text}
+                </h3>
+              </a>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

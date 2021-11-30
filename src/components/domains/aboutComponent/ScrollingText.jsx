@@ -11,7 +11,7 @@ export default function ScrollingText() {
         gradientWidth={0}
         className="scroll-text"
       >
-        - kindness - understanding - authenticity - joy
+        - kindness - understanding - authenticity - wisdom - resilience -
       </Marquee>
     </div>
   );

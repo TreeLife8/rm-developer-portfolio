@@ -12,6 +12,14 @@
   font-size: 5.5rem;
 }
 .DesignStatement .description {
+  color: var(--dark-colour);
+  font-size: 1.1rem;
+  width: 600px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.DesignStatement .descrip-title {
   letter-spacing: 0.3rem;
   font-size: 2rem;
   color: var(--dark-colour);

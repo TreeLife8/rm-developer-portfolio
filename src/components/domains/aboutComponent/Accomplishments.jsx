@@ -1,5 +1,7 @@
 import React from "react";
 import "./Accomplishments.css";
+import clouds from "../../images/about/mountainPinkClouds.jpg";
+import trees from "../../images/about/trees.jpg";
 
 export default function Accomplishments() {
   const achievements = [
@@ -31,18 +33,25 @@ export default function Accomplishments() {
   return (
     <div className="Accomplishments">
       <div className="row">
-        <div className="col-sm-6 values"></div>
+        <div className="col-sm-6">
+          <img
+            src={trees}
+            className="d-block w-100 img-fluid"
+            alt="looking up from the ground at a pine forest"
+          />
+        </div>
         <div className="col-sm-6 values">
-          <h2 className="subheading pb-2">accomplishments</h2>
+          <h2 className="section-heading heading">accomplishments</h2>
           <ul>
             {achievements.map((accomp, index) => {
               return (
                 <li key={index}>
                   {accomp.accomp}
                   <div className="detail-group">
-                    <li className="details">{accomp.where}</li>
+                    <li className="details">
+                      {accomp.where} - {accomp.year}
+                    </li>
                     <li className="details">{accomp.award}</li>
-                    <li className="details">{accomp.year}</li>
                   </div>
                 </li>
               );

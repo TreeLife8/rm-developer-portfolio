@@ -6,7 +6,7 @@ body {
 
 .WabbleGeometries {
   width: 100vw;
-  height: 600px;
+  height: 100%;
   position: absolute;
   z-index: -10;
 }

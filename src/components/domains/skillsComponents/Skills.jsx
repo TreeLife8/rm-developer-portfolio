@@ -9,18 +9,15 @@ import Loader from "react-loader-spinner";
 export default function Skills() {
   return (
     <div className="Skills container">
-      <Parallax pages={3} style={{ top: "0", left: "0" }}>
-        <ParallaxLayer offset={0} speed={0.5} factor={0.5}>
-          <h1>meow</h1>
-        </ParallaxLayer>
+      <Parallax pages={2} style={{ top: "0", left: "0" }}>
         <ParallaxLayer
-          offset={1}
+          offset={0}
           speed={2}
           style={{ backgroundColor: "#eeeef1" }}
           factor={1.5}
         />
         <ParallaxLayer
-          offset={1}
+          offset={0}
           speed={0.7}
           factor={1.5}
           style={{
@@ -29,19 +26,19 @@ export default function Skills() {
             alignItems: "center",
           }}
         >
-          <div className="mt-5 mb-5 pt-5 pb-5">
+          <div className="pb-5">
             <SkillBar />
             <div className="text-end continued">
-              <Loader type="Rings" color="#7f7262" height={50} width={50} />
+              <Loader type="ThreeDots" color="#7f7262" height={50} width={50} />
             </div>
           </div>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={2}
-          speed={1}
+          offset={1}
+          speed={2}
           style={{ backgroundColor: "#1f1f1f" }}
         />
-        <ParallaxLayer offset={2} speed={0.5} factor={1.5}>
+        <ParallaxLayer offset={1} speed={0.5} factor={1.5}>
           <div className="d-flex justify-content-evenly mt-5">
             <FurtherSkills />
           </div>
