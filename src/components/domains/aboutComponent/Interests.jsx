@@ -1,6 +1,5 @@
 import React from "react";
 import "./Interests.css";
-// import danceBlackWhite from "../../images/about/danceBW.jpg";
 import danceColour from "../../images/about/danceColourR.jpg";
 
 export default function Interests() {

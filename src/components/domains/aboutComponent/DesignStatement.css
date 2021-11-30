@@ -34,15 +34,24 @@
     font-size: 1.1rem;
   }
   .DesignStatement .description {
-    color: var(--dark-colour);
     font-size: 0.9rem;
-    text-align: center;
-    width: 300px;
-
-    padding-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
+  .DesignStatement .heading {
+    padding: 80px 5px 20px;
+    font-size: 3rem;
+  }
+  .DesignStatement .descrip-title {
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+  }
+  .DesignStatement .description {
+    font-size: 0.9rem;
+    width: 300px;
+    padding-bottom: 20px;
+    opacity: 0.9;
+  }
 }
 @media (max-width: 1300px) {
 }

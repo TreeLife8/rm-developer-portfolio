@@ -10,18 +10,18 @@ export default function MarketingWebsite(props) {
       src: `${props.projects[3].img}`,
       alt: `${props.projects[3].alt}`,
       className: "img-fluid project-tile pe-5",
-      align: "align-right",
-      offset: 0.9,
+      align: "align-right mt-5",
+      offset: 1,
       speed: 0.5,
       factor: 1,
     },
     {
       src: `${MarketingService}`,
       alt: "support services displayed for bike purchases on bike marketing website",
-      className: "img img-fluid big  lg-padding-top",
+      className: "img img-fluid big",
       align: "align-left",
-      offset: 1.7,
-      speed: 1.4,
+      offset: 2,
+      speed: 0.9,
       factor: 1,
     },
     {
@@ -29,31 +29,31 @@ export default function MarketingWebsite(props) {
       alt: "snapshot of the code used in the marketing website",
       className: "img img-fluid",
       align: "align-right",
-      offset: 2.1,
-      speed: 3,
+      offset: 2,
+      speed: 0.6,
       factor: 1,
     },
   ];
   const contentText = [
     {
       text: "Marketing Website",
-      className: "heading md-padding-top",
-      align: "align-left md-padding-top",
-      offset: 0.99,
-      speed: 0.95,
+      className: "heading sm-padding-top",
+      align: "align-left",
+      offset: 1.1,
+      speed: 0.7,
     },
     {
       text: "ReactJS",
-      className: "skill-name lg-padding-top md-padding-right",
-      align: "text-center pt-5",
-      offset: 1.99,
-      speed: 2,
+      className: "skill-name",
+      align: "align-left pt-5",
+      offset: 2,
+      speed: 1.2,
     },
   ];
   return (
     <div className="MarketingWebsite">
       <ParallaxLayer
-        offset={2}
+        offset={3}
         speed={0.5}
         factor={1.5}
         style={{ backgroundColor: "#eeeef1" }}
@@ -79,8 +79,8 @@ export default function MarketingWebsite(props) {
           })}
           <div className="links">
             <ParallaxLayer
-              offset={1.2}
-              speed={0.9}
+              offset={1.4}
+              speed={0.5}
               style={{
                 paddingTop: "50px",
               }}

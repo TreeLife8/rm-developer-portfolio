@@ -31,6 +31,9 @@ footer {
   line-height: 1.9;
 }
 .Footer .left-side {
+  text-align: start;
+}
+.Footer .right-side {
   text-align: end;
 }
 .Footer .github-link a {

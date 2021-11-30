@@ -1,27 +1,26 @@
 import React from "react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { Parallax } from "@react-spring/parallax";
 import "./Projects.css";
 import DictionaryApp from "./DictionaryApp";
 import BookkeepingWebsite from "./BookkeepingWebsite";
 import MarketingWebsite from "./MarketingWebsite";
 import Todo from "./Todo";
 import WeatherApp from "./WeatherApp";
-import Footer from "../Footer";
 
 export default function Projects(props) {
   return (
     <div className="Projects">
-      <Parallax pages={4} style={{ top: "0", left: "0" }}>
+      <Parallax pages={5.55} style={{ top: "0", left: "0" }}>
         <DictionaryApp projects={props.projects} />
         <BookkeepingWebsite projects={props.projects} />
         <Todo projects={props.projects} />
         <MarketingWebsite projects={props.projects} />
         <WeatherApp projects={props.projects} />
-        <ParallaxLayer offset={3.5} speed={0.5}>
+        {/* <ParallaxLayer offset={5} speed={0.5}>
           <div className="footer">
             <Footer />
           </div>
-        </ParallaxLayer>
+        </ParallaxLayer> */}
       </Parallax>
     </div>
   );

@@ -10,7 +10,7 @@
   opacity: 1;
   padding: 1px;
   margin: 6px;
-  width: 950px;
+  width: 830px;
 }
 .Home .dev-name {
   font-size: 1rem;
@@ -58,6 +58,17 @@
     opacity: 0.7;
   }
 }
+@media (max-width: 412px) {
+  .Home hr.banner {
+    width: 190px;
+  }
+  .Home .intro-description {
+    width: 400px;
+  }
+  .Home img.chemical {
+    width: 80px;
+  }
+}
 @media (max-width: 576px) {
   .Home hr.banner {
     width: 170px;
@@ -78,17 +89,7 @@
     margin-top: 180px;
   }
 }
-@media (max-width: 412px) {
-  .Home hr.banner {
-    width: 190px;
-  }
-  .Home .intro-description {
-    width: 400px;
-  }
-  .Home img.chemical {
-    width: 80px;
-  }
-}
+
 @media (max-width: 768px) {
   .Home img.chemical {
     width: 120px;

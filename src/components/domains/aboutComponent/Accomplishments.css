@@ -16,11 +16,11 @@
 .Accomplishments .details {
   color: var(--orange-gold);
   padding-left: 15px;
-  font-size: 0.95rem;
+  font-size: 0.83rem;
   opacity: 0.8;
 }
 .Accomplishments .detail-group {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .col-sm-6 {
   padding: 0;
@@ -50,6 +50,21 @@
   }
 }
 @media (max-width: 768px) {
+  .Accomplishments .section-heading {
+    font-size: 2.5rem;
+    padding: 5px 15px 0;
+  }
+  .Accomplishments ul {
+    padding-left: 20px;
+    letter-spacing: 0.17rem;
+    font-size: 0.7rem;
+  }
+  .Accomplishments .detail-group {
+    padding-bottom: 9px;
+  }
+  .Accomplishments .details {
+    font-size: 0.5rem;
+  }
 }
 @media (max-width: 1300px) {
 }

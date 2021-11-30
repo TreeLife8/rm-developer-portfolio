@@ -15,7 +15,7 @@ export default function Skills() {
   });
   return (
     <div className="Skills container">
-      <Parallax pages={1.7} style={{ top: "0", left: "0" }}>
+      <Parallax pages={2.15} style={{ top: "0", left: "0" }}>
         <ParallaxLayer
           offset={0}
           speed={2}
@@ -26,7 +26,7 @@ export default function Skills() {
           <div className="pb-5">
             <SkillBar />
             <div className="text-end continued">
-              <Loader type="ThreeDots" color="#7f7262" height={50} width={50} />
+              <Loader type="Rings" color="#7f7262" height={50} width={50} />
             </div>
           </div>
         </ParallaxLayer>
@@ -35,19 +35,21 @@ export default function Skills() {
           speed={2}
           style={{ backgroundColor: "#1f1f1f" }}
         />
-        <ParallaxLayer offset={0.99} speed={0.6} factor={0.1}>
-          <div className="d-flex justify-content-around">
-            <FurtherSkills />
+        <ParallaxLayer offset={1} speed={0.6} factor={1.7}>
+          <div className="mb-5">
+            <div className="d-flex justify-content-around">
+              <FurtherSkills />
+            </div>
+            <div className="nav-links d-flex justify-content-end pt-4 pe-5">
+              <Button
+                text="projects"
+                href={"../Projects"}
+                hidden={false}
+                margin={false}
+              />
+            </div>
           </div>
-          <div className="nav-links d-flex justify-content-end pt-4 pe-5">
-            <Button
-              text="projects"
-              href={"../Projects"}
-              hidden={false}
-              margin={false}
-            />
-          </div>
-          <ParallaxLayer offset={0.99} speed={0.5}>
+          <ParallaxLayer offset={0.999} speed={0.4}>
             <div className="footer">
               <Footer />
             </div>

@@ -11,17 +11,17 @@ export default function Todo(props) {
       alt: `${props.projects[2].alt}`,
       className: "img-fluid project-tile ps-5 lg-padding-top",
       align: "align-left",
-      offset: 0.7,
+      offset: 0.99,
       speed: 0.5,
       factor: 1,
     },
     {
       src: `${TodoCode}`,
       alt: "Code snapshot for colour pallet selection on todo list",
-      className: "img img-fluid img-middle sm-padding-top",
-      align: "",
-      offset: 1.99,
-      speed: 4,
+      className: "img img-fluid",
+      align: "align-left",
+      offset: 1.7,
+      speed: 0.7,
       factor: 1,
     },
     {
@@ -29,31 +29,31 @@ export default function Todo(props) {
       alt: "Display of the colour pallet selection on todo list",
       className: "img img-fluid lg-padding-top landscape",
       align: "align-right",
-      offset: 1.99,
-      speed: 3,
+      offset: 1.9,
+      speed: 1.3,
       factor: 1,
     },
   ];
   const contentText = [
     {
       text: "todo list app",
-      className: "heading me-5 pe-3 lg-padding-top",
-      align: "align-right sm-padding-top",
-      offset: 0.99,
-      speed: 1.3,
+      className: "heading me-5 pe-3",
+      align: "align-right",
+      offset: 1,
+      speed: 0.8,
     },
     {
       text: "ES5/ES6",
-      className: "skill-name sm-padding-top md-padding-left",
-      align: "text-center",
-      offset: 1.1,
-      speed: 1.4,
+      className: "skill-name",
+      align: "align-right",
+      offset: 1.8,
+      speed: 0.9,
     },
   ];
   return (
     <div className="Todo">
       <ParallaxLayer
-        offset={1.58}
+        offset={2}
         speed={0.5}
         factor={1}
         style={{ backgroundColor: "#1f1f1f" }}
@@ -78,10 +78,10 @@ export default function Todo(props) {
         })}
         <div className="links">
           <ParallaxLayer
-            offset={0.9}
-            speed={0.9}
+            offset={1.1}
+            speed={0.7}
             style={{
-              paddingTop: "500px",
+              paddingTop: "150px",
             }}
           >
             <p className="align-right ps-5 ms-4">
@@ -99,7 +99,7 @@ export default function Todo(props) {
               offset={0.5}
               speed={0.3}
               style={{
-                paddingTop: "480px",
+                paddingTop: "270px",
               }}
             >
               <div className="align-right me-5">

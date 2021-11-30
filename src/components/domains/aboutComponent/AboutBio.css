@@ -32,8 +32,8 @@
   color: var(--primary-silver);
   transform: rotate(-90deg);
   position: absolute;
-  right: -200px;
-  top: 200px;
+  right: -250px;
+  top: 300px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .fade-name {
@@ -59,6 +59,28 @@
     opacity: 0.7;
   }
 }
+@media (max-width: 412px) {
+  .AboutBio .heading {
+    font-size: 3rem;
+    line-height: 0.7;
+    padding-top: 70px;
+  }
+  .AboutBio .subtitle {
+    font-size: 1.7rem;
+    padding-top: 10px;
+  }
+  .AboutBio .bio-description {
+    font-size: 1rem;
+    width: 300px;
+    padding-left: 5px;
+    line-height: 22px;
+  }
+  .AboutBio .silhouette-title {
+    font-size: 10rem;
+    right: -140px;
+    top: 535px;
+  }
+}
 @media (max-width: 576px) {
   .AboutBio .heading {
     font-size: 3rem;
@@ -77,16 +99,27 @@
   }
   .AboutBio .silhouette-title {
     font-size: 10rem;
-    font-family: hikouRough;
-    opacity: 0.1;
-    color: var(--primary-silver);
-    transform: rotate(-90deg);
-    position: absolute;
     right: -140px;
     top: 535px;
   }
 }
+
 @media (max-width: 768px) {
+  .AboutBio .heading {
+    font-size: 4.5rem;
+  }
+  .AboutBio .subtitle {
+    font-size: 2.2rem;
+  }
+  .AboutBio .bio-description {
+    font-size: 1.1rem;
+    width: 500px;
+  }
+  .AboutBio .silhouette-title {
+    font-size: 12rem;
+    right: -120px;
+    top: 510px;
+  }
 }
 @media (max-width: 1300px) {
 }

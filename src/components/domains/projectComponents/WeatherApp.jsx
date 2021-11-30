@@ -3,15 +3,16 @@ import { ParallaxLayer } from "@react-spring/parallax";
 import Button from "../buttons/Button";
 import weatherReact from "../../images/projects/weatherReact.png";
 import weatherReactCode from "../../images/projects/weatherReactCode.png";
+import Footer from "../Footer";
 
 export default function WeatherApp(props) {
   const contentImgs = [
     {
       src: `${props.projects[4].img}`,
       alt: `${props.projects[4].alt}`,
-      className: "img-fluid project-tile ps-5 lg-padding-top",
-      align: "align-left sm-padding-top",
-      offset: 0.99,
+      className: "img-fluid project-tile ps-5",
+      align: "align-left",
+      offset: 1.5,
       speed: 0.5,
       factor: 1,
     },
@@ -20,42 +21,42 @@ export default function WeatherApp(props) {
       alt: "coloured image of the weather app created with react",
       className: "img img-fluid",
       align: " align-right",
-      offset: 2.1,
-      speed: 2,
+      offset: 2.7,
+      speed: 0.9,
       factor: 1,
     },
     {
       src: `${weatherReactCode}`,
       alt: "image of the code setting the units for the weather react app",
-      className: "img img-fluid big md-padding-right sm-padding-top",
-      align: "align-right",
-      offset: 2.99,
-      speed: 4,
+      className: "img img-fluid big sm-padding-left",
+      align: "align-left",
+      offset: 2.7,
+      speed: 0.8,
       factor: 1,
     },
   ];
   const contentText = [
     {
       text: "weather app",
-      className: "heading me-5 pe-3 lg-padding-top",
-      align: "align-right sm-padding-top",
-      offset: 1.4,
-      speed: 1.3,
+      className: "heading me-5 pe-3",
+      align: "align-right",
+      offset: 1.95,
+      speed: 0.6,
     },
     {
       text: "npm",
-      className: "skill-name md-padding-left lg-padding-top",
-      align: "text-start md-padding-top",
-      offset: 1.99,
-      speed: 1.4,
+      className: "skill-name",
+      align: "text-center",
+      offset: 2.5,
+      speed: 0.95,
     },
   ];
   return (
     <div className="WeatherApp">
       <ParallaxLayer
-        offset={2.99}
+        offset={4}
         speed={0.5}
-        factor={0.9}
+        factor={1.7}
         style={{ backgroundColor: "#1f1f1f" }}
       >
         {contentImgs.map((content, index) => {
@@ -77,13 +78,7 @@ export default function WeatherApp(props) {
           );
         })}
         <div className="links">
-          <ParallaxLayer
-            offset={1.1}
-            speed={0.9}
-            style={{
-              paddingTop: "500px",
-            }}
-          >
+          <ParallaxLayer offset={2.3} speed={0.9}>
             <p className="align-right ps-5 ms-4">
               open-sourced on{" "}
               <a
@@ -96,8 +91,8 @@ export default function WeatherApp(props) {
               </a>
             </p>
             <ParallaxLayer
-              offset={0.9}
-              speed={0.3}
+              offset={1.2}
+              speed={0.6}
               style={{
                 paddingTop: "480px",
               }}
@@ -127,6 +122,11 @@ export default function WeatherApp(props) {
             </ParallaxLayer>
           );
         })}
+        <ParallaxLayer offset={2.5} speed={0.5}>
+          <div className="footer mt-5">
+            <Footer />
+          </div>
+        </ParallaxLayer>
       </ParallaxLayer>
     </div>
   );

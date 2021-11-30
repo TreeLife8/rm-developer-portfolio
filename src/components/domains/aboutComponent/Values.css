@@ -9,10 +9,24 @@
   padding: 0;
 }
 .Values .heading {
-  margin-top: 3.45rem;
+  padding-top: 1rem;
 }
 .Values .value-img {
   padding: 0px;
   position: relative;
   z-index: 2;
+}
+@media (max-width: 576px) {
+  .Values .heading {
+    margin-top: 2rem;
+  }
+  .Values .value-img {
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
 }

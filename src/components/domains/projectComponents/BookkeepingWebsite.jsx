@@ -10,7 +10,7 @@ export default function BookkeepingWebsite(props) {
       src: `${props.projects[1].img}`,
       alt: `${props.projects[1].alt}`,
       className: "img-fluid project-tile pe-5",
-      align: "align-right",
+      align: "align-right sm-padding-top",
       offset: 0.3,
       speed: 0.5,
       factor: 1,
@@ -18,44 +18,44 @@ export default function BookkeepingWebsite(props) {
     {
       src: `${BookHero}`,
       alt: "screenshot of the dictionay app code, showing the API calls",
-      className: "img img-fluid big  lg-padding-top",
-      align: "align-left",
-      offset: 0.99,
-      speed: 1.4,
+      className: "img img-fluid big sm-padding-top",
+      align: "align-right",
+      offset: 1,
+      speed: 0.4,
       factor: 1,
     },
     {
       src: `${BookWebCodeMethod}`,
       alt: "bookkeeping website testimonials",
-      className: "img img-fluid big",
-      align: "align-right",
-      offset: 1,
-      speed: 1.7,
+      className: "img img-fluid landscape md-padding-top",
+      align: "align-left",
+      offset: 0.99,
+      speed: 0.7,
       factor: 1,
     },
   ];
   const contentText = [
     {
       text: "Bookkeeping Website",
-      className: "heading md-padding-top",
-      align: "align-left",
+      className: "heading sm-padding-top",
+      align: "align-left ",
       offset: 0.25,
-      speed: 0.95,
+      speed: 0.55,
     },
     {
       text: "netlify",
-      className: "skill-name sm-padding-top",
+      className: "skill-name md-padding-top",
       align: "align-left",
       offset: 1,
-      speed: 3,
+      speed: 0.7,
     },
   ];
   return (
     <div className="BookkeepingWebsite">
       <ParallaxLayer
-        offset={0.99}
-        speed={0.5}
-        factor={1.1}
+        offset={1}
+        speed={0.3}
+        factor={1.5}
         style={{ backgroundColor: "#eeeef1" }}
       >
         <div className="white-section">
@@ -80,9 +80,9 @@ export default function BookkeepingWebsite(props) {
           <div className="links">
             <ParallaxLayer
               offset={0.9}
-              speed={0.9}
+              speed={0.6}
               style={{
-                paddingTop: "50px",
+                paddingTop: "100px",
               }}
             >
               <p className="align-left ps-5 ms-4">
@@ -95,7 +95,13 @@ export default function BookkeepingWebsite(props) {
                   github
                 </a>
               </p>
-              <ParallaxLayer offset={0.4} speed={0.3}>
+              <ParallaxLayer
+                offset={0.4}
+                speed={0.3}
+                style={{
+                  paddingTop: "100px",
+                }}
+              >
                 <div className="align-left">
                   <Button
                     text="view project"

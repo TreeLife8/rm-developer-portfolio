@@ -4,7 +4,7 @@ import "./ScrollingText.css";
 
 export default function ScrollingText() {
   return (
-    <div className="ScrollingText pt-5">
+    <div className="ScrollingText">
       <Marquee
         pauseOnHover={true}
         speed={150}

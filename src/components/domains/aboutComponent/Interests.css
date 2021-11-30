@@ -50,6 +50,15 @@ blink {
   }
 }
 @media (max-width: 768px) {
+  .Interests .section-heading {
+    font-size: 2.5rem;
+  }
+  .Interests .interest-list {
+    font-size: 1rem;
+  }
+  .Interests .list {
+    padding: 10px 5px;
+  }
 }
 @media (max-width: 1300px) {
 }

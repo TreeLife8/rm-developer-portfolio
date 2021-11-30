@@ -5,7 +5,6 @@ import DicPhotos from "../../images/projects/dicPhotosAPI.png";
 import DicApp from "../../images/projects/DicApp.png";
 import { ParallaxLayer } from "@react-spring/parallax";
 import Button from "../buttons/Button";
-import "./DictionaryApp.css";
 
 export default function DictionaryApp(props) {
   const contentImgs = [
@@ -24,14 +23,14 @@ export default function DictionaryApp(props) {
       className: "img img-fluid img-middle",
       align: "",
       offset: 0.63,
-      speed: 4,
+      speed: 1.4,
       factor: 0.5,
     },
     {
       src: `${DicAPICode}`,
       alt: "screenshot of the dictionay app code, showing the API calls",
-      className: "img-middle img landscape img-fluid sm-padding-top",
-      align: "",
+      className: "img landscape img-fluid md-padding-top",
+      align: "align-left",
       offset: 0.99,
       speed: 1.1,
       factor: 1,
@@ -39,10 +38,10 @@ export default function DictionaryApp(props) {
     {
       src: `${DicApp}`,
       alt: "dictionay app showing the photosearch results of a word",
-      className: "img img-fluid lg-padding-top ps-3",
+      className: "img img-fluid sm-padding-top ps-3",
       align: "align-right",
-      offset: 0.7,
-      speed: 2.2,
+      offset: 0.9,
+      speed: 0.7,
       factor: 1,
     },
   ];
@@ -52,7 +51,7 @@ export default function DictionaryApp(props) {
       className: "heading",
       align: "align-right",
       offset: 0.1,
-      speed: 1.1,
+      speed: 0.6,
     },
     {
       text: "APIs",
@@ -65,7 +64,7 @@ export default function DictionaryApp(props) {
   ];
   return (
     <div className="DictionaryApp container">
-      <ParallaxLayer offset={0} speed={0.5} factor={0.1}>
+      <ParallaxLayer offset={0} speed={0.5} factor={1}>
         {contentImgs.map((content, index) => {
           return (
             <ParallaxLayer
@@ -85,7 +84,7 @@ export default function DictionaryApp(props) {
           );
         })}
         <div className="links">
-          <ParallaxLayer offset={0.4} speed={1.5}>
+          <ParallaxLayer offset={0.4} speed={0.6}>
             <p className="align-right">
               open-sourced on{" "}
               <a

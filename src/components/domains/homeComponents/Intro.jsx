@@ -35,12 +35,12 @@ export default function Intro() {
           <div className="col-sm-6">
             <div className="d-flex justify-content-around mt-3">
               <img
-                className="img-fluid chemical"
+                className="img-fluid chemical pt-5"
                 src={dopamine}
                 alt="the chemical structure of the chemical messenger of pleasure"
               ></img>
               <img
-                className="img-fluid chemical"
+                className="img-fluid chemical pb-5"
                 src={love}
                 alt="the chemical structure of a chemical that increases the activity of the neurotransmitters serotonin"
               ></img>
