@@ -5,11 +5,12 @@ body {
 }
 
 .RubikAnimation {
-  width: 130vw;
+  width: 100%;
   height: 600px;
   position: absolute;
-  z-index: -10;
-  top: 500px;
+  z-index: 1;
+  top: 470px;
+  left: 210px;
 }
 @media (max-width: 576px) {
   .RubikAnimation {

@@ -32,7 +32,7 @@ export default function Intro() {
               margin={true}
             />
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6 right-side">
             <div className="d-flex justify-content-around mt-3">
               <img
                 className="img-fluid chemical pt-5"

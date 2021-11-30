@@ -5,10 +5,17 @@ import "./RubikAnimation.css";
 
 function RubikCube() {
   const mesh = useRef();
+  const [state, toggle] = useState(false);
   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.005));
   return (
     <>
-      <mesh position={[5, 7, -15]} ref={mesh}>
+      <mesh
+        position={[5, 7, -15]}
+        ref={mesh}
+        scale={state ? 1.15 : 1}
+        onPointerOver={(event) => toggle(true)}
+        onPointerOut={(event) => toggle(false)}
+      >
         <boxBufferGeometry attach="geometry" args={[10, 10, 10]} />
         <meshStandardMaterial attach="material" color={0xeeeef1} />
       </mesh>

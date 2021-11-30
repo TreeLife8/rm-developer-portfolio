@@ -16,11 +16,6 @@ export default function Projects(props) {
         <Todo projects={props.projects} />
         <MarketingWebsite projects={props.projects} />
         <WeatherApp projects={props.projects} />
-        {/* <ParallaxLayer offset={5} speed={0.5}>
-          <div className="footer">
-            <Footer />
-          </div>
-        </ParallaxLayer> */}
       </Parallax>
     </div>
   );
