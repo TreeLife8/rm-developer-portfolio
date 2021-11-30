@@ -2,6 +2,9 @@
   color: var(--primary-silver);
   font-size: 5rem;
 }
+.Interests .list {
+  padding-top: 50px;
+}
 .Interests .interest-list {
   color: var(--primary-silver);
   padding: 5px;
@@ -11,7 +14,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .change-colour {
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: blink;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -34,4 +37,19 @@
 
 blink {
   animation: blink 1s infinite;
+}
+@media (max-width: 576px) {
+  .Interests .section-heading {
+    font-size: 3rem;
+  }
+  .Interests .interest-list {
+    font-size: 1rem;
+  }
+  .Interests .list {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
 }

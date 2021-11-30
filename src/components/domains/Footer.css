@@ -30,6 +30,19 @@ footer {
   opacity: 0.7;
   line-height: 1.9;
 }
+.Footer .left-side {
+  text-align: end;
+}
 .Footer .github-link a {
   font-size: 1rem;
+}
+@media (max-width: 576px) {
+  .Footer .left-side,
+  .Footer .right-side {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
 }

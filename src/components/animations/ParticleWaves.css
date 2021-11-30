@@ -12,3 +12,13 @@ body {
   left: 0;
   top: 800px;
 }
+@media (max-width: 576px) {
+  .ParticleWaves {
+    height: 300px;
+    top: 1120px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
+}

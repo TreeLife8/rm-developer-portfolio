@@ -9,3 +9,14 @@
   line-height: 1.2;
   margin-bottom: -21px;
 }
+@media (max-width: 576px) {
+  .ScrollingText .scroll-text {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: -14px;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
+}

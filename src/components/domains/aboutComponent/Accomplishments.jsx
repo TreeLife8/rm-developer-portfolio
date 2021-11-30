@@ -33,7 +33,7 @@ export default function Accomplishments() {
   return (
     <div className="Accomplishments">
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-6 computer">
           <img
             src={trees}
             className="d-block w-100 img-fluid"
@@ -57,6 +57,13 @@ export default function Accomplishments() {
               );
             })}
           </ul>
+        </div>
+        <div className="col-sm-6 hidden">
+          <img
+            src={trees}
+            className="d-block w-100 img-fluid"
+            alt="looking up from the ground at a pine forest"
+          />
         </div>
       </div>
     </div>

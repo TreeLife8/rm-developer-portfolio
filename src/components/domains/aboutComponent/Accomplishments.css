@@ -1,8 +1,9 @@
 .Accomplishments .section-heading {
   color: var(--dark-colour);
   font-size: 4.5rem;
-  padding: 20px 0 10px;
+  padding: 20px 40px 10px;
   margin-top: 0;
+  text-align: start;
 }
 .Accomplishments ul {
   color: var(--dark-colour);
@@ -23,4 +24,32 @@
 }
 .col-sm-6 {
   padding: 0;
+}
+.Accomplishments .hidden {
+  display: none;
+}
+@media (max-width: 576px) {
+  .Accomplishments .computer {
+    display: none;
+  }
+  .Accomplishments .hidden {
+    display: block;
+  }
+  .Accomplishments .section-heading {
+    font-size: 3rem;
+    padding: 20px;
+    text-align: start;
+  }
+  .Accomplishments ul {
+    padding-left: 25px;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+  }
+  .Accomplishments .details {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
 }

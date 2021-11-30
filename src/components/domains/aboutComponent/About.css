@@ -24,3 +24,12 @@
   opacity: 0.5;
   font-family: hikouDiagonal;
 }
+@media (max-width: 576px) {
+  .About .section-heading {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1300px) {
+}

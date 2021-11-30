@@ -12,11 +12,10 @@ function Footer() {
           data-aos-mirror="true"
           className="underline mb-5"
         />
-        <div className="col-sm-4">
+        <div className="col-sm-4 right-side">
           <a href="/">
             <h4 className="subtitle mb-3">Regina Maher</h4>
           </a>
-
           <h6 className="contact">regina.maher8@gmail.com</h6>
           <h6 className="contact mt-2">
             <a
@@ -45,7 +44,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="col-sm-4 text-end pe-4">
+        <div className="col-sm-4 left-side pe-4">
           <h4 className="subtitle mb-3">explore</h4>
           <h6>
             <a href="/About">about</a>
