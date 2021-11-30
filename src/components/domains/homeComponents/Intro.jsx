@@ -6,7 +6,7 @@ import Button from "../buttons/Button";
 
 export default function Intro() {
   return (
-    <div className="Intro">
+    <div className="Intro ps-3">
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-6">
@@ -14,6 +14,7 @@ export default function Intro() {
               from chemist to{" "}
               <span className="gold-highlight fade-word"> coder</span>
             </h3>
+            <h3 className="dev-name pt-3">Regina Maher</h3>
             <p className="intro-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

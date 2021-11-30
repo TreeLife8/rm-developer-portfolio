@@ -1,3 +1,6 @@
+.Home {
+  margin: 110px 0 0;
+}
 .Home .lines {
   margin: 5px 0;
   padding-right: 0;
@@ -9,8 +12,15 @@
   margin: 6px;
   width: 950px;
 }
+.Home .dev-name {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--primary-silver);
+  opacity: 0.6;
+}
 .Home .intro-description {
   font-weight: 300;
+  width: 600px;
 }
 
 .Home img.chemical {
@@ -20,6 +30,8 @@
 
 .Home .chem-three {
   margin-top: 100px;
+  padding-left: 10px;
+  margin-left: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -56,6 +68,7 @@
   }
   .Home .intro-description {
     font-size: 0.9rem;
+    width: 450px;
   }
   .Home img.chemical {
     width: 100px;
@@ -65,7 +78,31 @@
     margin-top: 180px;
   }
 }
+@media (max-width: 412px) {
+  .Home hr.banner {
+    width: 190px;
+  }
+  .Home .intro-description {
+    width: 400px;
+  }
+  .Home img.chemical {
+    width: 80px;
+  }
+}
 @media (max-width: 768px) {
+  .Home img.chemical {
+    width: 120px;
+  }
+  .Home hr.banner {
+    width: 410px;
+  }
+  .Home .intro-description {
+    width: 400px;
+  }
+  .Home .chem-three {
+    margin-top: 240px;
+    left: 50px;
+  }
 }
 @media (max-width: 1300px) {
 }

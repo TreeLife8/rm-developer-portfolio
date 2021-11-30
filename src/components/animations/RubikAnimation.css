@@ -15,13 +15,17 @@ body {
   .RubikAnimation {
     width: 200vw;
     height: 450px;
-    position: absolute;
-    z-index: -10;
     top: 700px;
     left: -320px;
   }
 }
 @media (max-width: 768px) {
+  .RubikAnimation {
+    width: 200vw;
+    height: 450px;
+    top: 450px;
+    left: -320px;
+  }
 }
 @media (max-width: 1300px) {
 }

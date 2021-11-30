@@ -41,8 +41,24 @@ footer {
   .Footer .right-side {
     text-align: center;
   }
+  .Footer .right-side {
+    padding-top: 20px;
+  }
 }
 @media (max-width: 768px) {
+  footer {
+    margin: 0px;
+  }
+  .Footer .right-side {
+    padding-left: 50px;
+  }
+  .Footer .left-side {
+    padding-right: 50px;
+  }
+  .Footer .github-link {
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
 }
 @media (max-width: 1300px) {
 }

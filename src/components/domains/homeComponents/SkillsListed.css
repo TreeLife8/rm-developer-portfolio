@@ -10,6 +10,7 @@
 .SkillsGlance .incomplete {
   opacity: 0.2;
 }
+
 .SkillsGlance .skills-description {
   font-weight: 200;
   font-size: 1.5rem;

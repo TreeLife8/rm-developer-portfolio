@@ -63,6 +63,20 @@
   }
 }
 @media (max-width: 768px) {
+  .App .title-heading {
+    font-size: 3rem;
+  }
+  .App .title {
+    font-size: 8rem;
+  }
+  .App .subtitle {
+    font-size: 1.7rem;
+    padding-top: 4px;
+  }
+  .App .heading {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 1300px) {
 }

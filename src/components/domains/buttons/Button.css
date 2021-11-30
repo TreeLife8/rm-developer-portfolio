@@ -58,6 +58,19 @@
   }
 }
 @media (max-width: 768px) {
+  .Button button.btn-text {
+    letter-spacing: 0.5rem;
+    font-size: 1.2rem;
+    padding-top: 12px;
+  }
+  .Button button.btn-square {
+    padding: 32px;
+    position: absolute;
+    z-index: -1;
+  }
+  .Button {
+    margin: 40px 0;
+  }
 }
 @media (max-width: 1300px) {
 }
