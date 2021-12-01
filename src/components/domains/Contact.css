@@ -19,13 +19,38 @@
   text-decoration: none;
   display: flex;
 }
+@media (max-width: 768px) {
+  .Contact .page-title {
+    font-size: 12.5rem;
+  }
+}
+
 @media (max-width: 576px) {
   .Contact .page-title {
     margin-top: -150px;
     font-size: 5rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 541px) {
+  .Contact .page-title {
+    margin-top: -50px;
+    font-size: 9rem;
+  }
 }
-@media (max-width: 1300px) {
+@media (max-width: 415px) {
+  .Contact .page-title {
+    margin-top: 0px;
+    font-size: 6.5rem;
+  }
+}
+@media (max-width: 361px) {
+  .Contact .page-title {
+    margin-top: 0px;
+    font-size: 5.5rem;
+  }
+}
+@media (max-width: 281px) {
+  .Contact .page-title {
+    font-size: 4.5rem;
+  }
 }
