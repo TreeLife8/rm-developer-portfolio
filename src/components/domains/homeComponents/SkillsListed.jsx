@@ -125,28 +125,23 @@ export default function SkillsListed() {
     <div className="SkillsListed">
       <div className="container-fluid">
         <h3
+          className="heading mb-5"
           data-aos="fade-in"
           data-aos-easing="ease-in-sine"
           data-aos-mirror="true"
-          className="heading mb-5"
         >
           skills at a glance
         </h3>
         <div className="listed-skills row mt-5">
           {skills.map((skill, index) => {
             return (
-              <div
-                className="col-sm"
-                data-aos="fade-in"
-                data-aos-easing="ease-in-sine"
-                data-aos-mirror="true"
-              >
-                <div className=" d-flex justify-content-evenly">
+              <div className="col-sm">
+                <div className="d-flex justify-content-evenly">
                   <img
                     className={
                       skill.completed ? "skill-icon" : "skill-icon incomplete"
                     }
-                    index={index}
+                    key={index}
                     src={skill.icon}
                     alt={skill.alt}
                   />

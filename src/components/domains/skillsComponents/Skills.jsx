@@ -15,7 +15,7 @@ export default function Skills() {
   });
   return (
     <div className="Skills container">
-      <Parallax pages={2.15} style={{ top: "0", left: "0" }}>
+      <Parallax pages={2} style={{ top: "0", left: "0" }}>
         <ParallaxLayer
           offset={0}
           speed={2}
@@ -35,9 +35,9 @@ export default function Skills() {
           speed={2}
           style={{ backgroundColor: "#1c1b1a" }}
         />
-        <ParallaxLayer offset={1} speed={0.6} factor={1.7}>
+        <ParallaxLayer offset={0.99} speed={0.6} factor={1.7}>
           <div className="mb-5">
-            <div className="d-flex justify-content-around">
+            <div className="d-flex further-skills justify-content-around">
               <FurtherSkills />
             </div>
             <div className="nav-links d-flex justify-content-end pt-4 pe-5">
@@ -49,7 +49,7 @@ export default function Skills() {
               />
             </div>
           </div>
-          <ParallaxLayer offset={0.999} speed={0.4}>
+          <ParallaxLayer offset={1} speed={0.4}>
             <div className="footer">
               <Footer />
             </div>

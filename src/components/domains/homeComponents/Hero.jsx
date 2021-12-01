@@ -25,7 +25,6 @@ export default function Hero() {
   return (
     <div className="Hero ms-2">
       <h2 className="title-heading">Frontend</h2>
-      {/* <Title title={"DEVELOPER"} /> */}
       <h1 className="title mt-4 lights-flicker">DEVELOPER</h1>
       <h1 className="title shadow">DEVELOPER</h1>
       <RubikAnimation />

@@ -18,7 +18,7 @@ export default function Interests() {
       <div className="row">
         <div className="col-sm-6 interest">
           <h2 className="section-heading heading change">interests</h2>
-          <div className="list row d-flex pb-2 justify-content-center">
+          <div className="list row d-flex pb-5 justify-content-center">
             {interests.map((interest, index) => {
               return (
                 <div key={index} className="col-sm-4 interest-list p-3">

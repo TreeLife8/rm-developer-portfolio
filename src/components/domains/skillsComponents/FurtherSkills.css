@@ -19,3 +19,37 @@
   color: var(--primary-silver);
   font-family: hikouRough;
 }
+@media (max-width: 1300px) {
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .FurtherSkills .upcoming {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 541px) {
+  .FurtherSkills {
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  .FurtherSkills .title-heading {
+    font-size: 2rem;
+  }
+  .FurtherSkills .upcoming,
+  .FurtherSkills .inprogress {
+    width: 270px;
+  }
+  .FurtherSkills .upcoming {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 415px) {
+  .FurtherSkills {
+    padding-left: 30px;
+  }
+  .FurtherSkills .title-heading {
+    font-size: 2.5rem;
+  }
+}

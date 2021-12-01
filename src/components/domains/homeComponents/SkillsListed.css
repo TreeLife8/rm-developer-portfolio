@@ -11,9 +11,89 @@
   opacity: 0.2;
 }
 .SkillsListed .heading {
-  margin: 0 0 60px;
+  margin: 20px 0 60px;
   font-size: 3.5rem;
+  padding-bottom: 40px;
 }
 .SkillsListed {
   padding: 0;
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 1300px) {
+  .SkillsListed .heading {
+    margin: 120px 0 60px;
+    font-size: 3.5rem;
+    padding-bottom: 40px;
+  }
+  .SkillsListed .skill-icon {
+    max-width: 70px;
+    margin: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .SkillsListed .heading {
+    margin: 50px 0 60px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+  }
+  .SkillsListed .skill-icon {
+    max-width: 45px;
+    margin: 20px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .SkillsListed .heading {
+    font-size: 2.5rem;
+  }
+  .SkillsListed .skill-icon {
+    max-width: 50px;
+  }
+  .SkillsListed .col-sm {
+    width: 90px;
+  }
+}
+@media (max-width: 415px) {
+  .SkillsListed .heading {
+    font-size: 2rem;
+    margin: 20px 0 60px;
+  }
+  .SkillsListed .skill-icon {
+    max-width: 45px;
+    margin: 10px;
+  }
+  .SkillsListed .col-sm {
+    width: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .SkillsListed .skill-icon {
+    max-width: 40px;
+  }
+}
+@media (max-width: 321px) {
+  .SkillsListed .heading {
+    font-size: 2rem;
+    margin: 20px 0;
+    padding-bottom: 20px;
+  }
+  .SkillsListed .skill-icon {
+    max-width: 35px;
+  }
+  .SkillsListed .col-sm {
+    width: 60px;
+  }
+}
+@media (max-width: 281px) {
+  .SkillsListed .heading {
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    margin: 10px 00;
+  }
+  .SkillsListed .skill-icon {
+    max-width: 30px;
+  }
+  .SkillsListed .col-sm {
+    width: 50px;
+  }
 }

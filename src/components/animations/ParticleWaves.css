@@ -10,15 +10,53 @@ body {
   position: absolute;
   z-index: -10;
   left: 0;
-  top: 800px;
+  top: 840px;
 }
-@media (max-width: 576px) {
+@media (min-width: 1300px) {
   .ParticleWaves {
-    height: 300px;
-    top: 1120px;
+    top: 1060px;
   }
 }
 @media (max-width: 768px) {
+  .ParticleWaves {
+    height: 300px;
+    top: 1000px;
+  }
 }
-@media (max-width: 1300px) {
+
+@media (max-width: 576px) {
+  .ParticleWaves {
+    height: 300px;
+    top: 1180px;
+  }
+}
+@media (max-width: 541px) {
+  .ParticleWaves {
+    top: 1210px;
+  }
+}
+@media (max-width: 415px) {
+  .ParticleWaves {
+    top: 1200px;
+  }
+}
+@media (max-width: 376px) {
+  .ParticleWaves {
+    top: 1150px;
+  }
+}
+@media (max-width: 360px) {
+  .ParticleWaves {
+    top: 1180px;
+  }
+}
+@media (max-width: 321px) {
+  .ParticleWaves {
+    top: 1080px;
+  }
+}
+@media (max-width: 281px) {
+  .ParticleWaves {
+    top: 1080px;
+  }
 }

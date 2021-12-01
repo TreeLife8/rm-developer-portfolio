@@ -24,19 +24,9 @@
   font-size: 2rem;
   color: var(--dark-colour);
 }
-@media (max-width: 576px) {
-  .DesignStatement .heading {
-    padding: 80px 5px 20px;
-    font-size: 3.8rem;
-  }
-  .DesignStatement .descrip-title {
-    letter-spacing: 0.2rem;
-    font-size: 1.1rem;
-  }
-  .DesignStatement .description {
-    font-size: 0.9rem;
-  }
+@media (max-width: 1300px) {
 }
+
 @media (max-width: 768px) {
   .DesignStatement .heading {
     padding: 80px 5px 20px;
@@ -53,5 +43,29 @@
     opacity: 0.9;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 576px) {
+  .DesignStatement .heading {
+    padding: 80px 5px 20px;
+    font-size: 3.8rem;
+  }
+  .DesignStatement .descrip-title {
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+  }
+  .DesignStatement .description {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 281px) {
+  .DesignStatement .heading {
+    padding: 50px 5px 20px;
+    font-size: 3rem;
+  }
+  .DesignStatement .descrip-title {
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .DesignStatement .description {
+    font-size: 0.65rem;
+  }
 }

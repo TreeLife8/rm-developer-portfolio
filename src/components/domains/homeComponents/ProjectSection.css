@@ -1,8 +1,10 @@
 .ProjectSection .heading {
-  font-size: 12rem;
+  font-size: 14rem;
   text-align: center;
-  margin-top: 0rem;
-  color: var(--primary-silver);
+  margin: 0rem;
+  padding-top: 50px;
+  color: var(--text-colour);
+  font-family: hikouUrban;
 }
 
 .ProjectSection .subtitle {
@@ -47,13 +49,8 @@ img {
 .img-overlay:hover:before {
   background: none;
 }
-@media (max-width: 576px) {
-  .ProjectSection .heading {
-    font-size: 4rem;
-  }
-  .ProjectSection .subtitle {
-    font-size: 3.5rem;
-  }
+
+@media (max-width: 1300px) {
 }
 @media (max-width: 768px) {
   .ProjectSection .heading {
@@ -64,5 +61,44 @@ img {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 576px) {
+  .ProjectSection .heading {
+    font-size: 4rem;
+  }
+  .ProjectSection .subtitle {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 541px) {
+  .ProjectSection .heading {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 415px) {
+  .ProjectSection .heading {
+    font-size: 6rem;
+  }
+  .ProjectSection .subtitle {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 376px) {
+  .ProjectSection .subtitle {
+    font-size: 3rem;
+  }
+  img {
+    width: 80%;
+  }
+}
+@media (max-width: 361px) {
+}
+@media (max-width: 321px) {
+}
+@media (max-width: 281px) {
+  .ProjectSection .heading {
+    font-size: 4rem;
+  }
+  .ProjectSection .subtitle {
+    font-size: 2rem;
+  }
 }

@@ -3,8 +3,8 @@ import { Animate, AnimateGroup } from "react-simple-animate";
 
 function Title(props) {
   const [state, toggle] = useState(false);
-  const title = props.title;
-  const letters = [...title];
+  // const title = props.title;
+  // const letters = [...title];
 
   return (
     <div className="Title">

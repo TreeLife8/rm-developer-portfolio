@@ -1,19 +1,6 @@
-@media (prefers-reduced-motion: no-preference) {
-  .fade {
-    animation-duration: 3s;
-    animation-name: fade;
-    animation-direction: alternate;
-  }
+@media (max-width: 768px) {
 }
-
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 0.7;
-  }
+@media (max-width: 1300px) {
 }
 @media (max-width: 576px) {
   .SkillsGlance {
@@ -22,8 +9,4 @@
   .SkillsGlance .heading {
     margin: 10px 0;
   }
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 1300px) {
 }

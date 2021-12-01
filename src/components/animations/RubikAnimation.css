@@ -12,21 +12,74 @@ body {
   top: 470px;
   left: 210px;
 }
-@media (max-width: 576px) {
+@media (min-width: 1300px) {
+  .RubikAnimation {
+    width: 100vw;
+    height: 850px;
+    top: 500px;
+    left: 250px;
+  }
+}
+@media (max-width: 1025px) {
   .RubikAnimation {
     width: 200vw;
-    height: 450px;
-    top: 700px;
-    left: -320px;
+    height: 600px;
+    top: 480px;
+    left: -400px;
   }
 }
 @media (max-width: 768px) {
   .RubikAnimation {
     width: 200vw;
     height: 450px;
-    top: 450px;
+    top: 490px;
     left: -320px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 576px) {
+  .RubikAnimation {
+    top: 700px;
+    left: -320px;
+  }
+}
+@media (max-width: 541px) {
+  .RubikAnimation {
+    height: 500px;
+    top: 850px;
+    left: -470px;
+  }
+}
+@media (max-width: 415px) {
+  .RubikAnimation {
+    height: 500px;
+    top: 880px;
+    left: -350px;
+  }
+}
+@media (max-width: 376px) {
+  .RubikAnimation {
+    top: 855px;
+    left: -320px;
+  }
+}
+@media (max-width: 361px) {
+  .RubikAnimation {
+    height: 450px;
+    top: 850px;
+    left: -310px;
+  }
+}
+@media (max-width: 321px) {
+  .RubikAnimation {
+    height: 400px;
+    top: 790px;
+    left: -270px;
+  }
+}
+@media (max-width: 280px) {
+  .RubikAnimation {
+    height: 300px;
+    top: 820px;
+    left: -220px;
+  }
 }

@@ -15,6 +15,27 @@
   font-family: hikouLight;
   letter-spacing: 0.2rem;
 }
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 768px) {
+  .SkillBar {
+    width: 690px;
+    padding-top: 200px;
+  }
+  .SkillBar .skill-name {
+    font-size: 0.75rem;
+    padding-top: 12px;
+    line-height: 1.35;
+  }
+  .SkillBar .col-4,
+  .SkillBar .col-8 {
+    padding: 0;
+  }
+  .SkillBar .subtitle {
+    font-size: 3rem;
+  }
+}
 @media (max-width: 576px) {
   .SkillBar {
     width: 320px;
@@ -25,7 +46,6 @@
     font-size: 0.55rem;
     padding-top: 15px;
     line-height: 1.4;
-    font-family: hikouLight;
     letter-spacing: 0.1rem;
   }
   .SkillBar .col-4,
@@ -36,7 +56,41 @@
     font-size: 2.5rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 541px) {
+  .SkillBar {
+    width: 470px;
+    padding-top: 100px;
+  }
+  .SkillBar .skill-name {
+    font-size: 0.7rem;
+    padding-top: 13px;
+  }
 }
-@media (max-width: 1300px) {
+@media (max-width: 415px) {
+  .SkillBar {
+    width: 355px;
+    padding-top: 120px;
+  }
+  .SkillBar .skill-name {
+    font-size: 0.65rem;
+    padding-top: 13px;
+    line-height: 1.45;
+  }
+}
+@media (max-width: 376px) {
+  .SkillBar {
+    width: 320px;
+    padding-top: 150px;
+  }
+  .SkillBar .skill-name {
+    font-size: 0.55rem;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 362px) {
+  .SkillBar {
+    width: 265px;
+    padding-top: 100px;
+    margin: 0 5px;
+  }
 }

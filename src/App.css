@@ -1,16 +1,6 @@
 .App {
   color: var(--text-colour);
 }
-/* .App .title {
-  font-family: hikouOutline;
-  font-size: 10rem;
-  color: var(--light-gold);
-  padding: 0 0 20px;
-  margin-top: 0;
-  text-shadow: 0 0 7px #fff, 0 0 20px #c7a54ef3, 0 0 30px #c7a44e,
-    0 0 40px #c7a54ee3, 0 0 50px #c7a54ec4, 0 0 70px #c7a54eb4;
-  line-height: 0.8;
-} */
 .App .title {
   font-family: hikouOutline;
   background: -webkit-linear-gradient(#1f1f1f, var(--primary-silver));
@@ -55,6 +45,40 @@
   align-items: center;
 }
 
+@media (min-width: 1300px) {
+  .App .title-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .App .title {
+    font-size: 14rem;
+  }
+  .App .subtitle {
+    font-size: 3rem;
+    padding-top: 0px;
+  }
+  .App .heading {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .App .title-heading {
+    font-size: 2.2rem;
+  }
+  .App .title {
+    font-size: 8rem;
+  }
+  .App .subtitle {
+    font-size: 1.7rem;
+    padding-top: 4px;
+  }
+  .App .heading {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 576px) {
   .App .title-heading {
     font-size: 1.5rem;
@@ -71,21 +95,63 @@
     margin-top: 2rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 541px) {
   .App .title-heading {
-    font-size: 3rem;
+    font-size: 1.4rem;
   }
   .App .title {
-    font-size: 8rem;
+    font-size: 5rem;
   }
   .App .subtitle {
-    font-size: 1.7rem;
-    padding-top: 4px;
-  }
-  .App .heading {
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-top: 0px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 415px) {
+  .App .title {
+    font-size: 4.5rem;
+  }
+  .App .subtitle {
+    font-size: 1.1rem;
+    padding-top: 2px;
+  }
+}
+@media (max-width: 376px) {
+  .App .title-heading {
+    font-size: 1.3rem;
+  }
+  .App .title {
+    font-size: 4rem;
+  }
+  .App .subtitle {
+    font-size: 1.05rem;
+    padding-top: 5px;
+  }
+}
+@media (max-width: 321px) {
+  .App .title-heading {
+    font-size: 1rem;
+  }
+  .App .title {
+    font-size: 3.7rem;
+  }
+  .App .subtitle {
+    font-size: 0.85rem;
+    padding-top: 5px;
+    padding-left: 2px;
+  }
+  .App .heading {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 281px) {
+  .App .title-heading {
+    font-size: 1rem;
+  }
+  .App .title {
+    font-size: 3.2rem;
+  }
+  .App .subtitle {
+    font-size: 0.75rem;
+  }
 }

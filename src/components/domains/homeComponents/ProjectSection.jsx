@@ -10,7 +10,7 @@ export default function ProjectSection(props) {
     Aos.init({ duration: 1500 });
   });
   return (
-    <div className="ProjectSection pt-5 mt-5">
+    <div className="ProjectSection">
       <div className="dark">
         <h3
           data-aos="fade-in"

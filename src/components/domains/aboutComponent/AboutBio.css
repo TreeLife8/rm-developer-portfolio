@@ -115,3 +115,18 @@
     top: 470px;
   }
 }
+@media (max-width: 281px) {
+  .AboutBio .heading {
+    font-size: 2.5rem;
+    padding-top: 10px;
+  }
+
+  .AboutBio .bio-description {
+    font-size: 0.8rem;
+    width: 250px;
+    padding-left: 0;
+  }
+  .AboutBio .silhouette-title {
+    top: 515px;
+  }
+}

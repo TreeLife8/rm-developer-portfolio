@@ -17,6 +17,25 @@
   position: relative;
   z-index: 2;
 }
+@media (max-width: 1300px) {
+}
+@media (max-width: 1025px) {
+  .Values .heading {
+    padding-top: 2rem;
+    padding-bottom: 1.15rem;
+  }
+}
+@media (max-width: 768px) {
+  .Values .heading {
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+  }
+  .Values .value-img {
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+  }
+}
 @media (max-width: 576px) {
   .Values .heading {
     margin-top: 2rem;
@@ -26,8 +45,4 @@
     position: relative;
     z-index: 2;
   }
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 1300px) {
 }
