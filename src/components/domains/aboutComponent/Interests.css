@@ -46,7 +46,17 @@
 blink {
   animation: blink 1s infinite;
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
+  .Interests .section-heading {
+    font-size: 7rem;
+  }
+  .Interests .interest-list {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  .Interests .list {
+    padding: 80px 5px;
+  }
 }
 @media (max-width: 1025px) {
 }

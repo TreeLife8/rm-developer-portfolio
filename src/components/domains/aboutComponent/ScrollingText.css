@@ -10,7 +10,13 @@
   margin-top: 31px;
   margin-bottom: -21px;
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
+  .ScrollingText .scroll-text {
+    font-size: 7.5rem;
+    line-height: 2;
+    margin-top: 100px;
+    margin-bottom: -75px;
+  }
 }
 @media (max-width: 768px) {
   .ScrollingText .scroll-text {

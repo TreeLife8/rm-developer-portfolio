@@ -60,7 +60,22 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
+  .AboutBio .heading {
+    font-size: 8rem;
+  }
+  .AboutBio .subtitle {
+    font-size: 3rem;
+  }
+  .AboutBio .bio-description {
+    font-size: 1.3rem;
+    width: 900px;
+  }
+  .AboutBio .silhouette-title {
+    font-size: 22rem;
+    right: -310px;
+    top: 290px;
+  }
 }
 
 @media (max-width: 768px) {

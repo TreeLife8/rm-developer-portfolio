@@ -28,7 +28,16 @@
 .Accomplishments .hidden {
   display: none;
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
+  .Accomplishments .section-heading {
+    font-size: 7rem;
+  }
+  .Accomplishments ul {
+    font-size: 1.8rem;
+  }
+  .Accomplishments .details {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 1025px) {
