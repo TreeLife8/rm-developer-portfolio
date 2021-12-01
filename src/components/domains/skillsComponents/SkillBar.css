@@ -6,6 +6,9 @@
 .SkillBar .subtitle {
   margin-bottom: 20px;
 }
+.SkillBar .col-4 {
+  padding-top: 5px;
+}
 .SkillBar .skill-name {
   font-weight: 100;
   font-size: 0.95rem;
@@ -15,7 +18,20 @@
   font-family: hikouLight;
   letter-spacing: 0.2rem;
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
+  .SkillBar {
+    width: 1250px;
+    padding-top: 250px;
+  }
+  .SkillBar .subtitle {
+    font-size: 3.5rem;
+  }
+  .SkillBar .skill-name {
+    font-size: 1.1rem;
+    padding-top: 6px;
+    line-height: 1.25;
+    letter-spacing: 0.25rem;
+  }
 }
 
 @media (max-width: 768px) {
