@@ -11,9 +11,11 @@
   text-align: center;
   font-size: 1.2rem;
 }
-
+.Interests .heading {
+  padding-top: 2rem;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .change-colour {
+  .change {
     animation-duration: 3s;
     animation-name: blink;
     animation-direction: alternate;
@@ -22,32 +24,29 @@
 }
 @keyframes blink {
   0% {
-    color: var(--primary-silver);
+    font-family: hikouDiagonal;
   }
   49% {
-    color: var(--primary-silver);
+    font-family: hikouDiagonal;
   }
   50% {
-    color: var(--orange-gold);
+    font-family: hikouCorroded;
   }
-  55% {
-    color: var(--primary-silver);
+  51% {
+    font-family: hikouDiagonal;
+  }
+  54% {
+    font-family: hikouCorroded;
+  }
+  90% {
+    font-family: hikouDiagonal;
   }
 }
 
 blink {
   animation: blink 1s infinite;
 }
-@media (max-width: 576px) {
-  .Interests .section-heading {
-    font-size: 3rem;
-  }
-  .Interests .interest-list {
-    font-size: 1rem;
-  }
-  .Interests .list {
-    padding-top: 10px;
-  }
+@media (max-width: 1300px) {
 }
 @media (max-width: 768px) {
   .Interests .section-heading {
@@ -60,5 +59,17 @@ blink {
     padding: 10px 5px;
   }
 }
-@media (max-width: 1300px) {
+
+@media (max-width: 576px) {
+  .Interests .section-heading {
+    font-size: 3rem;
+  }
+  .Interests .interest-list {
+    font-size: 1rem;
+  }
+  .Interests .list {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 412px) {
 }

@@ -7,8 +7,7 @@
   --gradient-gold: linear-gradient(15deg, #e0ba74 0%, #d28b42 100%);
   --primary-silver: #eeeef1;
   --text-colour: #7f7262;
-  --serif-font: "Cormorant Garamond", serif;
-  --dark-colour: #1f1f1f;
+  --dark-colour: #1c1b1a;
   --text-font: "Red Hat Mono", monospace;
 }
 body {

@@ -2,22 +2,22 @@ import React, { useEffect } from "react";
 import "./SkillsListed.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import CSS from "../../images/imgSkills/css.png";
-import html from "../../images/imgSkills/html.png";
-import github from "../../images/imgSkills/github.png";
-import javascript from "../../images/imgSkills/javascript.png";
-import netlify from "../../images/imgSkills/netlify.png";
-import php from "../../images/imgSkills/php.gif";
-import python from "../../images/imgSkills/python.png";
-import api from "../../images/imgSkills/api.png";
-import bootstrap from "../../images/imgSkills/bootstrap.png";
-import mysql from "../../images/imgSkills/mysql.png";
-import react from "../../images/imgSkills/react.png";
-import responsive from "../../images/imgSkills/responsive.png";
-import seo from "../../images/imgSkills/seo.png";
-import swift from "../../images/imgSkills/swift.png";
-import nodejs from "../../images/imgSkills/nodejs.png";
-import flutter from "../../images/imgSkills/flutter.png";
+import CSS from "../../images/whiteSkills/white - Css.png";
+import html from "../../images/whiteSkills/white - Html.png";
+import github from "../../images/whiteSkills/white - Github.png";
+import javascript from "../../images/whiteSkills/white - Javascript.png";
+import netlify from "../../images/whiteSkills/white - Netlify.png";
+import php from "../../images/whiteSkills/white - PhP.png";
+import python from "../../images/whiteSkills/white - Python.png";
+import api from "../../images/whiteSkills/white - Api.png";
+import bootstrap from "../../images/whiteSkills/white - Bootstrap.png";
+import mysql from "../../images/whiteSkills/white - MySQL.png";
+import react from "../../images/whiteSkills/white - React.png";
+import responsive from "../../images/whiteSkills/white - Responsive.png";
+import seo from "../../images/whiteSkills/white - Seo.png";
+import swift from "../../images/whiteSkills/white - Swift.png";
+import nodejs from "../../images/whiteSkills/white - Nodejs.png";
+import flutter from "../../images/whiteSkills/white - Flutter.png";
 
 export default function SkillsListed() {
   useEffect(() => {
@@ -151,7 +151,6 @@ export default function SkillsListed() {
                     alt={skill.alt}
                   />
                 </div>
-                <h3 className="skills-description mt-5">{skill.text}</h3>
               </div>
             );
           })}

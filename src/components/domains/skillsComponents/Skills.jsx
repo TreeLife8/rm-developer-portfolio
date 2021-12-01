@@ -33,7 +33,7 @@ export default function Skills() {
         <ParallaxLayer
           offset={1}
           speed={2}
-          style={{ backgroundColor: "#1f1f1f" }}
+          style={{ backgroundColor: "#1c1b1a" }}
         />
         <ParallaxLayer offset={1} speed={0.6} factor={1.7}>
           <div className="mb-5">

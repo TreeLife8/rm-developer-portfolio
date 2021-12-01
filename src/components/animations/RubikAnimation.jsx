@@ -1,12 +1,15 @@
 import React, { useRef, useLayoutEffect, Suspense, useState } from "react";
 import * as THREE from "three";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import "./RubikAnimation.css";
+import rubik from "../images/rubik.png";
+import { TextureLoader } from "three";
 
 function RubikCube() {
   const mesh = useRef();
   const [state, toggle] = useState(false);
   useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.005));
+  const rubikMaterial = useLoader(TextureLoader, rubik);
   return (
     <>
       <mesh
@@ -17,7 +20,11 @@ function RubikCube() {
         onPointerOut={(event) => toggle(false)}
       >
         <boxBufferGeometry attach="geometry" args={[10, 10, 10]} />
-        <meshStandardMaterial attach="material" color={0xeeeef1} />
+        <meshStandardMaterial
+          attach="material"
+          transparent={false}
+          map={rubikMaterial}
+        />
       </mesh>
     </>
   );
@@ -27,7 +34,7 @@ function Triangle() {
     <>
       <mesh position={[-5, 10, -10]} rotation={[Math.PI / 4, -4.7, 28]}>
         <circleBufferGeometry attach="geometry" args={[15, 3]} />
-        <meshStandardMaterial attach="material" color={0xd78d37} />
+        <meshStandardMaterial attach="material" color={0xe0ba74} />
       </mesh>
     </>
   );
@@ -66,9 +73,8 @@ function AnimationCanvas() {
     <Canvas colourManagement camera={{ position: [50, 0, 0], fov: 50 }}>
       <Suspense fallback={null}>
         <ambientLight intensity={0.2} />
-        <pointLight position={[25, 25, 25]} intensity={0.4} />
         <directionalLight
-          position={[25, 30, 10]}
+          position={[5, 20, 10]}
           intensity={1.5}
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024}

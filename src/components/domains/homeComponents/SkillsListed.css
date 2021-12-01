@@ -1,21 +1,19 @@
-.SkillsGlance .listed-skills {
+.SkillsListed .listed-skills {
   display: flex;
   justify-content: space-evenly;
 }
-.SkillsGlance .skill-icon {
+.SkillsListed .skill-icon {
   max-width: 60px;
   margin: 20px 40px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
-.SkillsGlance .incomplete {
+.SkillsListed .incomplete {
   opacity: 0.2;
 }
-
-.SkillsGlance .skills-description {
-  font-weight: 200;
-  font-size: 1.5rem;
-  margin: 20px 40px;
-  text-align: center;
-  color: var(--primary-silver);
-  opacity: 0.5;
+.SkillsListed .heading {
+  margin: 0 0 60px;
+  font-size: 3.5rem;
+}
+.SkillsListed {
+  padding: 0;
 }

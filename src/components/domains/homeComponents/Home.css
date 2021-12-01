@@ -12,15 +12,28 @@
   margin: 6px;
   width: 830px;
 }
+.Home .shadow {
+  position: absolute;
+  z-index: -2;
+  top: 150px;
+  left: 10px;
+  opacity: 0.1;
+}
+.Home .heading {
+  margin-top: 3.5rem;
+}
 .Home .dev-name {
   font-size: 1rem;
   font-weight: 300;
+  margin: 0.5rem 0 1rem;
+  line-height: 1.6;
   color: var(--primary-silver);
   opacity: 0.6;
 }
 .Home .intro-description {
   font-weight: 300;
   width: 600px;
+  font-size: 1.2rem;
 }
 .Home .right-side {
   position: relative;
@@ -33,7 +46,7 @@
 }
 
 .Home .chem-three {
-  margin-top: 100px;
+  margin-top: 70px;
   padding-left: 10px;
   margin-left: 20px;
 }
@@ -49,8 +62,56 @@
     animation-name: slide-fade;
     animation-direction: alternate;
   }
+  .lights-flicker {
+    animation-duration: 3s;
+    animation-name: flicker;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  .shadow {
+    animation-duration: 3s;
+    animation-name: flicker-shadow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
 }
-
+@keyframes flicker {
+  0% {
+    text-shadow: none;
+  }
+  49% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 2px 2px 5px #eeeef1b4, 4px 10px 10px #eeeef198;
+  }
+  53% {
+    text-shadow: none;
+  }
+  56% {
+    text-shadow: 2px 2px 5px #eeeef1b4, 4px 10px 10px #eeeef198;
+  }
+}
+@keyframes flicker-shadow {
+  0% {
+    text-shadow: none;
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  53% {
+    text-shadow: none;
+    opacity: 0;
+  }
+  56% {
+    opacity: 0.1;
+  }
+}
 @keyframes slide-fade {
   from {
     margin-right: 20%;

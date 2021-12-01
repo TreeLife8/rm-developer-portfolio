@@ -33,7 +33,7 @@ function Footer() {
             <Boxes />
           </a>
           <div className="github-link">
-            crafted by Regina Maher, and is opened-sourced on
+            crafted by Regina Maher, opened-sourced on
             <br />
             <a
               target="_blank"

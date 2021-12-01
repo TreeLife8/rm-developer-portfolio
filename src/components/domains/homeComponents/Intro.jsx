@@ -14,15 +14,16 @@ export default function Intro() {
               from chemist to{" "}
               <span className="gold-highlight fade-word"> coder</span>
             </h3>
-            <h3 className="dev-name pt-3">Regina Maher</h3>
+            <h3 className="dev-name pt-3">
+              <strong>Regina Maher (Gin)</strong>
+              <br /> frontend developer / data analyst / problem solver
+            </h3>
             <p className="intro-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Equipped with a Masters of Research in analytical chemistry, I got
+              the opportunity to work as an industrial problem-solver for SGS, a
+              world leading analysis company. Realising the importance of
+              technology to solve industry problems & my love for data analysis,
+              I made the switch to web and software development.
             </p>
             <Button
               text="about"
