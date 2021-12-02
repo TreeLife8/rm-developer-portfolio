@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Skills.css";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import FurtherSkills from "./FurtherSkills";
-import Button from "../buttons/Button";
+import ButtonInternal from "../buttons/ButtonInternal";
 import SkillBar from "./SkillBar";
 import Loader from "react-loader-spinner";
 import Footer from "../Footer";
@@ -41,7 +41,7 @@ export default function Skills() {
               <FurtherSkills />
             </div>
             <div className="nav-links d-flex justify-content-end pt-4 pe-5">
-              <Button
+              <ButtonInternal
                 text="projects"
                 href={"../Projects"}
                 hidden={false}

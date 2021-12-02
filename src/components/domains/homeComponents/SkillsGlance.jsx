@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../buttons/Button";
 import "./SkillsGlance.css";
+import ButtonInternal from "../buttons/ButtonInternal";
 import ParticleWaves from "../../animations/ParticleWaves";
 import SkillsListed from "./SkillsListed";
 
@@ -9,10 +9,10 @@ export default function SkillsGlance() {
     <div className="SkillsGlance">
       <div className="text-center">
         <SkillsListed />
-        <Button
+        <ButtonInternal
           text="see progress"
           hidden={true}
-          href="./Skills"
+          href="../Skills"
           target={false}
         />
       </div>

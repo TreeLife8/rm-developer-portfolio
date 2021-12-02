@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./ProjectSection.css";
-
-import Button from "../buttons/Button";
+import ButtonInternal from "../buttons/ButtonInternal";
 
 export default function ProjectSection(props) {
   useEffect(() => {
@@ -22,12 +21,11 @@ export default function ProjectSection(props) {
         </h3>
       </div>
       <div className="text-center mb-5">
-        <Button
+        <ButtonInternal
           href="./Projects"
           text="explore"
           hidden={true}
           margin={false}
-          target={false}
         />
       </div>
       <div className="row">

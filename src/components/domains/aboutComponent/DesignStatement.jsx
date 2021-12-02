@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../buttons/Button";
 import "./DesignStatement.css";
+import ButtonInternal from "../buttons/ButtonInternal";
 
 export default function DesignStatement() {
   return (
@@ -10,9 +10,9 @@ export default function DesignStatement() {
       <p className="description">
         driven by a love of coding and creative development
       </p>
-      <Button
+      <ButtonInternal
         text="contact"
-        href="./Contact"
+        href="../Contact"
         hidden={true}
         backgroundWhite={true}
       />

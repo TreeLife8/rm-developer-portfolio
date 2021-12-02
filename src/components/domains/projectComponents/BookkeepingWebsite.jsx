@@ -1,6 +1,6 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
-import Button from "../buttons/Button";
+import ButtonExternal from "../buttons/ButtonExternal";
 import BookHero from "../../images/projects/BookHero.png";
 import BookWebCodeMethod from "../../images/projects/BookCodeSerivces.png";
 
@@ -104,11 +104,10 @@ export default function BookkeepingWebsite(props) {
                 }}
               >
                 <div className="align-left btn-section">
-                  <Button
+                  <ButtonExternal
                     text="view project"
                     href={props.projects[1].href}
                     hidden={true}
-                    target={true}
                     backgroundWhite={true}
                   />
                 </div>

@@ -9,11 +9,7 @@ export default function Button(props) {
   });
   return (
     <div className={props.margin ? "Button" : "Button btn-margin"}>
-      <a
-        href={props.href}
-        target={props.target ? "_blank" : null}
-        rel={props.target ? "noopener noreferrer" : null}
-      >
+      <a href={props.href} target="_blank" rel="noopener noreferrer">
         <button className={props.hidden ? "hidden" : "btn-square"}> </button>
         <div className={props.hidden ? "" : "margin"}>
           <button

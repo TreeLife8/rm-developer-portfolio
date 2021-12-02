@@ -1,6 +1,6 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
-import Button from "../buttons/Button";
+import ButtonExternal from "../buttons/ButtonExternal";
 import TodoCode from "../../images/projects/TodoCode.png";
 import todo from "../../images/projects/todo.png";
 
@@ -91,7 +91,7 @@ export default function Todo(props) {
             </p>
             <ParallaxLayer offset={0.7} speed={0.3}>
               <div className="align-right me-5 btn-section">
-                <Button
+                <ButtonExternal
                   text="view project"
                   href={props.projects[2].href}
                   hidden={true}

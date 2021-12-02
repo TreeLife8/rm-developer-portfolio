@@ -2,7 +2,7 @@ import React from "react";
 import dopamine from "../../images/graphicElements/Dopamine.png";
 import love from "../../images/graphicElements/Love chemical.png";
 import mind from "../../images/graphicElements/Mind chemical.png";
-import Button from "../buttons/Button";
+import ButtonInternal from "../buttons/ButtonInternal";
 
 export default function Intro() {
   return (
@@ -25,10 +25,9 @@ export default function Intro() {
               technology to solve industry problems & my love for data analysis,
               I made the switch to web and software development.
             </p>
-            <Button
+            <ButtonInternal
               text="about"
               href="./About"
-              target={false}
               hidden={false}
               margin={true}
             />

@@ -1,6 +1,6 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
-import Button from "../buttons/Button";
+import ButtonExternal from "../buttons/ButtonExternal";
 import MarketingService from "../../images/projects/MarketingService.png";
 import marketingCode from "../../images/projects/marketingCode.png";
 
@@ -98,11 +98,10 @@ export default function MarketingWebsite(props) {
               </p>
               <ParallaxLayer offset={0.9} speed={0.3}>
                 <div className="align-left btn-section">
-                  <Button
+                  <ButtonExternal
                     text="view project"
                     href={props.projects[3].href}
                     hidden={true}
-                    target={true}
                     backgroundWhite={true}
                   />
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
-import Button from "../buttons/Button";
+import ButtonExternal from "../buttons/ButtonExternal";
 import weatherReact from "../../images/projects/weatherReact.png";
 import weatherReactCode from "../../images/projects/weatherReactCode.png";
 import Footer from "../Footer";
@@ -98,7 +98,7 @@ export default function WeatherApp(props) {
               }}
             >
               <div className="align-right me-5 btn-section">
-                <Button
+                <ButtonExternal
                   text="view project"
                   href={props.projects[4].href}
                   hidden={true}

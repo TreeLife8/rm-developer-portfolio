@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../buttons/Button";
+import ButtonInternal from "../buttons/ButtonInternal";
 import "./AboutBio.css";
 
 export default function AboutBio() {
@@ -32,10 +32,9 @@ export default function AboutBio() {
         to use whilst I further develope my skills in backend, data science and
         machine learning.
       </p>
-      <Button
+      <ButtonInternal
         text="contact"
-        href="./Contact"
-        target={false}
+        href="../Contact"
         hidden={true}
         margin={true}
       />

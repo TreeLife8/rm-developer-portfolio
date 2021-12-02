@@ -1,10 +1,9 @@
 import React from "react";
 import DicCode from "../../images/projects/dictionaryCode.png";
 import DicAPICode from "../../images/projects/dictionaryAPICode.png";
-import DicPhotos from "../../images/projects/dicPhotosAPI.png";
 import DicApp from "../../images/projects/DicApp.png";
 import { ParallaxLayer } from "@react-spring/parallax";
-import Button from "../buttons/Button";
+import ButtonExternal from "../buttons/ButtonExternal";
 
 export default function DictionaryApp(props) {
   const contentImgs = [
@@ -98,11 +97,10 @@ export default function DictionaryApp(props) {
             </p>
             <ParallaxLayer offset={0.1} speed={0.3}>
               <div className="align-right btn-section">
-                <Button
+                <ButtonExternal
                   text="view project"
                   href={props.projects[0].href}
                   hidden={true}
-                  target={true}
                 />
               </div>
             </ParallaxLayer>
