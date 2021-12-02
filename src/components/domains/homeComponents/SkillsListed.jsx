@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./SkillsListed.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import CSS from "../../images/whiteSkills/white - Css.png";
+import CSS from "../../images/whiteSkills/white - CSS.png";
 import html from "../../images/whiteSkills/white - Html.png";
 import github from "../../images/whiteSkills/white - Github.png";
 import javascript from "../../images/whiteSkills/white - Javascript.png";
