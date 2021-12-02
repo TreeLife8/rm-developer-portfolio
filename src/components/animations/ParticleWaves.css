@@ -42,12 +42,12 @@ body {
 }
 @media (max-width: 376px) {
   .ParticleWaves {
-    top: 1150px;
+    top: 1220px;
   }
 }
 @media (max-width: 360px) {
   .ParticleWaves {
-    top: 1180px;
+    top: 1220px;
   }
 }
 @media (max-width: 321px) {

@@ -222,31 +222,22 @@
   }
 }
 @media (max-width: 376px) {
-  .Home .dev-name {
-    font-size: 0.8rem;
-  }
-  .Home .intro-description {
-    font-size: 0.8rem;
-    width: 320px;
-  }
-  .Home .heading {
-    margin-top: 2rem;
-  }
-}
-@media (max-width: 376px) {
   .Home hr.banner {
     width: 170px;
     margin: 4px 0;
+  }
+  .Home img.chemical {
+    width: 100px;
   }
   .Home .dev-name {
     font-size: 0.8rem;
   }
   .Home .intro-description {
     font-size: 0.9rem;
-    width: 340px;
+    width: 320px;
   }
   .Home .heading {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
 }
 @media (max-width: 321px) {
@@ -263,6 +254,9 @@
   }
   .Home .heading {
     margin-top: 1.2rem;
+  }
+  .Home img.chemical {
+    width: 80px;
   }
 }
 @media (max-width: 281px) {
