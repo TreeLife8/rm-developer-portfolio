@@ -14,7 +14,6 @@ import bootstrap from "../../images/whiteSkills/white - Bootstrap.png";
 import mysql from "../../images/whiteSkills/white - MySQL.png";
 import react from "../../images/whiteSkills/white - React.png";
 import responsive from "../../images/whiteSkills/white - Responsive.png";
-import seo from "../../images/whiteSkills/white - SEO.png";
 import swift from "../../images/whiteSkills/white - Swift.png";
 import nodejs from "../../images/whiteSkills/white - NodeJS.png";
 import flutter from "../../images/whiteSkills/white - Flutter.png";
@@ -78,12 +77,7 @@ export default function SkillsListed() {
       text: "api",
       completed: true,
     },
-    {
-      icon: `${seo}`,
-      alt: "seo logo",
-      text: "seo",
-      completed: true,
-    },
+
     {
       icon: `${nodejs}`,
       alt: "nodejs logo",
