@@ -28,31 +28,31 @@ function App() {
       img: `${dictonTile}`,
       text: "dictionary app",
       alt: "photo of react dictionary app on an Ipad",
-      href: "https://xenodochial-bell-b72f23.netlify.app/",
+      href: "https://sqigglydictionary.netlify.app/",
     },
     {
       img: `${iaauTile}`,
       text: "website",
       alt: "website for bookkeeping service",
-      href: "https://sleepy-wilson-1bbb7b.netlify.app/",
+      href: "https://italladdsup.netlify.app/",
     },
     {
       img: `${todoTile}`,
       text: "todo app",
       alt: "photo of react todo app",
-      href: "https://suspicious-jennings-48bead.netlify.app/",
+      href: "https://todosquiggles.netlify.app/",
     },
     {
       img: `${bikeTile}`,
       text: "website",
       alt: "advertising website for bike products",
-      href: "https://gallant-kepler-6cc631.netlify.app/",
+      href: "https://cloudninebikes.netlify.app/",
     },
     {
       img: `${WeatherTile}`,
       text: "weather app",
       alt: "photo of react weather app on an Ipad",
-      href: "https://agitated-austin-14832c.netlify.app/",
+      href: "https://bananaweather.netlify.app/",
     },
   ];
   return (
