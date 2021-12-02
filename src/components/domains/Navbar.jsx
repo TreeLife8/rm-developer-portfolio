@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
-function Navbar() {
-  const [state, toggle] = useState(false);
+function Navbar(props) {
+  // const [state, toggle] = useState(false);
   return (
     <nav className="navbar navbar-expand-xxxl fixed-top">
-      <div className="container-fluid d-flex me-3" id={state ? "banner" : ""}>
+      <div
+        className="container-fluid d-flex me-3"
+        id={props.state ? "banner" : ""}
+      >
         <div className="">
           <button
             className="navbar-toggler"
@@ -16,7 +19,7 @@ function Navbar() {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onClick={() => toggle(!state)}
+            onClick={() => props.toggleNavbar()}
           >
             <span className="navbar-toggler-icon">
               <hr className="burger" />
@@ -28,10 +31,10 @@ function Navbar() {
       </div>
       <div>
         <div
-          className={state ? "collapse" : "collapse navbar-collapse"}
+          className={props.state ? "collapse" : "collapse navbar-collapse"}
           id="navbarNav"
         >
-          <ul className="navbar-nav" onClick={() => toggle(!state)}>
+          <ul className="navbar-nav" onClick={() => props.toggleNavbar()}>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
                 home

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Home from "./components/domains/homeComponents/Home";
 import About from "./components/domains/aboutComponent/About";
@@ -6,7 +6,6 @@ import Skills from "./components/domains/skillsComponents/Skills";
 import Projects from "./components/domains/projectComponents/Projects";
 import Navbar from "./components/domains/Navbar";
 import Contact from "./components/domains/contactComponents/Contact";
-// import SoundCloud from "./components/domains/SoundCloud";
 import { Routes, Route } from "react-router-dom";
 import bikeTile from "./components/images/tiles/Tile - CloudBike.png";
 import dictonTile from "./components/images/tiles/Tile - Dic_Ipad.png";
@@ -14,13 +13,6 @@ import iaauTile from "./components/images/tiles/Tile - IAAU.png";
 import todoTile from "./components/images/tiles/Tile - TOdo.png";
 import WeatherTile from "./components/images/tiles/Tile - Weather_Ipad.png";
 import ScrollToTop from "./components/domains/ScrollToTop";
-
-// const routesSound = (
-//   <Route element={<SoundCloud />}>
-//     <Route exact path="/callback" element={<Callback />} />
-//     <Route exact path="/app" element={<SoundContainer />} />
-//   </Route>
-// );
 
 function App() {
   const projects = [
@@ -55,12 +47,20 @@ function App() {
       href: "https://bananaweather.netlify.app/",
     },
   ];
+  const [state, toggle] = useState(false);
+  function toggleNavbar() {
+    toggle(!state);
+  }
+  function handleTouch() {
+    if (state) {
+      toggleNavbar();
+    }
+  }
   return (
-    <div className="App">
+    <div className="App" onClick={handleTouch}>
       <ScrollToTop />
-      <Navbar />
+      <Navbar toggleNavbar={toggleNavbar} state={state} />
       <Routes>
-        {/* {routesSound} */}
         <Route exact path="/" element={<Home projects={projects} />} />
         <Route exact path="About" element={<About />} />
         <Route exact path="Skills" element={<Skills />} />
