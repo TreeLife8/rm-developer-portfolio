@@ -29,15 +29,15 @@ export default function Todo(props) {
       alt: "Display of the colour pallet selection on todo list",
       className: "img img-fluid lg-padding-top landscape",
       align: "align-right",
-      offset: 1.9,
-      speed: 1.3,
+      offset: 1.8,
+      speed: 1,
       factor: 1,
     },
   ];
   const contentText = [
     {
       text: "todo list app",
-      className: "heading me-5 pe-3",
+      className: "heading pt-5",
       align: "align-right",
       offset: 1,
       speed: 0.8,
@@ -56,7 +56,7 @@ export default function Todo(props) {
         offset={2}
         speed={0.5}
         factor={1}
-        style={{ backgroundColor: "#1f1f1f" }}
+        style={{ backgroundColor: "#1c1b1a" }}
       >
         {contentImgs.map((content, index) => {
           return (
@@ -77,32 +77,20 @@ export default function Todo(props) {
           );
         })}
         <div className="links">
-          <ParallaxLayer
-            offset={1.1}
-            speed={0.7}
-            style={{
-              paddingTop: "150px",
-            }}
-          >
+          <ParallaxLayer offset={1.3} speed={0.7}>
             <p className="align-right ps-5 ms-4">
               open-sourced on{" "}
               <a
                 href="https://github.com/TreeLife8/todo-list"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="pe-5 me-3"
+                className="pe-5 me-3 link"
               >
                 github
               </a>
             </p>
-            <ParallaxLayer
-              offset={0.5}
-              speed={0.3}
-              style={{
-                paddingTop: "270px",
-              }}
-            >
-              <div className="align-right me-5">
+            <ParallaxLayer offset={0.7} speed={0.3}>
+              <div className="align-right me-5 btn-section">
                 <Button
                   text="view project"
                   href={props.projects[2].href}

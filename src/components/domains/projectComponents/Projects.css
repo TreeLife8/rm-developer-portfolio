@@ -59,7 +59,7 @@
   padding-top: 150px;
 }
 .md-padding-top {
-  padding-top: 350px;
+  padding-top: 300px;
 }
 .lg-padding-top {
   padding-top: 450px;
@@ -99,4 +99,228 @@
 .project-link {
   position: relative;
   z-index: 5;
+}
+@media (min-width: 1300px) {
+  .Projects .heading {
+    font-size: 7rem;
+  }
+  .Projects .img {
+    width: 400px;
+  }
+  .Projects .project-tile {
+    width: 650px;
+    padding-top: 150px;
+  }
+  .Projects .landscape {
+    width: 800px;
+  }
+  .Projects .big {
+    width: 950px;
+  }
+}
+@media (max-width: 1025px) {
+  .Projects .skill-name,
+  .Projects .heading {
+    font-size: 4rem;
+  }
+  .Projects .img {
+    width: 250px;
+  }
+  .Projects .project-tile {
+    width: 450px;
+    padding-top: 150px;
+  }
+  .Projects .landscape {
+    width: 500px;
+  }
+  .Projects .big {
+    width: 650px;
+  }
+}
+@media (max-width: 768px) {
+  .Projects .project-tile {
+    padding-top: 250px;
+  }
+  .Projects .align-right {
+    padding-right: 10px;
+  }
+  .Projects .align-left {
+    padding-left: 10px;
+  }
+
+  .Todo .heading {
+    margin-top: -200px;
+  }
+}
+@media (max-width: 541px) {
+  .Projects .heading {
+    font-size: 4rem;
+  }
+  .Projects .img {
+    display: none;
+  }
+
+  .Todo .heading {
+    margin-top: -100px;
+  }
+  .WeatherApp .heading,
+  .BookkeepingWebsite .links {
+    margin-top: 0px;
+  }
+  .Projects .project-tile {
+    width: 400px;
+  }
+  .Todo .project-tile,
+  .BookkeepingWebsite .heading,
+  .WeatherApp .project-tile {
+    padding-top: 250px;
+  }
+  .MarketingWebsite .heading,
+  .DictionaryApp .project-tile,
+  .Todo .skill-name,
+  .MarketingWebsite .btn-section,
+  .BookkeepingWebsite .project-tile {
+    padding-top: 250px;
+  }
+  .Projects .skill-name {
+    font-size: 4rem;
+  }
+  .MarketingWebsite .skill-name,
+  .DictionaryApp .skill-name,
+  .BookkeepingWebsite .btn-section {
+    padding-top: 600px;
+  }
+  .WeatherApp .btn-section,
+  .DictionaryApp .btn-section,
+  .DictionaryApp .links {
+    padding-top: 400px;
+  }
+  .Todo .links,
+  .WeatherApp .links {
+    margin-top: 300px;
+  }
+  .MarketingWebsite .links,
+  .WeatherApp .links {
+    margin-top: 400px;
+  }
+  .WeatherApp .skill-name {
+    padding-top: 440px;
+  }
+  .Todo .btn-section {
+    padding-top: 250px;
+  }
+  .Projects .link {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 415px) {
+  .Projects .heading {
+    font-size: 3.5rem;
+  }
+  .BookkeepingWebsite .links {
+    margin-top: -100px;
+  }
+  .MarketingWebsite .heading,
+  .DictionaryApp .project-tile,
+  .Todo .skill-name,
+  .BookkeepingWebsite .project-tile {
+    padding-top: 200px;
+  }
+  .MarketingWebsite .skill-name,
+  .DictionaryApp .skill-name,
+  .BookkeepingWebsite .btn-section {
+    padding-top: 500px;
+  }
+  .WeatherApp .btn-section,
+  .MarketingWebsite .btn-section,
+  .DictionaryApp .btn-section,
+  .DictionaryApp .links {
+    padding-top: 300px;
+  }
+  .MarketingWebsite .links {
+    margin-top: 300px;
+  }
+  .WeatherApp .skill-name {
+    padding-top: 440px;
+  }
+  .Todo .btn-section {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 376px) {
+  .Projects .heading {
+    font-size: 3rem;
+  }
+  .MarketingWebsite .skill-name,
+  .WeatherApp .skill-name {
+    padding-top: 600px;
+  }
+  .Todo .project-tile {
+    padding-top: 300px;
+  }
+  .WeatherApp .project-tile {
+    padding-top: 250px;
+  }
+  .WeatherApp .links {
+    margin-top: 450px;
+  }
+  .WeatherApp .skill-name {
+    padding-top: 500px;
+  }
+  .Todo .links {
+    margin-top: 300px;
+  }
+  .Todo .skill-name {
+    padding-top: 240px;
+  }
+  .Todo .btn-section {
+    padding-top: 280px;
+  }
+}
+@media (max-width: 361px) {
+  .Projects .heading {
+    font-size: 2.5rem;
+  }
+  .Todo .skill-name {
+    padding-top: 50px;
+  }
+  .WeatherApp .links,
+  .MarketingWebsite .links {
+    margin-top: 300px;
+  }
+  .WeatherApp .skill-name,
+  .BookkeepingWebsite .btn-section {
+    padding-top: 400px;
+  }
+  .WeatherApp .links {
+    margin-top: 330px;
+  }
+  .BookkeepingWebsite .links {
+    margin-top: 0px;
+  }
+  .Todo .project-tile {
+    padding-top: 220px;
+  }
+}
+@media (max-width: 321px) {
+  .MarketingWebsite .project-tile {
+    padding-top: 150px;
+  }
+  .WeatherApp .btn-section {
+    padding-top: 200px;
+  }
+}
+@media (max-width: 281px) {
+  .Todo .links {
+    margin-top: 350px;
+  }
+  .Todo .btn-section {
+    padding-top: 150px;
+  }
+  .DictionaryApp .btn-section {
+    padding-top: 380px;
+  }
+  .WeatherApp .btn-section {
+    padding-top: 250px;
+  }
 }

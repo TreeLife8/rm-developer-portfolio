@@ -5,7 +5,7 @@ import About from "./components/domains/aboutComponent/About";
 import Skills from "./components/domains/skillsComponents/Skills";
 import Projects from "./components/domains/projectComponents/Projects";
 import Navbar from "./components/domains/Navbar";
-import Contact from "./components/domains/Contact";
+import Contact from "./components/domains/contactComponents/Contact";
 // import SoundCloud from "./components/domains/SoundCloud";
 import { Routes, Route } from "react-router-dom";
 import bikeTile from "./components/images/tiles/Tile - CloudBike.png";

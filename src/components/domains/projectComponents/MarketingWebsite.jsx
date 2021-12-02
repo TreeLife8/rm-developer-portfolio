@@ -9,8 +9,8 @@ export default function MarketingWebsite(props) {
     {
       src: `${props.projects[3].img}`,
       alt: `${props.projects[3].alt}`,
-      className: "img-fluid project-tile pe-5",
-      align: "align-right mt-5",
+      className: "img-fluid project-tile pe-",
+      align: "align-right mt-5 5 pt-5",
       offset: 1,
       speed: 0.5,
       factor: 1,
@@ -37,7 +37,7 @@ export default function MarketingWebsite(props) {
   const contentText = [
     {
       text: "Marketing Website",
-      className: "heading sm-padding-top",
+      className: "heading md-padding-top",
       align: "align-left",
       offset: 1.1,
       speed: 0.7,
@@ -82,7 +82,7 @@ export default function MarketingWebsite(props) {
               offset={1.4}
               speed={0.5}
               style={{
-                paddingTop: "50px",
+                paddingTop: "150px",
               }}
             >
               <p className="align-left ps-5 ms-4">
@@ -91,12 +91,13 @@ export default function MarketingWebsite(props) {
                   href="https://github.com/TreeLife8/marketing-website-bikes"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="link"
                 >
                   github
                 </a>
               </p>
-              <ParallaxLayer offset={0.8} speed={0.3}>
-                <div className="align-left">
+              <ParallaxLayer offset={0.9} speed={0.3}>
+                <div className="align-left btn-section">
                   <Button
                     text="view project"
                     href={props.projects[3].href}

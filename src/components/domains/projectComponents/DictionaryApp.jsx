@@ -83,21 +83,21 @@ export default function DictionaryApp(props) {
             </ParallaxLayer>
           );
         })}
-        <div className="links">
-          <ParallaxLayer offset={0.4} speed={0.6}>
+        <ParallaxLayer offset={0.4} speed={0.6}>
+          <div className="links">
             <p className="align-right">
               open-sourced on{" "}
               <a
                 href="https://github.com/TreeLife8/dictionary-react-project"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="pe-3"
+                className="pe-3 link"
               >
                 github
               </a>
             </p>
             <ParallaxLayer offset={0.1} speed={0.3}>
-              <div className="align-right">
+              <div className="align-right btn-section">
                 <Button
                   text="view project"
                   href={props.projects[0].href}
@@ -106,8 +106,8 @@ export default function DictionaryApp(props) {
                 />
               </div>
             </ParallaxLayer>
-          </ParallaxLayer>
-        </div>
+          </div>
+        </ParallaxLayer>
         {contentText.map((content, index) => {
           return (
             <ParallaxLayer

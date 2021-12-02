@@ -61,7 +61,7 @@ body {
   font-style: normal;
   font-weight: 200px;
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
 }
 @media (max-width: 768px) {
 }
@@ -73,7 +73,7 @@ body {
 }
 @media (max-width: 376px) {
 }
-@media (max-width: 360px) {
+@media (max-width: 361px) {
 }
 @media (max-width: 321px) {
 }

@@ -10,7 +10,7 @@ export default function BookkeepingWebsite(props) {
       src: `${props.projects[1].img}`,
       alt: `${props.projects[1].alt}`,
       className: "img-fluid project-tile pe-5",
-      align: "align-right sm-padding-top",
+      align: "align-right md-padding-top",
       offset: 0.3,
       speed: 0.5,
       factor: 1,
@@ -18,9 +18,9 @@ export default function BookkeepingWebsite(props) {
     {
       src: `${BookHero}`,
       alt: "screenshot of the dictionay app code, showing the API calls",
-      className: "img img-fluid big sm-padding-top",
-      align: "align-right",
-      offset: 1,
+      className: "img img-fluid landscape sm-padding-top",
+      align: "align-left",
+      offset: 0.99,
       speed: 0.4,
       factor: 1,
     },
@@ -28,8 +28,8 @@ export default function BookkeepingWebsite(props) {
       src: `${BookWebCodeMethod}`,
       alt: "bookkeeping website testimonials",
       className: "img img-fluid landscape md-padding-top",
-      align: "align-left",
-      offset: 0.99,
+      align: "align-right",
+      offset: 1,
       speed: 0.7,
       factor: 1,
     },
@@ -37,7 +37,7 @@ export default function BookkeepingWebsite(props) {
   const contentText = [
     {
       text: "Bookkeeping Website",
-      className: "heading sm-padding-top",
+      className: "heading md-padding-top",
       align: "align-left ",
       offset: 0.25,
       speed: 0.55,
@@ -91,6 +91,7 @@ export default function BookkeepingWebsite(props) {
                   href="https://github.com/TreeLife8/js-italladdsup"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="link"
                 >
                   github
                 </a>
@@ -102,7 +103,7 @@ export default function BookkeepingWebsite(props) {
                   paddingTop: "100px",
                 }}
               >
-                <div className="align-left">
+                <div className="align-left btn-section">
                   <Button
                     text="view project"
                     href={props.projects[1].href}

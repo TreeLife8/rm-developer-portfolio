@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WabbleGeometries from "../animations/WabbleGeometries";
+import WabbleGeometries from "../../animations/WabbleGeometries";
 import "./Contact.css";
 import Loader from "react-loader-spinner";
 

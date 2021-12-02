@@ -57,7 +57,7 @@ export default function WeatherApp(props) {
         offset={4}
         speed={0.5}
         factor={1.7}
-        style={{ backgroundColor: "#1f1f1f" }}
+        style={{ backgroundColor: "#1c1b1a" }}
       >
         {contentImgs.map((content, index) => {
           return (
@@ -85,7 +85,7 @@ export default function WeatherApp(props) {
                 href="https://github.com/TreeLife8/banana-react-weather"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="pe-5 me-3"
+                className="pe-5 me-3 link"
               >
                 github
               </a>
@@ -97,7 +97,7 @@ export default function WeatherApp(props) {
                 paddingTop: "480px",
               }}
             >
-              <div className="align-right me-5">
+              <div className="align-right me-5 btn-section">
                 <Button
                   text="view project"
                   href={props.projects[4].href}
