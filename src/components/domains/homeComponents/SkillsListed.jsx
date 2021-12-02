@@ -3,20 +3,20 @@ import "./SkillsListed.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import CSS from "../../images/whiteSkills/white - CSS.png";
-import html from "../../images/whiteSkills/white - Html.png";
+import html from "../../images/whiteSkills/white - HTML.png";
 import github from "../../images/whiteSkills/white - Github.png";
 import javascript from "../../images/whiteSkills/white - Javascript.png";
 import netlify from "../../images/whiteSkills/white - Netlify.png";
 import php from "../../images/whiteSkills/white - PhP.png";
 import python from "../../images/whiteSkills/white - Python.png";
-import api from "../../images/whiteSkills/white - Api.png";
+import api from "../../images/whiteSkills/white - API.png";
 import bootstrap from "../../images/whiteSkills/white - Bootstrap.png";
 import mysql from "../../images/whiteSkills/white - MySQL.png";
 import react from "../../images/whiteSkills/white - React.png";
 import responsive from "../../images/whiteSkills/white - Responsive.png";
-import seo from "../../images/whiteSkills/white - Seo.png";
+import seo from "../../images/whiteSkills/white - SEO.png";
 import swift from "../../images/whiteSkills/white - Swift.png";
-import nodejs from "../../images/whiteSkills/white - Nodejs.png";
+import nodejs from "../../images/whiteSkills/white - NodeJS.png";
 import flutter from "../../images/whiteSkills/white - Flutter.png";
 
 export default function SkillsListed() {
