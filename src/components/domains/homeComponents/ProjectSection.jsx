@@ -28,7 +28,7 @@ export default function ProjectSection(props) {
           margin={false}
         />
       </div>
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         {props.projects.map((project, index) => {
           return (
             <div key={index} className="col-sm project-tile">
@@ -46,7 +46,7 @@ export default function ProjectSection(props) {
                   />
                 </div>
                 <h3
-                  className="subtitle"
+                  className="subtitle pb-3"
                   data-aos="fade-in"
                   data-aos-easing="ease-in-sine"
                   data-aos-mirror="true"
