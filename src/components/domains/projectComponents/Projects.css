@@ -104,6 +104,9 @@
   position: relative;
   z-index: 10;
 }
+.dictionary {
+  margin-top: -300px;
+}
 @media (min-width: 1300px) {
   .Projects .heading {
     font-size: 7rem;

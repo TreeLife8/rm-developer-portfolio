@@ -21,7 +21,7 @@ export default function DictionaryApp(props) {
       alt: "screenshot of the dictionay app code, showing the phenetic component",
       className: "img img-fluid img-middle",
       align: "",
-      offset: 0.63,
+      offset: 0.9,
       speed: 1.4,
       factor: 0.5,
     },
@@ -47,22 +47,22 @@ export default function DictionaryApp(props) {
   const contentText = [
     {
       text: "dictionary app",
-      className: "heading",
+      className: "heading dictionary",
       align: "align-right",
-      offset: 0.1,
+      offset: 0.7,
       speed: 0.6,
     },
     {
       text: "APIs",
-      className: "skill-name sm-padding-top sm-padding-right",
+      className: "skill-name sm-padding-right",
       align: "align-right",
-      offset: 0.5,
+      offset: 0.8,
       speed: 0.9,
     },
     ,
   ];
   return (
-    <div className="DictionaryApp container">
+    <div className="DictionaryApp">
       <ParallaxLayer offset={0} speed={0.5} factor={1}>
         {contentImgs.map((content, index) => {
           return (
