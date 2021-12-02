@@ -5,7 +5,7 @@ export default function FurtherSkills() {
   const inProgress = [
     {
       category: "frontend",
-      topics: ["advanced javascript", "animation", "reactjs"],
+      topics: ["advanced javascript", "animation", "typescript", "nextjs"],
     },
     {
       category: "backend",
