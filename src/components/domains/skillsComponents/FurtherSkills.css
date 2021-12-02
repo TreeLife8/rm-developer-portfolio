@@ -59,4 +59,24 @@
   .FurtherSkills .title-heading {
     font-size: 2.5rem;
   }
+  .FurtherSkills .upcoming {
+    padding-top: 20px;
+  }
+  .FurtherSkills .upcoming,
+  .FurtherSkills .inprogress {
+    width: 400px;
+  }
+}
+@media (max-width: 361px) {
+  .FurtherSkills {
+    padding-left: 20px;
+  }
+  .FurtherSkills .title-heading {
+    font-size: 2.6rem;
+  }
+
+  .FurtherSkills .upcoming,
+  .FurtherSkills .inprogress {
+    width: 350px;
+  }
 }
