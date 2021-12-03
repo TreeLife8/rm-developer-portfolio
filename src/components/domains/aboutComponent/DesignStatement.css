@@ -24,9 +24,6 @@
   font-size: 2rem;
   color: var(--dark-colour);
 }
-@media (max-width: 1300px) {
-}
-
 @media (max-width: 768px) {
   .DesignStatement .heading {
     padding: 80px 5px 20px;

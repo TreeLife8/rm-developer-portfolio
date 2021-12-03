@@ -48,13 +48,13 @@ function Footer() {
         <div className="col-sm-4 right-side pe-5">
           <h4 className="subtitle mb-3">explore</h4>
           <h6>
-            <Link to={"./About"}>about</Link>
+            <Link to={"../About"}>about</Link>
           </h6>
           <h6>
-            <Link to="./Projects">projects</Link>
+            <Link to={"../Projects"}>projects</Link>
           </h6>
           <h6>
-            <Link to="./Contact">contact</Link>
+            <Link to={"../Contact"}>contact</Link>
           </h6>
         </div>
       </div>

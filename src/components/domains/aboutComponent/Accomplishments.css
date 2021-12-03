@@ -28,7 +28,7 @@
 .Accomplishments .hidden {
   display: none;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1450px) {
   .Accomplishments .section-heading {
     font-size: 7rem;
   }

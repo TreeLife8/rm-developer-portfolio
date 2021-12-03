@@ -45,7 +45,7 @@
   align-items: center;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1450px) {
   .App .title-heading {
     font-size: 3rem;
     margin-bottom: 20px;
