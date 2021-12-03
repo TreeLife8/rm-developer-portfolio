@@ -17,7 +17,7 @@
   position: relative;
   z-index: 2;
 }
-@media (min-width: 1450px) {
+@media (min-width: 1600px) {
   .Values .heading {
     padding-bottom: 0rem;
   }
