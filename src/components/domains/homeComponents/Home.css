@@ -53,11 +53,11 @@
   height: 95px;
 }
 .Home .chem-three {
-  width: 130px;
-  margin-top: 70px;
-  padding-left: 10px;
-  margin-left: 20px;
-  opacity: 0.3;
+  width: 200px;
+  top: 170px;
+  left: 10px;
+  left: 20px;
+  opacity: 0.2;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -319,6 +319,16 @@
   .Home hr.banner {
     width: 130px;
     margin: 2px 0;
+  }
+  .Home img.chemical {
+    width: 100px;
+  }
+  .Home .chem-two {
+    height: 70px;
+    left: 0px;
+  }
+  .Home .chem-three {
+    top: 0px;
   }
   .Home .dev-name {
     font-size: 0.7rem;
