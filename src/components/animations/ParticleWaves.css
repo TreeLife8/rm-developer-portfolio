@@ -6,15 +6,16 @@ body {
 
 .ParticleWaves {
   width: 100vw;
-  height: 600px;
+  height: 60vh;
   position: absolute;
   z-index: -10;
   left: 0;
-  top: 840px;
+  top: 135vh;
 }
+
 @media (min-width: 1700px) {
   .ParticleWaves {
-    top: 1060px;
+    top: 95vh;
   }
 }
 @media (max-width: 768px) {

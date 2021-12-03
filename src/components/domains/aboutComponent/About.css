@@ -20,34 +20,7 @@
 }
 .About .section-heading {
   text-align: center;
-  font-size: 8rem;
+  font-size: 10.5vw;
   opacity: 0.7;
   font-family: hikouDiagonal;
-}
-@media (min-width: 1700px) {
-  .About .section-heading {
-    font-size: 10rem;
-  }
-}
-
-@media (max-width: 1025px) {
-  .About .section-heading {
-    font-size: 6rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .About .section-heading {
-    font-size: 5rem;
-  }
-}
-@media (max-width: 576px) {
-  .About .section-heading {
-    font-size: 5rem;
-  }
-}
-@media (max-width: 412px) {
-  .About .section-heading {
-    font-size: 5rem;
-  }
 }

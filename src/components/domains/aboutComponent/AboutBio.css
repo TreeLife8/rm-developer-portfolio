@@ -59,10 +59,9 @@
     opacity: 0.7;
   }
 }
-
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
   .AboutBio .heading {
-    font-size: 8rem;
+    font-size: 8.5rem;
   }
   .AboutBio .subtitle {
     font-size: 3rem;
@@ -74,6 +73,23 @@
   .AboutBio .silhouette-title {
     font-size: 22rem;
     right: -310px;
+    top: 290px;
+  }
+}
+@media (min-width: 1700px) {
+  .AboutBio .heading {
+    font-size: 10rem;
+  }
+  .AboutBio .subtitle {
+    font-size: 4rem;
+  }
+  .AboutBio .bio-description {
+    font-size: 1.3rem;
+    width: 900px;
+  }
+  .AboutBio .silhouette-title {
+    font-size: 22rem;
+    right: -250px;
     top: 290px;
   }
 }

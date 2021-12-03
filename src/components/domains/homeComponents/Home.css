@@ -2,20 +2,20 @@
   margin: 110px 0 0;
 }
 .Home .lines {
-  margin: 5px 0;
+  margin: 1.2vh 0;
   padding-right: 0;
 }
 .Home hr.banner {
   color: var(--text-colour);
   opacity: 1;
-  padding: 1px;
-  margin: 6px;
-  width: 830px;
+  padding: 0.15vh;
+  width: 62vw;
+  margin: 1.2vh;
 }
 .Home .shadow {
   position: absolute;
   z-index: -2;
-  top: 150px;
+  top: 170px;
   left: 10px;
   opacity: 0.1;
 }
@@ -132,12 +132,53 @@
     opacity: 0.7;
   }
 }
-@media (min-width: 1700px) {
-  .Home hr.banner {
-    width: 1300px;
-    margin: 9px 0;
-    padding: 2px;
+@media (min-width: 1300px) {
+  .Home .intro-description {
+    width: 650px;
+    font-size: 1.3rem;
   }
+  .Home img.chemical {
+    width: 160px;
+  }
+
+  .Home img.chem-three {
+    top: 80px;
+    left: -20px;
+    width: 220px;
+  }
+  .Home .chem-two {
+    height: 120px;
+    left: 80px;
+  }
+  .Home .chem-one {
+    margin-top: 5px;
+    margin-left: -100px;
+  }
+}
+@media (min-width: 1600px) {
+  .Home .intro-description {
+    width: 650px;
+    font-size: 1.3rem;
+  }
+  .Home img.chemical {
+    width: 180px;
+  }
+
+  .Home img.chem-three {
+    top: 80px;
+    left: -20px;
+    width: 280px;
+  }
+  .Home .chem-two {
+    height: 150px;
+    left: 80px;
+  }
+  .Home .chem-one {
+    margin-top: 5px;
+    margin-left: -100px;
+  }
+}
+@media (min-width: 1700px) {
   .Home .intro-description {
     width: 650px;
     font-size: 1.3rem;
@@ -148,9 +189,9 @@
   .Home img.chem-one {
     width: 200px;
   }
-  .Home .chem-three {
-    margin-top: 140px;
-    left: -20px;
+  .Home img.chem-three {
+    margin-top: 50px;
+    left: -100px;
   }
   .Home .chem-two {
     height: 200px;
@@ -161,6 +202,7 @@
     margin-left: -100px;
   }
 }
+
 @media (max-width: 1025px) {
   .Home img.chemical {
     width: 120px;
@@ -209,7 +251,7 @@
 }
 @media (max-width: 576px) {
   .Home hr.banner {
-    width: 170px;
+    /* width: 170px; */
     margin: 4px 0;
   }
 

@@ -6,7 +6,7 @@
   background: -webkit-linear-gradient(#1f1f1f, var(--primary-silver));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 10rem;
+  font-size: 11vw;
   padding: 0 0 20px;
   margin-top: 0;
   text-shadow: 2px 2px 5px #eeeef1b4, 4px 10px 10px #eeeef198;
@@ -18,20 +18,20 @@
   font-family: 300;
   padding: 0px 5px;
   margin: 0;
-  font-size: 2.2rem;
+  font-size: 3vw;
 }
 
 .App .subtitle {
   color: var(--text-colour);
   font-family: hikouRough;
   padding-top: 0;
-  margin-top: 0;
-  font-size: 2.1rem;
+  margin-top: 0.5vh;
+  font-size: 3vw;
 }
 .App .heading {
   font-family: hikouRough;
   color: var(--primary-silver);
-  font-size: 3rem;
+  font-size: 3.5vw;
 }
 .App .gold-highlight {
   color: var(--text-colour);
@@ -43,24 +43,6 @@
 .App .loader {
   justify-content: center;
   align-items: center;
-}
-
-@media (min-width: 1700px) {
-  .App .title-heading {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  .App .title {
-    font-size: 14rem;
-  }
-  .App .subtitle {
-    font-size: 3rem;
-    padding-top: 0px;
-  }
-  .App .heading {
-    font-size: 3.5rem;
-    margin-top: 2rem;
-  }
 }
 @media (max-width: 768px) {
   .App .title-heading {
