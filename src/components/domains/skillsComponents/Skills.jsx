@@ -40,15 +40,15 @@ export default function Skills() {
             <div className="d-flex further-skills justify-content-around">
               <FurtherSkills />
             </div>
-            <div className="nav-links d-flex justify-content-around">
+            <div className="nav-links d-flex  justify-content-around">
               <ButtonInternal
-                text="about"
+                text="<< about"
                 href={"../About"}
                 hidden={true}
                 margin={false}
               />
               <ButtonInternal
-                text="projects"
+                text="projects >>"
                 href={"../Projects"}
                 hidden={true}
                 margin={false}

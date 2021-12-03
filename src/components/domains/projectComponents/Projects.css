@@ -107,7 +107,7 @@
 .dictionary {
   margin-top: -300px;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
   .Projects .heading {
     font-size: 7rem;
   }

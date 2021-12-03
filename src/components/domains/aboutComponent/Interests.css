@@ -46,7 +46,7 @@
 blink {
   animation: blink 1s infinite;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
   .Interests .section-heading {
     font-size: 7rem;
   }

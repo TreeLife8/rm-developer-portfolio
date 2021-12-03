@@ -10,7 +10,7 @@
   margin-top: 31px;
   margin-bottom: -21px;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
   .ScrollingText .scroll-text {
     font-size: 7.5rem;
     line-height: 2;

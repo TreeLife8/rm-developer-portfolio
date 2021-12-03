@@ -24,7 +24,7 @@
   opacity: 0.7;
   font-family: hikouDiagonal;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
   .About .section-heading {
     font-size: 10rem;
   }
