@@ -20,14 +20,7 @@ export default function ProjectSection(props) {
           projects
         </h3>
       </div>
-      <div className="text-center mb-5">
-        <ButtonInternal
-          href="./Projects"
-          text="explore"
-          hidden={true}
-          margin={false}
-        />
-      </div>
+
       <div className="row d-flex justify-content-center">
         {props.projects.map((project, index) => {
           return (
@@ -57,6 +50,14 @@ export default function ProjectSection(props) {
             </div>
           );
         })}
+      </div>
+      <div className="text-center mb-5">
+        <ButtonInternal
+          href="./Projects"
+          text="explore"
+          hidden={true}
+          margin={false}
+        />
       </div>
     </div>
   );

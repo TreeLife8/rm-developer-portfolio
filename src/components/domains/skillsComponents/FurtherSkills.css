@@ -19,7 +19,7 @@
   color: var(--primary-silver);
   font-family: hikouRough;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .FurtherSkills .upcoming,
   .FurtherSkills .inprogress {
     width: 500px;
@@ -28,9 +28,6 @@
     font-size: 3.5rem;
   }
 }
-@media (max-width: 768px) {
-}
-
 @media (max-width: 576px) {
   .FurtherSkills .upcoming {
     padding-top: 20px;

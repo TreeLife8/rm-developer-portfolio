@@ -49,9 +49,6 @@ img {
 .img-overlay:hover:before {
   background: none;
 }
-
-@media (max-width: 1300px) {
-}
 @media (max-width: 768px) {
   .ProjectSection .heading {
     font-size: 7rem;

@@ -10,7 +10,7 @@ export default function AboutBio() {
       <p className="bio-description">
         Hi! I'm a frontend developer based in Sydney. True to my{" "}
         <a
-          href="https://www.16personalities.com/enfp-personality"
+          href="https://www.16personalities.com/enfps-at-work"
           rel="noopener noreferrer"
           target="_blank"
         >

@@ -19,7 +19,7 @@ export default function Intro() {
               <br /> frontend developer / data analyst / problem solver
             </h3>
             <p className="intro-description">
-              Equipped with a Masters of Research in analytical chemistry, I got
+              Equipped with a Masters of Research in analytical chemistry, I had
               the opportunity to work as an industrial problem-solver for SGS, a
               world leading analysis company. Realising the importance of
               technology to solve industry problems & my love for data analysis,

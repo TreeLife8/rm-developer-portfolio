@@ -124,7 +124,7 @@
     opacity: 0.7;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .Home img.chemical {
     width: 200px;
   }

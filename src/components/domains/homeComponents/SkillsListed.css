@@ -20,7 +20,7 @@
   position: relative;
   z-index: 10;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .SkillsListed .heading {
     margin: 120px 0 60px;
     font-size: 3.5rem;
