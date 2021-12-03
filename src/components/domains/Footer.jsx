@@ -1,6 +1,7 @@
 import React from "react";
 import Boxes from "../animations/Boxes";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,9 +14,9 @@ function Footer() {
           className="underline mb-5"
         />
         <div className="col-sm-4 left-side ps-5">
-          <a href="/">
+          <Link to="/">
             <h4 className="subtitle mb-3 ">Regina Maher</h4>
-          </a>
+          </Link>
           <h6 className="contact">regina.maher8@gmail.com</h6>
           <h6 className="contact mt-2">
             <a
@@ -29,9 +30,9 @@ function Footer() {
           <h6 className="contact">0415 925 230</h6>
         </div>
         <div className="col-sm-4 text-center">
-          <a href="/" className="d-flex justify-content-center">
+          <Link to="/" className="d-flex justify-content-center">
             <Boxes />
-          </a>
+          </Link>
           <div className="github-link">
             crafted by Regina Maher, opened-sourced on
             <br />
@@ -47,13 +48,13 @@ function Footer() {
         <div className="col-sm-4 right-side pe-5">
           <h4 className="subtitle mb-3">explore</h4>
           <h6>
-            <a href="/About">about</a>
+            <Link to={"./About"}>about</Link>
           </h6>
           <h6>
-            <a href="/Projects">projects</a>
+            <Link to="./Projects">projects</Link>
           </h6>
           <h6>
-            <a href="/Contact">contact</a>
+            <Link to="./Contact">contact</Link>
           </h6>
         </div>
       </div>

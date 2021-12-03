@@ -35,6 +35,8 @@ footer {
 }
 .Footer .right-side {
   text-align: end;
+  position: relative;
+  z-index: 5;
 }
 .Footer .github-link a {
   font-size: 1rem;

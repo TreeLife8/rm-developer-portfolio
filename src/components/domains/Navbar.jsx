@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 function Navbar(props) {
-  // const [state, toggle] = useState(false);
   return (
     <nav className="navbar navbar-expand-xxxl fixed-top">
       <div
