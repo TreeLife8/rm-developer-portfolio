@@ -46,7 +46,7 @@ body {
   .RubikAnimation {
     height: 500px;
     top: 850px;
-    left: -470px;
+    left: -400px;
   }
 }
 @media (max-width: 415px) {

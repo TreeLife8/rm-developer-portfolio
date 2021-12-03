@@ -12,6 +12,9 @@
 .Skills .further-skills {
   padding-top: 150px;
 }
+.Skills .nav-links {
+  padding: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .fade-name {
     animation-duration: 3s;

@@ -1,6 +1,6 @@
 import React from "react";
 import dopamine from "../../images/graphicElements/Dopamine.png";
-import love from "../../images/graphicElements/Love chemical.png";
+import penicillin from "../../images/graphicElements/penicillin.png";
 import mind from "../../images/graphicElements/Mind chemical.png";
 import ButtonInternal from "../buttons/ButtonInternal";
 
@@ -35,20 +35,20 @@ export default function Intro() {
           <div className="col-sm-6 right-side">
             <div className="d-flex justify-content-around mt-3">
               <img
-                className="img-fluid chemical pt-5"
-                src={dopamine}
-                alt="the chemical structure of the chemical messenger of pleasure"
+                className="img-fluid chemical chem-one"
+                src={mind}
+                alt="the chemical structure of mind opening chemical"
               ></img>
               <img
-                className="img-fluid chemical pb-5"
-                src={love}
-                alt="the chemical structure of a chemical that increases the activity of the neurotransmitters serotonin"
+                className="img-fluid chemical chem-two"
+                src={dopamine}
+                alt="the chemical structure of the chemical messenger of pleasure"
               ></img>
             </div>
             <img
               className="img-fluid chemical chem-three"
-              src={mind}
-              alt="the chemical structure of mind opening chemical"
+              src={penicillin}
+              alt="the chemical structure of the antibiotic penicillin"
             ></img>
           </div>
         </div>

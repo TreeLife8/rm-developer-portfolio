@@ -43,13 +43,21 @@
 .Home img.chemical {
   position: relative;
   z-index: -1;
+}
+.Home .chem-one {
   width: 130px;
 }
-
+.Home .chem-two {
+  margin-top: 5px;
+  margin-left: 80px;
+  height: 95px;
+}
 .Home .chem-three {
+  width: 130px;
   margin-top: 70px;
   padding-left: 10px;
   margin-left: 20px;
+  opacity: 0.3;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -125,9 +133,6 @@
   }
 }
 @media (min-width: 1400px) {
-  .Home img.chemical {
-    width: 200px;
-  }
   .Home hr.banner {
     width: 1300px;
     margin: 9px 0;
@@ -137,14 +142,36 @@
     width: 650px;
     font-size: 1.3rem;
   }
+  .Home img.chemical {
+    width: 300px;
+  }
+  .Home img.chem-one {
+    width: 200px;
+  }
   .Home .chem-three {
     margin-top: 140px;
     left: -20px;
+  }
+  .Home .chem-two {
+    height: 200px;
+    left: 80px;
+  }
+  .Home .chem-one {
+    margin-top: 5px;
+    margin-left: -100px;
   }
 }
 @media (max-width: 1025px) {
   .Home img.chemical {
     width: 120px;
+  }
+  .Home img.chem-three {
+    width: 220px;
+    top: -20px;
+  }
+  .Home .chem-two {
+    height: 80px;
+    left: 0px;
   }
   .Home hr.banner {
     width: 600px;
@@ -160,6 +187,14 @@
 @media (max-width: 768px) {
   .Home img.chemical {
     width: 120px;
+  }
+  .Home img.chem-three {
+    width: 180px;
+    top: -20px;
+  }
+  .Home .chem-two {
+    height: 80px;
+    left: 0px;
   }
   .Home hr.banner {
     width: 410px;
@@ -177,6 +212,7 @@
     width: 170px;
     margin: 4px 0;
   }
+
   .Home .col {
     padding: 0;
   }
@@ -197,7 +233,14 @@
     width: 250px;
     margin: 3px 0;
   }
-
+  .Home img.chem-three {
+    width: 180px;
+    top: -20px;
+  }
+  .Home .chem-two {
+    height: 70px;
+    left: 0px;
+  }
   .Home .intro-description {
     font-size: 1rem;
     width: 450px;
@@ -214,11 +257,16 @@
   .Home hr.banner {
     width: 190px;
   }
+  .Home img.chem-three,
+  .Home img.chem-two {
+    width: 150px;
+  }
+  .Home .chem-two {
+    height: 90px;
+    left: 0px;
+  }
   .Home .intro-description {
     width: 400px;
-  }
-  .Home img.chemical {
-    width: 80px;
   }
 }
 @media (max-width: 376px) {
@@ -228,6 +276,14 @@
   }
   .Home img.chemical {
     width: 100px;
+  }
+  .Home img.chem-three,
+  .Home img.chem-two {
+    width: 150px;
+  }
+  .Home .chem-two {
+    height: 90px;
+    left: 0px;
   }
   .Home .dev-name {
     font-size: 0.8rem;
