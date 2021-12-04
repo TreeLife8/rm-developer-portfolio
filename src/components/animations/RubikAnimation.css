@@ -24,12 +24,16 @@ body {
 @media (max-width: 1025px) {
   .RubikAnimation {
     height: 42vh;
+    width: 200vw;
+
     top: 37vh;
     left: -40vw;
   }
 }
 @media (max-width: 768px) {
   .RubikAnimation {
+    width: 200vw;
+
     height: 40vh;
     top: 50vh;
   }
@@ -42,6 +46,8 @@ body {
 }
 @media (max-width: 541px) {
   .RubikAnimation {
+    width: 200vw;
+
     height: 60vh;
     top: 115vh;
     left: -70vw;
@@ -49,20 +55,25 @@ body {
 }
 @media (max-width: 415px) {
   .RubikAnimation {
+    width: 200vw;
+
     top: 115vh;
     left: -85vw;
   }
 }
 @media (max-width: 376px) {
   .RubikAnimation {
+    width: 200vw;
+
     height: 50vh;
     top: 108vh;
   }
 }
 @media (max-width: 361px) {
   .RubikAnimation {
-    height: 70vh;
-    top: 133vh;
+    width: 200vw;
+    height: 60vh;
+    top: 140vh;
     left: -80vw;
   }
 }
