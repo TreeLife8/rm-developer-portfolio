@@ -15,7 +15,7 @@ body {
 
 @media (min-width: 1700px) {
   .ParticleWaves {
-    top: 95vh;
+    top: 125vh;
   }
 }
 @media (max-width: 768px) {
