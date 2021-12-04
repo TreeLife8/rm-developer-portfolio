@@ -82,7 +82,7 @@ export default function DictionaryApp(props) {
             </ParallaxLayer>
           );
         })}
-        <ParallaxLayer offset={0.4} speed={0.6}>
+        <ParallaxLayer offset={0.5} speed={0.6}>
           <div className="links">
             <p className="align-right">
               open-sourced on{" "}

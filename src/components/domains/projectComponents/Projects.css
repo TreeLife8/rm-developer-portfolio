@@ -3,7 +3,7 @@
 }
 .Projects .heading {
   opacity: 0.9;
-  font-size: 5rem;
+  font-size: 7vw;
 }
 .Projects .project-tile {
   width: 500px;
@@ -107,31 +107,11 @@
 .dictionary {
   margin-top: -300px;
 }
-@media (min-width: 1300px) {
-  .Projects .heading {
-    font-size: 6rem;
-  }
-  .heading.dictionary {
-    margin-top: -400px;
-  }
-  .Projects .img {
-    width: 400px;
-  }
-  .Projects .project-tile {
-    width: 650px;
-    padding-top: 150px;
-  }
-  .Projects .landscape {
-    width: 800px;
-  }
-  .Projects .big {
-    width: 950px;
-  }
-}
+
 @media (min-width: 1700px) {
-  .Projects .heading {
-    font-size: 11rem;
-  }
+  /* .Projects .heading {
+    font-size: 9rem;
+  } */
   .heading.dictionary {
     margin-top: -500px;
   }
