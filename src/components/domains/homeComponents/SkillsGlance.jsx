@@ -1,5 +1,4 @@
 import React from "react";
-import "./SkillsGlance.css";
 import ButtonInternal from "../buttons/ButtonInternal";
 import ParticleWaves from "../../animations/ParticleWaves";
 import SkillsListed from "./SkillsListed";
