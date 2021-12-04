@@ -10,7 +10,7 @@ body {
   position: absolute;
   z-index: -10;
   left: 0;
-  top: 135vh;
+  top: 150vh;
 }
 
 @media (min-width: 1700px) {
