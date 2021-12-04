@@ -20,6 +20,14 @@ body {
     left: -34vw;
   }
 }
+@media (min-width: 1500px) {
+  .RubikAnimation {
+    width: 200vw;
+    height: 72vh;
+    top: 60vh;
+    left: -34vw;
+  }
+}
 @media (max-width: 1281px) {
   .RubikAnimation {
     width: 200vw;

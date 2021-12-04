@@ -208,7 +208,7 @@
     width: 120px;
   }
   .Home img.chem-three {
-    width: 220px;
+    width: 190px;
     top: -20px;
   }
   .Home .chem-two {
@@ -217,6 +217,7 @@
   }
   .Home hr.banner {
     width: 600px;
+    margin: 5px 0;
   }
   .Home .intro-description {
     width: 550px;
@@ -240,6 +241,7 @@
   }
   .Home hr.banner {
     width: 410px;
+    margin: 4px 0;
   }
   .Home .intro-description {
     width: 400px;
@@ -250,11 +252,6 @@
   }
 }
 @media (max-width: 576px) {
-  .Home hr.banner {
-    /* width: 170px; */
-    margin: 4px 0;
-  }
-
   .Home .col {
     padding: 0;
   }
@@ -276,8 +273,8 @@
     margin: 3px 0;
   }
   .Home img.chem-three {
-    width: 180px;
-    top: -20px;
+    width: 150px;
+    top: -50px;
   }
   .Home .chem-two {
     height: 70px;
@@ -289,9 +286,6 @@
   }
   .Home .heading {
     margin-top: 1.5rem;
-  }
-  .Home .chem-three {
-    margin-top: 200px;
   }
 }
 

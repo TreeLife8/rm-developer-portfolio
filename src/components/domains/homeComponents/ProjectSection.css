@@ -74,10 +74,16 @@ img {
     font-size: 6rem;
     padding-top: 20px;
   }
+  .ProjectSection .project-tile {
+    margin: 10px 20px;
+  }
 }
 @media (max-width: 415px) {
   .ProjectSection .heading {
     font-size: 6rem;
+  }
+  .ProjectSection .project-tile {
+    margin: 5px 0px;
   }
 }
 @media (max-width: 376px) {
