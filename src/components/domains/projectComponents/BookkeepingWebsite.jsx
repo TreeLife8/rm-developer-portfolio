@@ -88,7 +88,7 @@ export default function BookkeepingWebsite(props) {
               <p className="align-left ps-5 ms-4">
                 open-sourced on{" "}
                 <a
-                  href="https://github.com/TreeLife8/js-italladdsup"
+                  href="https://github.com/TreeLife8/italladdsup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"

@@ -5,6 +5,8 @@ import "./AboutBio.css";
 export default function AboutBio() {
   return (
     <div className="AboutBio ps-4">
+      <h2 className="silhouette-title">about</h2>
+
       <h1 className="heading fade-name">regina maher</h1>
       <h2 className="subtitle fade-nickname">aka gin</h2>
       <p className="bio-description">
@@ -38,7 +40,6 @@ export default function AboutBio() {
         hidden={true}
         margin={true}
       />
-      <h2 className="silhouette-title">about</h2>
     </div>
   );
 }
