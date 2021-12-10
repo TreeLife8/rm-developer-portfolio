@@ -78,7 +78,7 @@ export default function WeatherApp(props) {
           );
         })}
         <div className="links">
-          <ParallaxLayer offset={2.3} speed={0.9}>
+          <ParallaxLayer offset={2.15} speed={0.9}>
             <p className="align-right ps-5 ms-4">
               open-sourced on{" "}
               <a
@@ -90,13 +90,7 @@ export default function WeatherApp(props) {
                 github
               </a>
             </p>
-            <ParallaxLayer
-              offset={1.2}
-              speed={0.6}
-              style={{
-                paddingTop: "480px",
-              }}
-            >
+            <ParallaxLayer offset={1.2} speed={0.3}>
               <div className="align-right me-5 btn-section">
                 <ButtonExternal
                   text="view project"
