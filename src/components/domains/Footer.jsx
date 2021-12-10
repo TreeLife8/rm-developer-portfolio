@@ -39,7 +39,7 @@ function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/TreeLife8/rm-developer-portfolio"
+              href="https://github.com/regina-maher/rm-developer-portfolio"
             >
               GitHub
             </a>
