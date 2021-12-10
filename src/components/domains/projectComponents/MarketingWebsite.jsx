@@ -78,13 +78,7 @@ export default function MarketingWebsite(props) {
             );
           })}
           <div className="links">
-            <ParallaxLayer
-              offset={1.4}
-              speed={0.5}
-              style={{
-                paddingTop: "150px",
-              }}
-            >
+            <ParallaxLayer offset={1.5} speed={0.6}>
               <p className="align-left ps-5 ms-4">
                 open-sourced on{" "}
                 <a

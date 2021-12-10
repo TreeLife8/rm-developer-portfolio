@@ -96,13 +96,7 @@ export default function BookkeepingWebsite(props) {
                   github
                 </a>
               </p>
-              <ParallaxLayer
-                offset={0.4}
-                speed={0.3}
-                style={{
-                  paddingTop: "100px",
-                }}
-              >
+              <ParallaxLayer offset={0.5} speed={0.3}>
                 <div className="align-left btn-section">
                   <ButtonExternal
                     text="view project"
