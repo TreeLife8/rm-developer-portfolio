@@ -109,9 +109,6 @@
 }
 
 @media (min-width: 1700px) {
-  /* .Projects .heading {
-    font-size: 9rem;
-  } */
   .heading.dictionary {
     margin-top: -500px;
   }
@@ -197,7 +194,7 @@
   .MarketingWebsite .heading,
   .DictionaryApp .project-tile,
   .Todo .skill-name,
-  .MarketingWebsite .btn-section,
+  .Todo .btn-section,
   .BookkeepingWebsite .project-tile {
     padding-top: 250px;
   }
@@ -225,9 +222,11 @@
   .WeatherApp .skill-name {
     padding-top: 440px;
   }
-  .Todo .btn-section {
-    padding-top: 250px;
+  .MarketingWebsite .links,
+  .MarketingWebsite .btn-section {
+    padding-top: 50px;
   }
+
   .Projects .link {
     font-size: 1.1rem;
   }
