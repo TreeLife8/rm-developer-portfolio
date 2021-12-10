@@ -82,7 +82,7 @@ export default function WeatherApp(props) {
             <p className="align-right ps-5 ms-4">
               open-sourced on{" "}
               <a
-                href="https://github.com/TreeLife8/banana-react-weather"
+                href="https://github.com/regina-maher/banana-react-weather"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="pe-5 me-3 link"

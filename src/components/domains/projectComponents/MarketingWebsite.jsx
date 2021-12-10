@@ -88,7 +88,7 @@ export default function MarketingWebsite(props) {
               <p className="align-left ps-5 ms-4">
                 open-sourced on{" "}
                 <a
-                  href="https://github.com/TreeLife8/marketing-website-bikes"
+                  href="https://github.com/regina-maher/marketing-website-bikes"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"

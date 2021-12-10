@@ -87,7 +87,7 @@ export default function DictionaryApp(props) {
             <p className="align-right">
               open-sourced on{" "}
               <a
-                href="https://github.com/TreeLife8/dictionary-react-project"
+                href="https://github.com/regina-maher/dictionary-react-project"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="pe-3 link"

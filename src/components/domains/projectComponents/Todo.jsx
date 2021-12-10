@@ -81,7 +81,7 @@ export default function Todo(props) {
             <p className="align-right ps-5 ms-4">
               open-sourced on{" "}
               <a
-                href="https://github.com/TreeLife8/todo-list"
+                href="https://github.com/regina-maher/todo-list"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="pe-5 me-3 link"
