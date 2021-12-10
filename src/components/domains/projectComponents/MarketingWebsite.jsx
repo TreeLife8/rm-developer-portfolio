@@ -78,7 +78,7 @@ export default function MarketingWebsite(props) {
             );
           })}
           <div className="links">
-            <ParallaxLayer offset={1.5} speed={0.6}>
+            <ParallaxLayer offset={1.9} speed={0.7}>
               <p className="align-left ps-5 ms-4">
                 open-sourced on{" "}
                 <a
@@ -90,7 +90,7 @@ export default function MarketingWebsite(props) {
                   github
                 </a>
               </p>
-              <ParallaxLayer offset={0.9} speed={0.3}>
+              <ParallaxLayer offset={1} speed={0.4}>
                 <div className="align-left btn-section">
                   <ButtonExternal
                     text="view project"
