@@ -20,6 +20,7 @@
 }
 .AboutBio a.resume-link {
   border-bottom: none;
+  padding-left: 5px;
 }
 .AboutBio .bio-description {
   font-size: 1.25rem;
