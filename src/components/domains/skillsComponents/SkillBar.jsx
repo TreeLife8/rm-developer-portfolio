@@ -44,7 +44,7 @@ const skillBarData = [
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "90%",
+      width: "100%",
     },
     config: {
       mass: 20,
@@ -60,7 +60,7 @@ const skillBarData = [
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "70%",
+      width: "85%",
     },
     config: {
       mass: 25,
@@ -89,11 +89,11 @@ const skillBarData = [
     name: "sql",
     from: {
       backgroundColor: "#eeeef1",
-      width: "20%",
+      width: "10%",
     },
     to: {
       backgroundColor: "#7f7262",
-      width: "30%",
+      width: "40%",
     },
     config: {
       mass: 25,
@@ -105,11 +105,43 @@ const skillBarData = [
     name: "node.js",
     from: {
       backgroundColor: "#eeeef1",
-      width: "20%",
+      width: "5%",
     },
     to: {
       backgroundColor: "#7f7262",
       width: "20%",
+    },
+    config: {
+      mass: 25,
+      friction: 40,
+    },
+  },
+  {
+    id: 10,
+    name: "React + typescript",
+    from: {
+      backgroundColor: "#eeeef1",
+      width: "5%",
+    },
+    to: {
+      backgroundColor: "#7f7262",
+      width: "25%",
+    },
+    config: {
+      mass: 25,
+      friction: 40,
+    },
+  },
+  {
+    id: 11,
+    name: "Animation",
+    from: {
+      backgroundColor: "#eeeef1",
+      width: "5%",
+    },
+    to: {
+      backgroundColor: "#7f7262",
+      width: "45%",
     },
     config: {
       mass: 25,
@@ -143,7 +175,7 @@ export default function SkillBar() {
                 key={spring[index]}
                 style={{
                   ...spring,
-                  height: "18px",
+                  height: "18.7px",
                   margin: "17px",
                 }}
               ></animated.div>

@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonInternal from "../buttons/ButtonInternal";
 import "./AboutBio.css";
+import CV from "../../../resources/Regina Maher - Dec 2021 Resume.pdf";
 
 export default function AboutBio() {
   return (
@@ -34,6 +35,9 @@ export default function AboutBio() {
         to use whilst I further develope my skills in backend, data science and
         machine learning.
       </p>
+      <a className="resume-link" href={CV} download="Regina Maher - Resume">
+        Download my resume
+      </a>
       <ButtonInternal
         text="contact"
         href="../Contact"

@@ -18,6 +18,9 @@
   border-bottom: 1px solid var(--primary-silver);
   color: var(--primary-silver);
 }
+.AboutBio a.resume-link {
+  border-bottom: none;
+}
 .AboutBio .bio-description {
   font-size: 1.25rem;
   width: 600px;
