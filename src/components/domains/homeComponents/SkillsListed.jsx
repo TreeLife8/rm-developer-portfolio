@@ -126,19 +126,22 @@ export default function SkillsListed() {
         >
           skills at a glance
         </h3>
-        <div className="listed-skills row mt-5">
+        <div className="listed-skills row pb-5">
           {skills.map((skill, index) => {
             return (
               <div className="col-sm">
                 <div className="d-flex justify-content-evenly">
-                  <img
-                    className={
-                      skill.completed ? "skill-icon" : "skill-icon incomplete"
-                    }
-                    key={index}
-                    src={skill.icon}
-                    alt={skill.alt}
-                  />
+                  <div className="img-wrap">
+                    <div className="img-description">{skill.text}</div>
+                    <img
+                      className={
+                        skill.completed ? "skill-icon" : "skill-icon incomplete"
+                      }
+                      key={index}
+                      src={skill.icon}
+                      alt={skill.alt}
+                    />
+                  </div>
                 </div>
               </div>
             );
