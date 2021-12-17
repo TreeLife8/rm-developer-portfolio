@@ -17,6 +17,10 @@ import responsive from "../../images/whiteSkills/white - Responsive.png";
 import swift from "../../images/whiteSkills/white - Swift.png";
 import nodejs from "../../images/whiteSkills/white - NodeJS.png";
 import flutter from "../../images/whiteSkills/white - Flutter.png";
+import sql from "../../images/whiteSkills/sql.png";
+import typescript from "../../images/whiteSkills/typescript.png";
+import nextjs from "../../images/whiteSkills/nextjs.png";
+import three from "../../images/whiteSkills/three.png";
 
 export default function SkillsListed() {
   useEffect(() => {
@@ -62,7 +66,7 @@ export default function SkillsListed() {
     {
       icon: `${react}`,
       alt: "react logo",
-      text: "react",
+      text: "react.js",
       completed: true,
     },
     {
@@ -83,6 +87,30 @@ export default function SkillsListed() {
       alt: "nodejs logo",
       text: "node.js",
       completed: true,
+    },
+    {
+      icon: `${three}`,
+      alt: "three.js logo",
+      text: "three.js",
+      completed: true,
+    },
+    {
+      icon: `${typescript}`,
+      alt: "typescript logo",
+      text: "typescript",
+      completed: true,
+    },
+    {
+      icon: `${sql}`,
+      alt: "sql logo",
+      text: "sql",
+      completed: true,
+    },
+    {
+      icon: `${nextjs}`,
+      alt: "next.js logo",
+      text: "next.js",
+      completed: false,
     },
     {
       icon: `${mysql}`,

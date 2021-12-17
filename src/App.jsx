@@ -69,6 +69,7 @@ function App() {
           path="Projects"
           element={<Projects projects={projects} />}
         />
+
         <Route exact path="Contact" element={<Contact />} />
       </Routes>
     </div>
