@@ -23,7 +23,7 @@ export default function ProjectSection(props) {
         </h3>
       </div>
       <div className="row">
-        <div className="col-sm-6 pb-5 current">
+        <div className="col-6 pb-5 current">
           <a
             href="https://pokedex-react-app-squiggle.netlify.app/"
             target="_blank"
@@ -43,7 +43,7 @@ export default function ProjectSection(props) {
             </div>
           </a>
         </div>
-        <div className="col-sm-6">
+        <div className="col-6">
           <h3
             className="heading mb-5"
             data-aos="fade-in"

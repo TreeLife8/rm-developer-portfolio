@@ -18,6 +18,12 @@ body {
     top: 100vh;
   }
 }
+@media (max-width: 1025px) {
+  .ParticleWaves {
+    top: 50vh;
+  }
+}
+
 @media (max-width: 768px) {
   .ParticleWaves {
     height: 300px;

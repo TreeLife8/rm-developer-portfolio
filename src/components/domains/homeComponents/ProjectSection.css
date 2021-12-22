@@ -67,12 +67,17 @@ a.link {
 }
 
 @media (min-width: 1500px) {
-  .ProjectSection .heading {
+  .ProjectSection .big-heading {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 1025px) {
+  .ProjectSection .big-heading {
     padding-top: 100px;
   }
 }
 @media (max-width: 768px) {
-  .ProjectSection .heading {
+  .ProjectSection .big-heading {
     font-size: 7rem;
     padding-top: 100px;
   }
@@ -81,7 +86,7 @@ a.link {
   }
 }
 @media (max-width: 576px) {
-  .ProjectSection .heading {
+  .ProjectSection .big-heading {
     font-size: 4rem;
   }
   .ProjectSection .subtitle {
@@ -92,7 +97,7 @@ a.link {
   }
 }
 @media (max-width: 541px) {
-  .ProjectSection .heading {
+  .ProjectSection .big-heading {
     font-size: 6rem;
     padding-top: 20px;
   }
@@ -101,11 +106,17 @@ a.link {
   }
 }
 @media (max-width: 415px) {
-  .ProjectSection .heading {
+  .ProjectSection .big-heading {
     font-size: 6rem;
   }
   .ProjectSection .project-tile {
     margin: 5px 0px;
+  }
+  .ProjectSection .current-project {
+    width: 40vw;
+  }
+  .ProjectSection .current div.img-overlay {
+    width: 40vw;
   }
 }
 @media (max-width: 376px) {
@@ -119,7 +130,7 @@ a.link {
 @media (max-width: 361px) {
 }
 @media (max-width: 321px) {
-  .ProjectSection .heading {
+  .ProjectSection .big-heading {
     font-size: 4rem;
   }
   .ProjectSection .col-sm {
