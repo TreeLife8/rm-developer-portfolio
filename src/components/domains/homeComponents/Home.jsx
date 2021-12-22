@@ -8,7 +8,6 @@ import Hero from "./Hero";
 import Intro from "./Intro";
 import Footer from "../Footer";
 import Loader from "react-loader-spinner";
-import Projects from "../projectsComponents/Projects";
 
 export default function Home(props) {
   useEffect(() => {
@@ -23,7 +22,6 @@ export default function Home(props) {
           <Intro />
           <SkillsGlance />
           <ProjectSection projects={props.projects} />
-          {/* <Projects /> */}
           <Footer />
         </div>
       </div>

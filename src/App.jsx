@@ -46,6 +46,12 @@ function App() {
       alt: "photo of react weather app on an Ipad",
       href: "https://bananaweather.netlify.app/",
     },
+    // {
+    //   img: `${pokedexTile}`,
+    //   text: "pokedex app",
+    //   alt: "photo of react pokedex app",
+    //   href: "https://pokedex-react-app-squiggle.netlify.app",
+    // },
   ];
   const [state, toggle] = useState(false);
   function toggleNavbar() {
@@ -69,7 +75,6 @@ function App() {
           path="Projects"
           element={<Projects projects={projects} />}
         />
-
         <Route exact path="Contact" element={<Contact />} />
       </Routes>
     </div>

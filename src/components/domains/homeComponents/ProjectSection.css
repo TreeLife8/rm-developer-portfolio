@@ -1,4 +1,4 @@
-.ProjectSection .heading {
+.ProjectSection .big-heading {
   font-size: 14vw;
   text-align: center;
   margin: 0rem;
@@ -25,6 +25,12 @@ img {
   position: relative;
   z-index: -1;
 }
+.ProjectSection .current-project {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+}
 .ProjectSection .img-overlay:hover {
   box-shadow: 0 0 15px rgb(125, 125, 125);
 }
@@ -33,6 +39,12 @@ img {
   position: relative;
   z-index: 5;
   background-color: var(--dark-colour);
+}
+.ProjectSection .current div.img-overlay {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
 }
 .img-overlay:before {
   content: "";
@@ -48,6 +60,10 @@ img {
 }
 .img-overlay:hover:before {
   background: none;
+}
+a.link {
+  color: var(--primary-silver);
+  opacity: 0.7;
 }
 
 @media (min-width: 1500px) {
