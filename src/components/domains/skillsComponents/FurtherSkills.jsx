@@ -23,11 +23,11 @@ export default function FurtherSkills() {
     },
     {
       category: "backend",
-      topics: ["python", "php", "R", "privacy & security"],
+      topics: ["python", "privacy & security"],
     },
     {
       category: "data",
-      topics: ["machine learning", "AI"],
+      topics: ["machine learning", "tensorflow", "AI"],
     },
   ];
   return (
