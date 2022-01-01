@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollingText from "./ScrollingText";
 import "./Values.css";
 import empathy from "../../images/about/empathy.jpg";
 
@@ -9,7 +8,11 @@ export default function Values() {
       <div className="row">
         <div className="col-sm-6 values-bio">
           <h2 className="section-heading heading">values</h2>
-          <ScrollingText />
+          <div className="marquee-container">
+            <h3 className="marquee">
+              - kindness - understanding - authenticity - wisdom - resilience
+            </h3>
+          </div>
         </div>
         <div className="col-sm-6 value-img">
           <img
