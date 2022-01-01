@@ -63,6 +63,11 @@ function Navbar(props) {
                 contact
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="./Works">
+                work
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

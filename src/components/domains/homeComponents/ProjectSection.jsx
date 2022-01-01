@@ -3,13 +3,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./ProjectSection.css";
 import ButtonInternal from "../buttons/ButtonInternal";
-import pokedexTile from "../../images/tiles/Tile - pokedex.png";
 import ButtonExternal from "../buttons/ButtonExternal";
 
 export default function ProjectSection(props) {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   });
+  console.log();
   return (
     <div className="ProjectSection">
       <div className="dark">
@@ -36,8 +36,8 @@ export default function ProjectSection(props) {
               className="img-overlay"
             >
               <img
-                src={pokedexTile}
-                alt="photo of react pokedex app"
+                src={props.projects[props.projects.length - 1].img}
+                alt={props.projects[props.projects.length - 1].alt}
                 className="img-fluid w-100 current-project"
               />
             </div>
@@ -58,12 +58,12 @@ export default function ProjectSection(props) {
             data-aos-easing="ease-in-sine"
             data-aos-mirror="true"
           >
-            pokedex app
+            {props.projects[props.projects.length - 1].text}
           </h3>
           <p className="align-left">
             open-sourced on{" "}
             <a
-              href="https://github.com/regina-maher/pokedex"
+              href={props.projects[props.projects.length - 1].href}
               target="_blank"
               rel="noopener noreferrer"
               className="link"
@@ -89,7 +89,7 @@ export default function ProjectSection(props) {
         early projects
       </h3>
       <div className="row d-flex justify-content-center">
-        {props.projects.map((project, index) => {
+        {props.projects.slice(0, 5).map((project, index) => {
           return (
             <div key={index} className="col-sm project-tile">
               <a href={project.href} target="_blank" rel="noopener noreferrer">

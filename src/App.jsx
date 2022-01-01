@@ -6,11 +6,13 @@ import Skills from "./components/domains/skillsComponents/Skills";
 import Projects from "./components/domains/projectComponents/Projects";
 import Navbar from "./components/domains/Navbar";
 import Contact from "./components/domains/contactComponents/Contact";
+import Works from "./components/domains/workComponents/Works";
 import { Routes, Route } from "react-router-dom";
 import bikeTile from "./components/images/tiles/Tile - CloudBike.png";
 import dictonTile from "./components/images/tiles/Tile - Dic_Ipad.png";
 import iaauTile from "./components/images/tiles/Tile - IAAU.png";
 import todoTile from "./components/images/tiles/Tile - TOdo.png";
+import pokedexTile from "./components/images/tiles/Tile - pokedex.png";
 import WeatherTile from "./components/images/tiles/Tile - Weather_Ipad.png";
 import ScrollToTop from "./components/domains/ScrollToTop";
 
@@ -46,12 +48,12 @@ function App() {
       alt: "photo of react weather app on an Ipad",
       href: "https://bananaweather.netlify.app/",
     },
-    // {
-    //   img: `${pokedexTile}`,
-    //   text: "pokedex app",
-    //   alt: "photo of react pokedex app",
-    //   href: "https://pokedex-react-app-squiggle.netlify.app",
-    // },
+    {
+      img: `${pokedexTile}`,
+      text: "pokedex app",
+      alt: "photo of react pokedex app",
+      href: "https://pokedex-react-app-squiggle.netlify.app",
+    },
   ];
   const [state, toggle] = useState(false);
   function toggleNavbar() {
@@ -76,6 +78,7 @@ function App() {
           element={<Projects projects={projects} />}
         />
         <Route exact path="Contact" element={<Contact />} />
+        <Route exact path="Works" element={<Works projects={projects} />} />
       </Routes>
     </div>
   );
