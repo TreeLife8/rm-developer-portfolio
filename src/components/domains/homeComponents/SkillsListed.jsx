@@ -7,7 +7,6 @@ import html from "../../images/whiteSkills/white - HTML.png";
 import github from "../../images/whiteSkills/white - Github.png";
 import javascript from "../../images/whiteSkills/white - Javascript.png";
 import netlify from "../../images/whiteSkills/white - Netlify.png";
-import php from "../../images/whiteSkills/white - PhP.png";
 import python from "../../images/whiteSkills/white - Python.png";
 import api from "../../images/whiteSkills/white - API.png";
 import bootstrap from "../../images/whiteSkills/white - Bootstrap.png";
@@ -124,12 +123,7 @@ export default function SkillsListed() {
       text: "python",
       completed: false,
     },
-    {
-      icon: `${php}`,
-      alt: "php logo",
-      text: "php",
-      completed: false,
-    },
+
     {
       icon: `${flutter}`,
       alt: "flutter logo",
