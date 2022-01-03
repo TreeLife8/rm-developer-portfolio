@@ -30,7 +30,7 @@
 
 @keyframes blinkhashtags {
   10% {
-    content: "#fastlearner";
+    content: "#goodlistener";
   }
   20% {
     content: "#analyst";
@@ -39,7 +39,7 @@
     content: "#datanerd";
   }
   40% {
-    content: "#chemist";
+    content: "#developer";
   }
   50% {
     content: "#problemsolver";
@@ -48,16 +48,16 @@
     content: "#codingjunkie";
   }
   70% {
-    content: "#alwaysexcited";
+    content: "#criticlover";
   }
   80% {
-    content: "#happygolucky";
+    content: "#analyticalchemist";
   }
   90% {
-    content: "#goodlistener";
+    content: "#fastlearner";
   }
   100% {
-    content: "#frontenddeveloper";
+    content: "#happygolucky";
   }
 }
 .AboutBio a {
