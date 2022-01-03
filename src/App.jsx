@@ -78,7 +78,7 @@ function App() {
           element={<Projects projects={projects} />}
         />
         <Route exact path="Contact" element={<Contact />} />
-        <Route exact path="Works" element={<Works projects={projects} />} />
+        {/* <Route exact path="Works" element={<Works projects={projects} />} /> */}
       </Routes>
     </div>
   );

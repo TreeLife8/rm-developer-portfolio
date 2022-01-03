@@ -12,7 +12,6 @@
   box-sizing: border-box;
 }
 .About .values-bio {
-  background-color: var(--orange-gold);
   padding: 0;
 }
 .About .values {

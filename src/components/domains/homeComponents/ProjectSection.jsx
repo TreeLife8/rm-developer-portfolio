@@ -9,7 +9,6 @@ export default function ProjectSection(props) {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   });
-  console.log();
   return (
     <div className="ProjectSection">
       <div className="dark">
@@ -50,7 +49,7 @@ export default function ProjectSection(props) {
             data-aos-easing="ease-in-sine"
             data-aos-mirror="true"
           >
-            ongoing project
+            latest project
           </h3>
           <h3
             className="subtitle pb-3 text-start"

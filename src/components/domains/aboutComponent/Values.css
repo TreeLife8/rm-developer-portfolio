@@ -3,7 +3,7 @@
   padding: 50px 0 0;
 }
 .Values .values-bio {
-  background-color: var(--gradient-gold);
+  background-color: var(--vibrant-orange);
   color: var(--primary-silver);
   padding: 0;
 }
@@ -28,7 +28,7 @@
   padding: 70px 0 0;
   color: #fff;
   white-space: nowrap;
-  animation: marquee 12s infinite linear;
+  animation: marquee 14s infinite linear;
 }
 .Values .marquee:after {
   content: " - kindness - understanding - authenticity - wisdom - resilience ";

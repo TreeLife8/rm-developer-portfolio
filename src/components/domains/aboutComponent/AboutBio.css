@@ -3,14 +3,62 @@
   opacity: 0.7;
 }
 .AboutBio .subtitle {
-  color: var(--orange-gold);
+  color: var(--vibrant-orange);
   font-family: hikouDiagonal;
   font-size: 2.5rem;
+  padding-top: 0;
+  margin-top: 0;
 }
 .AboutBio .heading {
   color: var(--primary-silver);
   font-family: hikouUrban;
   font-size: 6.5rem;
+  margin-bottom: 0;
+  line-height: 0.8;
+}
+.AboutBio .hashtags {
+  color: var(--primary-silver);
+  padding: 20px 0 5px;
+}
+.AboutBio .hashtags:before {
+  content: "#human";
+  animation: blinkhashtags 15s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blinkhashtags {
+  10% {
+    content: "#fastlearner";
+  }
+  20% {
+    content: "#analyst";
+  }
+  30% {
+    content: "#datanerd";
+  }
+  40% {
+    content: "#chemist";
+  }
+  50% {
+    content: "#problemsolver";
+  }
+  60% {
+    content: "#codingjunkie";
+  }
+  70% {
+    content: "#enthusiast4everything";
+  }
+  80% {
+    content: "#happygolucky";
+  }
+  90% {
+    content: "#goodlistener";
+  }
+  100% {
+    content: "#frontenddeveloper";
+  }
 }
 .AboutBio a {
   text-decoration: none;
@@ -39,6 +87,7 @@
   right: -250px;
   top: 300px;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .fade-name {
     animation-duration: 3s;

@@ -10,13 +10,10 @@ export default function AboutBio() {
 
       <h1 className="heading fade-name">regina maher</h1>
       <h2 className="subtitle fade-nickname">aka gin</h2>
+      <h4 className="hashtags"></h4>
       <p className="bio-description">
         Hi! I'm a frontend developer based in Sydney. True to my{" "}
-        <a
-          href="https://www.16personalities.com/enfps-at-work"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <a href="https://www.16personalities.com/enfps-at-work" target="_blank">
           ENFP-A
         </a>{" "}
         personality type, I'm an extremely enthusiastic individual with a
