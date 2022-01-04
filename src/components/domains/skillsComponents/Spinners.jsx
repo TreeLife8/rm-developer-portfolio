@@ -6,12 +6,10 @@ export default function Spinners() {
   const loaders = [
     "Audio",
     "Grid",
-    // "Hearts",
     "Oval",
     "BallTriangle",
     "Rings",
     "Circles",
-    // "Puff",
     "TailSpin",
     "ThreeDots",
     "Bars",

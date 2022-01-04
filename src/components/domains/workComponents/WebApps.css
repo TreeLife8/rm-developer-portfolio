@@ -1,26 +1,16 @@
-.WebApps .heading {
-  font-size: 12vw;
-  padding-top: 100px;
-}
-
 .WebApps .marquee-container {
-  display: flex;
-  align-items: center;
   overflow: hidden;
   transform: rotate(-90deg);
-  align-items: flex-end;
-  right: 0;
-  width: 500px;
+  width: 430px;
+  padding-bottom: 220px;
 }
 .WebApps .marquee {
-  font-size: 7vw;
+  font-size: 5.5vw;
   font-family: hikouOutline;
-  line-height: 0.6;
-  padding: 70px 0 0;
-  color: #fff;
   white-space: nowrap;
-  animation: marquee 12s infinite linear;
+  color: var(--text-colour);
+  animation: marquee 3s infinite linear;
 }
 .WebApps .marquee:after {
-  content: " api api api api api api api api api api ";
+  content: " api api api";
 }

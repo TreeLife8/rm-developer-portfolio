@@ -1,0 +1,15 @@
+.Websites .marquee-container {
+  overflow: hidden;
+  padding-top: 80px;
+  width: 640px;
+}
+.Websites .marquee {
+  font-size: 5.1vw;
+  font-family: hikouOutline;
+  white-space: nowrap;
+  color: var(--text-colour);
+  animation: marquee 2s infinite linear;
+}
+.Websites .marquee:after {
+  content: " build build build build";
+}

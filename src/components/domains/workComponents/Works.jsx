@@ -1,17 +1,15 @@
 import React from "react";
 import WebApps from "./WebApps";
-import WorkMenu from "./WorkMenu";
+import Websites from "./Websites";
+import Footer from "../Footer";
 import "./Works.css";
 
 const Works = (props) => {
   return (
     <div className="Works">
-      <WebApps />
-      {/* <WorkMenu projects={props.projects} /> */}
-      <div className="row">
-        <div className="col-sm-6 left top"></div>
-        <div className="col-sm-6 right top"></div>
-      </div>
+      <WebApps projects={props.projects} />
+      <Websites projects={props.projects} />
+      <Footer />
     </div>
   );
 };

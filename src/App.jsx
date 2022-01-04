@@ -19,38 +19,50 @@ import ScrollToTop from "./components/domains/ScrollToTop";
 function App() {
   const projects = [
     {
+      id: 1,
       img: `${dictonTile}`,
       text: "dictionary app",
+      projectType: "web app",
       alt: "photo of react dictionary app on an Ipad",
       href: "https://sqigglydictionary.netlify.app/",
     },
     {
+      id: 2,
       img: `${iaauTile}`,
       text: "website",
+      projectType: "bookkeeping website",
       alt: "website for bookkeeping service",
       href: "https://italladdsup.netlify.app/",
     },
     {
+      id: 3,
       img: `${todoTile}`,
       text: "todo app",
+      projectType: "web app",
       alt: "photo of react todo app",
       href: "https://todosquiggles.netlify.app/",
     },
     {
+      id: 4,
       img: `${bikeTile}`,
       text: "website",
+      projectType: "marketing website",
       alt: "advertising website for bike products",
       href: "https://cloudninebikes.netlify.app/",
     },
     {
+      id: 5,
       img: `${WeatherTile}`,
       text: "weather app",
+      projectType: "web app",
       alt: "photo of react weather app on an Ipad",
       href: "https://bananaweather.netlify.app/",
     },
     {
+      id: 6,
       img: `${pokedexTile}`,
       text: "pokedex app",
+      projectType: "web app",
       alt: "photo of react pokedex app",
       href: "https://pokedex-react-app-squiggle.netlify.app",
     },
@@ -78,7 +90,7 @@ function App() {
           element={<Projects projects={projects} />}
         />
         <Route exact path="Contact" element={<Contact />} />
-        {/* <Route exact path="Works" element={<Works projects={projects} />} /> */}
+        <Route exact path="Works" element={<Works projects={projects} />} />
       </Routes>
     </div>
   );

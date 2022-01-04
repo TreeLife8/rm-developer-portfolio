@@ -1,4 +1,31 @@
-.Works .left {
-  background-color: var(--vibrant-orange);
-  height: 300px;
+.Works .hidden {
+  display: none;
+}
+
+.Works .tab {
+  font-size: 2vw;
+  padding: 15px;
+  color: var(--text-colour);
+  text-align: left;
+}
+.Works .projects-column {
+  background-color: var(--primary-silver);
+}
+.Works .heading {
+  font-size: 10vw;
+  padding: 100px 0;
+  text-align: center;
+  font-family: hikouUrban;
+  color: var(--text-colour);
+}
+.Works .breakdown {
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  margin: 25px 0 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+.Works .project:hover .breakdown {
+  visibility: visible;
+  opacity: 1;
 }
