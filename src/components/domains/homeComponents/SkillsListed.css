@@ -35,9 +35,9 @@
   z-index: 10;
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
   .SkillsListed .heading {
-    margin: 110px 0 60px;
+    margin: 250px 0 60px;
     font-size: 3.5rem;
     padding-bottom: 40px;
   }
