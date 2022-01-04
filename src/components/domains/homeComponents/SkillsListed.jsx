@@ -13,7 +13,6 @@ import bootstrap from "../../images/whiteSkills/white - Bootstrap.png";
 import mysql from "../../images/whiteSkills/white - MySQL.png";
 import react from "../../images/whiteSkills/white - React.png";
 import responsive from "../../images/whiteSkills/white - Responsive.png";
-import swift from "../../images/whiteSkills/white - Swift.png";
 import nodejs from "../../images/whiteSkills/white - NodeJS.png";
 import flutter from "../../images/whiteSkills/white - Flutter.png";
 import sql from "../../images/whiteSkills/sql.png";
@@ -128,12 +127,6 @@ export default function SkillsListed() {
       icon: `${flutter}`,
       alt: "flutter logo",
       text: "flutter",
-      completed: false,
-    },
-    {
-      icon: `${swift}`,
-      alt: "swift logo",
-      text: "swift",
       completed: false,
     },
   ];

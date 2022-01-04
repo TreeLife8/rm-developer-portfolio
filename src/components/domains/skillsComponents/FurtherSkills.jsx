@@ -19,7 +19,7 @@ export default function FurtherSkills() {
   const upComing = [
     {
       category: "frontend",
-      topics: ["flutter", "swift iOS"],
+      topics: ["flutter"],
     },
     {
       category: "backend",
