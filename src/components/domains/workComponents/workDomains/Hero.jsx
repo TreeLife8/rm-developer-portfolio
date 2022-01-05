@@ -21,15 +21,19 @@ const Hero = (props) => {
           </div>
         </div>
         <div className="col-sm-8 right-coloumn">
-          <div className="d-flex">
+          <div className="row tabs d-flex justify-content-evenly">
             {props.outline.map((point, index) => {
               return (
-                <div className="outline card text-center pt-3" key={index}>
-                  <h5 className="card-title">{point.title}</h5>
-                  <hr />
-                  <p>
-                    {point.text === "website" ? point.projectType : point.text}
-                  </p>
+                <div className="col-sm">
+                  <div className="outline card text-center" key={index}>
+                    <h5 className="card-title">{point.title}</h5>
+                    <hr />
+                    <p>
+                      {point.text === "website"
+                        ? point.projectType
+                        : point.text}
+                    </p>
+                  </div>
                 </div>
               );
             })}

@@ -1,31 +1,56 @@
-.heading {
+.Hero .heading {
   padding: 120px 0 70px 100px;
 }
-
-.buttons .Button button {
-  font-size: 14px;
+.Hero {
+  padding-right: 20px;
 }
-.tile {
+.Hero .buttons .Button button {
+  font-size: 14px;
+  text-align: left;
+}
+.Hero .tile {
   width: 250px;
   display: block;
   margin: auto;
   margin-left: 100px;
 }
-.card {
+.Hero .card {
   background-color: var(--dark-colour);
-  width: 20vw;
+  width: 14vw;
   border: none;
-  margin-top: 100px;
   padding: 5px;
 }
-.right-coloumn {
+.Hero .col-sm-3 {
+  width: 20vw;
+}
+.Hero .right-coloumn {
   margin: auto;
   text-align: center;
-  padding-left: 40px;
 }
-.card-title {
+.Hero .tabs {
+  padding-top: 100px;
+}
+.Hero .card-title {
   font-family: hikouUrban;
   font-size: 3.5vw;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+@media (max-width: 415px) {
+  .App .heading {
+    padding: 80px 0 50px;
+    text-align: center;
+    font-size: 12vw;
+  }
+  .Hero .card {
+    width: 40vw;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .Hero .col-sm {
+    width: 45vw;
+  }
+  .Hero .buttons .Button button {
+    padding-left: 50px;
+  }
 }

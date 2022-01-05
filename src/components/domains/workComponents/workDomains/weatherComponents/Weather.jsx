@@ -9,7 +9,7 @@ const Weather = (props) => {
   const outline = [
     {
       title: "task",
-      text: "design and develop a weather app that works with dates, geolocation and APIs",
+      text: "design and develop a weather app that displays searched cities & works with dates, time, geolocation and APIs",
     },
     {
       title: "build",
