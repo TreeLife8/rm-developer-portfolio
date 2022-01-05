@@ -7,12 +7,8 @@ import "./Works.css";
 const Works = (props) => {
   return (
     <div className="Works">
-      <div className="apps">
-        <WebApps projects={props.projects} />
-      </div>
-      <div className="sites">
-        <Websites projects={props.projects} />
-      </div>
+      <WebApps projects={props.projects} />
+      <Websites projects={props.projects} />
       <Footer />
     </div>
   );
