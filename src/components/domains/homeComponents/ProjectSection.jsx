@@ -119,7 +119,7 @@ export default function ProjectSection(props) {
       </div>
       <div className="text-center mb-5">
         <ButtonInternal
-          href="./Projects"
+          href="./Works"
           text="explore"
           hidden={true}
           margin={false}
