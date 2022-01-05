@@ -20,7 +20,7 @@ const MarketingHero = (props) => {
     },
     {
       title: "time",
-      text: "1 week",
+      text: "2 days",
     },
   ];
   return (
