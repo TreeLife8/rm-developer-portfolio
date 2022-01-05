@@ -7,6 +7,12 @@ import Projects from "./components/domains/projectComponents/Projects";
 import Navbar from "./components/domains/Navbar";
 import Contact from "./components/domains/contactComponents/Contact";
 import Works from "./components/domains/workComponents/Works";
+import BookSite from "./components/domains/workComponents/workDomains/BookSite";
+import MarketingSite from "./components/domains/workComponents/workDomains/MarketingSite";
+import Dictionary from "./components/domains/workComponents/workDomains/Dictionary";
+import Todo from "./components/domains/workComponents/workDomains/Todo";
+import Weather from "./components/domains/workComponents/workDomains/Weather";
+import Pokedex from "./components/domains/workComponents/workDomains/Pokedex";
 import { Routes, Route } from "react-router-dom";
 import bikeTile from "./components/images/tiles/Tile - CloudBike.png";
 import dictonTile from "./components/images/tiles/Tile - Dic_Ipad.png";
@@ -91,6 +97,24 @@ function App() {
         />
         <Route exact path="Contact" element={<Contact />} />
         <Route exact path="Works" element={<Works projects={projects} />} />
+        <Route
+          exact
+          path="BookSite"
+          element={<BookSite projects={projects} />}
+        />
+        <Route
+          exact
+          path="MarketingSite"
+          element={<MarketingSite projects={projects} />}
+        />
+        <Route
+          exact
+          path="Dictionary"
+          element={<Dictionary projects={projects} />}
+        />
+        <Route exact path="Todo" element={<Todo projects={projects} />} />
+        <Route exact path="Weather" element={<Weather projects={projects} />} />
+        <Route exact path="Pokedex" element={<Pokedex projects={projects} />} />
       </Routes>
     </div>
   );

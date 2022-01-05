@@ -29,3 +29,7 @@
   visibility: visible;
   opacity: 1;
 }
+.Works a {
+  text-decoration: none;
+  color: var(--text-colour);
+}
