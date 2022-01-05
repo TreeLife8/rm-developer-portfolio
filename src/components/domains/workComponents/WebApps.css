@@ -15,12 +15,31 @@
 .WebApps .marquee:after {
   content: " api api api";
 }
-@media (min-width: 1300px) {
+@media (min-width: 1800px) {
+  .WebApps .marquee-container {
+    width: 47vh;
+    padding-bottom: 18vw;
+  }
+  .WebApps .marquee {
+    font-size: 3.85vw;
+  }
+}
+@media (max-width: 1700px) {
   .WebApps .marquee-container {
     width: 58vh;
     padding-bottom: 12.6vw;
   }
   .WebApps .marquee {
     font-size: 5vw;
+  }
+}
+@media (max-width: 1300px) {
+  .WebApps .marquee-container {
+    width: 70.5vh;
+
+    padding-bottom: 17.6vw;
+  }
+  .WebApps .marquee {
+    font-size: 5.42vw;
   }
 }
