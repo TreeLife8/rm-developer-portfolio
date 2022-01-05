@@ -23,11 +23,11 @@ const WebApps = (props) => {
                   return (
                     <Link to={projectDomains.get(project.text)}>
                       <div key={index} className={"row project"}>
-                        <div className="col-7">
-                          <div className="tab">{project.text}</div>
+                        <div className="col-8">
+                          <div className="tab">{project.text} >></div>
                         </div>
-                        <div className="col-5 breakdown">
-                          <div>view breakdown</div>
+                        <div className="col-4 breakdown">
+                          <div>view work</div>
                         </div>
                       </div>
                     </Link>

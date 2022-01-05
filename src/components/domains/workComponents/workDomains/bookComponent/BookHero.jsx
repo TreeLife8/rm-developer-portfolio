@@ -1,18 +1,18 @@
 import React from "react";
 import ButtonExternal from "../../../buttons/ButtonExternal";
 
-const DicHero = (props) => {
+const BookHero = (props) => {
   const app = props.projects.find((element) => {
-    if (element.text === "dictionary app") return element;
+    if (element.projectType === "bookkeeping website") return element;
   });
   const outline = [
     {
       title: "task",
-      text: "design and develop a dictionary app that searches for words & displays word synonyms, definitions, audio, origin, adjectives &/ nouns & photos",
+      text: "design and develop a business website that has a clean responsive design with interactive elements",
     },
     {
       title: "build",
-      text: "React.js, Bootstrap, Github, Netlify, APIs",
+      text: "React.js, Bootstrap, Github, Netlify",
     },
     {
       title: "team",
@@ -24,10 +24,10 @@ const DicHero = (props) => {
     },
   ];
   return (
-    <div className="DicHero">
+    <div className="BookHero">
       <div className="row">
         <div className="col-sm-4 left-column">
-          <h3 className="heading">{app.text}</h3>
+          <h3 className="heading">{app.projectType}</h3>
           <div className="d-flex">
             <img src={app.img} alt={app.alt} className="tile img-fluid pe-3" />
           </div>
@@ -62,4 +62,4 @@ const DicHero = (props) => {
   );
 };
 
-export default DicHero;
+export default BookHero;

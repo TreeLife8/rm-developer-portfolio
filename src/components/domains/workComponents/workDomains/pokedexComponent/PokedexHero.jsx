@@ -1,18 +1,18 @@
 import React from "react";
 import ButtonExternal from "../../../buttons/ButtonExternal";
 
-const DicHero = (props) => {
+const PokedexHero = (props) => {
   const app = props.projects.find((element) => {
-    if (element.text === "dictionary app") return element;
+    if (element.text === "pokedex app") return element;
   });
   const outline = [
     {
       title: "task",
-      text: "design and develop a dictionary app that searches for words & displays word synonyms, definitions, audio, origin, adjectives &/ nouns & photos",
+      text: "design and develop a pokadex app that searches for any pokemon & displays details from multiple API calls",
     },
     {
       title: "build",
-      text: "React.js, Bootstrap, Github, Netlify, APIs",
+      text: "React.js, ES5/ES6+, Bootstrap, Github, Netlify, APIs",
     },
     {
       title: "team",
@@ -20,14 +20,14 @@ const DicHero = (props) => {
     },
     {
       title: "time",
-      text: "1 week",
+      text: "2 weeks",
     },
   ];
   return (
-    <div className="DicHero">
+    <div className="PokedexHero">
       <div className="row">
         <div className="col-sm-4 left-column">
-          <h3 className="heading">{app.text}</h3>
+          <h3 className="heading">Pokedex App</h3>
           <div className="d-flex">
             <img src={app.img} alt={app.alt} className="tile img-fluid pe-3" />
           </div>
@@ -62,4 +62,4 @@ const DicHero = (props) => {
   );
 };
 
-export default DicHero;
+export default PokedexHero;

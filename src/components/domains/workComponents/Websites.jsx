@@ -16,11 +16,11 @@ const Websites = (props) => {
               return (
                 <Link to={projectDomains.get(project.projectType)}>
                   <div key={index} className={"row project ps-3"}>
-                    <div className="col-7">
-                      <div className="tab">{project.projectType}</div>
+                    <div className="col-8">
+                      <div className="tab">{project.projectType} >></div>
                     </div>
-                    <div className="col-5 breakdown">
-                      <div>view breakdown</div>
+                    <div className="col-4 breakdown">
+                      <div>view work</div>
                     </div>
                   </div>
                   //{" "}

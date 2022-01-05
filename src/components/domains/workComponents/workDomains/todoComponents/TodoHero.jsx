@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import ButtonExternal from "../../../buttons/ButtonExternal";
-import "./TodoHero.css";
 
 const TodoHero = (props) => {
   const app = props.projects.find((element) => {
@@ -28,7 +27,7 @@ const TodoHero = (props) => {
     <div className="TodoHero">
       <div className="row">
         <div className="col-sm-4 left-column">
-          <h3 className="heading">Todo App</h3>
+          <h3 className="heading">{app.text}</h3>
           <div className="d-flex">
             <img src={app.img} alt={app.alt} className="tile img-fluid pe-3" />
           </div>
@@ -45,7 +44,7 @@ const TodoHero = (props) => {
               );
             })}
           </div>
-          <div className="text-start mt-2">
+          <div className="text-start buttons mt-2">
             <ButtonExternal
               text="launch project"
               href={app.href}

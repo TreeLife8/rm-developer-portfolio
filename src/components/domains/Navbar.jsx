@@ -52,9 +52,14 @@ function Navbar(props) {
                 <hr className="burger" />
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="./Projects">
                 projects
+                </Link>
+              </li> */}
+            <li className="nav-item">
+              <Link className="nav-link" to="./Works">
+                work
                 <hr className="burger" />
               </Link>
             </li>
@@ -63,11 +68,6 @@ function Navbar(props) {
                 contact
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="./Works">
-                work
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>

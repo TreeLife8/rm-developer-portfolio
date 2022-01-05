@@ -1,14 +1,14 @@
 import React from "react";
 import ButtonExternal from "../../../buttons/ButtonExternal";
 
-const DicHero = (props) => {
+const WeatherHero = (props) => {
   const app = props.projects.find((element) => {
-    if (element.text === "dictionary app") return element;
+    if (element.text === "weather app") return element;
   });
   const outline = [
     {
       title: "task",
-      text: "design and develop a dictionary app that searches for words & displays word synonyms, definitions, audio, origin, adjectives &/ nouns & photos",
+      text: "design and develop a weather app that works with dates, geolocation and APIs",
     },
     {
       title: "build",
@@ -24,7 +24,7 @@ const DicHero = (props) => {
     },
   ];
   return (
-    <div className="DicHero">
+    <div className="WeatherHero">
       <div className="row">
         <div className="col-sm-4 left-column">
           <h3 className="heading">{app.text}</h3>
@@ -62,4 +62,4 @@ const DicHero = (props) => {
   );
 };
 
-export default DicHero;
+export default WeatherHero;

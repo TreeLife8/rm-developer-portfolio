@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../../Footer";
 import TodoHero from "./TodoHero";
+import "../Hero.css";
 
 const Todo = (props) => {
   return (

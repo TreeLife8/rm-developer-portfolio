@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dictionary.css";
+import "../Hero.css";
 import Footer from "../../../Footer";
 import DicHero from "./DicHero";
 
