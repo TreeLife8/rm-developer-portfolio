@@ -1,12 +1,12 @@
 .WebApps .marquee-container {
   overflow: hidden;
   transform: rotate(-90deg);
-  width: 70vh;
-  /* width: 430px; */
-  padding-bottom: 220px;
+  width: 70.5vh;
+  padding-bottom: 17.6vw;
 }
+
 .WebApps .marquee {
-  font-size: 5.5vw;
+  font-size: 5.42vw;
   font-family: hikouOutline;
   white-space: nowrap;
   color: var(--text-colour);
@@ -14,4 +14,13 @@
 }
 .WebApps .marquee:after {
   content: " api api api";
+}
+@media (min-width: 1300px) {
+  .WebApps .marquee-container {
+    width: 58vh;
+    padding-bottom: 12.6vw;
+  }
+  .WebApps .marquee {
+    font-size: 5vw;
+  }
 }
