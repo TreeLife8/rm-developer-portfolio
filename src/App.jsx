@@ -9,8 +9,8 @@ import Contact from "./components/domains/contactComponents/Contact";
 import Works from "./components/domains/workComponents/Works";
 import BookSite from "./components/domains/workComponents/workDomains/BookSite";
 import MarketingSite from "./components/domains/workComponents/workDomains/MarketingSite";
-import Dictionary from "./components/domains/workComponents/workDomains/Dictionary";
-import Todo from "./components/domains/workComponents/workDomains/Todo";
+import Dictionary from "./components/domains/workComponents/workDomains/dictionaryComponents/Dictionary";
+import Todo from "./components/domains/workComponents/workDomains/todoComponents/Todo";
 import Weather from "./components/domains/workComponents/workDomains/Weather";
 import Pokedex from "./components/domains/workComponents/workDomains/Pokedex";
 import { Routes, Route } from "react-router-dom";
@@ -31,6 +31,7 @@ function App() {
       projectType: "web app",
       alt: "photo of react dictionary app on an Ipad",
       href: "https://sqigglydictionary.netlify.app/",
+      github: "https://github.com/regina-maher/dictionary-react-project",
     },
     {
       id: 2,
@@ -39,6 +40,7 @@ function App() {
       projectType: "bookkeeping website",
       alt: "website for bookkeeping service",
       href: "https://italladdsup.netlify.app/",
+      github: "https://github.com/regina-maher/italladdsup",
     },
     {
       id: 3,
@@ -47,6 +49,7 @@ function App() {
       projectType: "web app",
       alt: "photo of react todo app",
       href: "https://todosquiggles.netlify.app/",
+      github: "https://github.com/regina-maher/todo-list",
     },
     {
       id: 4,
@@ -55,6 +58,7 @@ function App() {
       projectType: "marketing website",
       alt: "advertising website for bike products",
       href: "https://cloudninebikes.netlify.app/",
+      github: "https://github.com/regina-maher/marketing-website-bikes",
     },
     {
       id: 5,
@@ -63,6 +67,7 @@ function App() {
       projectType: "web app",
       alt: "photo of react weather app on an Ipad",
       href: "https://bananaweather.netlify.app/",
+      github: "https://github.com/regina-maher/banana-react-weather",
     },
     {
       id: 6,
@@ -71,6 +76,7 @@ function App() {
       projectType: "web app",
       alt: "photo of react pokedex app",
       href: "https://pokedex-react-app-squiggle.netlify.app",
+      github: "https://github.com/regina-maher/pokedex",
     },
   ];
   const [state, toggle] = useState(false);

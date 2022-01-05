@@ -1,7 +1,8 @@
 .WebApps .marquee-container {
   overflow: hidden;
   transform: rotate(-90deg);
-  width: 430px;
+  width: 70vh;
+  /* width: 430px; */
   padding-bottom: 220px;
 }
 .WebApps .marquee {
@@ -9,7 +10,7 @@
   font-family: hikouOutline;
   white-space: nowrap;
   color: var(--text-colour);
-  animation: marquee 3s infinite linear;
+  animation: marquee 2.5s infinite linear;
 }
 .WebApps .marquee:after {
   content: " api api api";

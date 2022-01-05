@@ -1,0 +1,31 @@
+.Dictionary .heading {
+  padding: 120px 0 100px 100px;
+}
+
+.Dictionary .Button button {
+  font-size: 14px;
+}
+.Dictionary .tile {
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-left: 100px;
+}
+.Dictionary .card {
+  background-color: var(--dark-colour);
+  width: 20vw;
+  border: none;
+  margin-top: 100px;
+  padding: 5px;
+}
+.Dictionary .right-coloumn {
+  margin: auto;
+  text-align: center;
+  padding-left: 40px;
+}
+.Dictionary .card-title {
+  font-family: hikouUrban;
+  font-size: 3.5vw;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
