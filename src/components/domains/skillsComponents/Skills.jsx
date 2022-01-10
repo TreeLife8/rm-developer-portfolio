@@ -48,8 +48,8 @@ export default function Skills() {
                 margin={false}
               />
               <ButtonInternal
-                text="projects >>"
-                href={"../Projects"}
+                text="work >>"
+                href={"../Works"}
                 hidden={true}
                 margin={false}
               />
