@@ -72,11 +72,6 @@ body {
     top: 150vh;
     left: -85vw;
   }
-  /* @media (max-height: 915px) {
-    .RubikAnimation {
-      top: 100vh;
-    } */
-  }
 }
 @media (max-width: 394px) {
   .RubikAnimation {
