@@ -9,7 +9,7 @@ body {
   height: 90vh;
   position: absolute;
   z-index: 1;
-  top: 80vh;
+  /* top: 50vh; */
   left: 17vw;
 }
 @media (min-width: 1700px) {
@@ -70,6 +70,13 @@ body {
   .RubikAnimation {
     width: 200vw;
     top: 90vh;
+    left: -85vw;
+  }
+}
+@media (max-width: 413px) and (max-height: 805px) {
+  .RubikAnimation {
+    width: 200vw;
+    top: 110vh;
     left: -85vw;
   }
 }
