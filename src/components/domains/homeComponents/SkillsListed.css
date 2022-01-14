@@ -37,8 +37,8 @@
 
 @media (min-width: 1500px) {
   .SkillsListed .heading {
-    margin: 250px 0 60px;
-    font-size: 3.5rem;
+    margin: 200px 0 60px;
+    font-size: 5rem;
     padding-bottom: 40px;
   }
   .SkillsListed .skill-icon {
