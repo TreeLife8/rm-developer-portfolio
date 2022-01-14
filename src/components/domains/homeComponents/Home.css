@@ -304,8 +304,16 @@
     height: 90px;
     left: 0px;
   }
+  .Home img.chem-three {
+    left: 200px;
+    top: 50px;
+  }
   .Home .intro-description {
     width: 400px;
+  }
+  .Home .subtitle {
+    font-size: 4.4vw;
+    padding-top: 5px;
   }
 }
 @media (max-width: 394px) {
