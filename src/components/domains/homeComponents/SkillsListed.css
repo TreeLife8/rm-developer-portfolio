@@ -48,7 +48,7 @@
 }
 @media (max-width: 768px) {
   .SkillsListed .heading {
-    margin: 50px 0 60px;
+    margin: 50px 0 0px;
     font-size: 3rem;
     padding-bottom: 20px;
   }
@@ -70,8 +70,8 @@
 }
 @media (max-width: 415px) {
   .SkillsListed .heading {
-    font-size: 2.7rem;
-    margin: 20px 0 60px;
+    font-size: 2.5rem;
+    margin: 20px 0 0px;
   }
   .SkillsListed .skill-icon {
     max-width: 45px;
