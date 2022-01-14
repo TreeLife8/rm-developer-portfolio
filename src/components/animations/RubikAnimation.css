@@ -26,7 +26,7 @@ body {
     height: 42vh;
     width: 200vw;
 
-    top: 37vh;
+    top: 127vh;
     left: -40vw;
   }
 }
@@ -61,11 +61,21 @@ body {
     left: -85vw;
   }
 }
+@media (max-height: 915px) {
+  .RubikAnimation {
+    top: 100vh;
+  }
+}
 @media (max-width: 413px) {
   .RubikAnimation {
     width: 200vw;
     top: 150vh;
     left: -85vw;
+  }
+  /* @media (max-height: 915px) {
+    .RubikAnimation {
+      top: 100vh;
+    } */
   }
 }
 @media (max-width: 394px) {

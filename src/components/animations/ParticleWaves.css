@@ -20,7 +20,12 @@ body {
 }
 @media (max-width: 1025px) {
   .ParticleWaves {
-    top: 50vh;
+    top: 150vh;
+  }
+}
+@media (max-width: 821px) {
+  .ParticleWaves {
+    top: 62vh;
   }
 }
 

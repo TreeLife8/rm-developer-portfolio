@@ -230,6 +230,39 @@
     left: 30px;
   }
 }
+@media (max-width: 913px) {
+  .Home hr.banner {
+    width: 490px;
+    margin: 4px 0;
+  }
+  .Home .intro-description {
+    width: 400px;
+  }
+}
+@media (max-width: 821px) {
+  .Home img.chemical {
+    width: 120px;
+  }
+  .Home img.chem-three {
+    width: 180px;
+    top: -20px;
+  }
+  .Home .chem-two {
+    height: 80px;
+    left: 0px;
+  }
+  .Home hr.banner {
+    width: 410px;
+    margin: 4px 0;
+  }
+  .Home .intro-description {
+    width: 350px;
+  }
+  .Home .chem-three {
+    margin-top: 240px;
+    left: 50px;
+  }
+}
 @media (max-width: 768px) {
   .Home img.chemical {
     width: 120px;
