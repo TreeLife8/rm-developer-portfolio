@@ -12,10 +12,10 @@ const WebApps = (props) => {
   return (
     <div className="WebApps container-fluid">
       <div className="row">
-        <div className="col-6">
+        <div className="col-sm-6">
           <h1 className="heading">web apps</h1>
         </div>
-        <div className="col-6 projects-column">
+        <div className="col-sm-6 projects-column">
           <div className="row">
             <div className="col-9 pt-5 pb-5">
               {props.projects.map((project, index) => {

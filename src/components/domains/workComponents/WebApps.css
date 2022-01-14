@@ -43,3 +43,14 @@
     font-size: 5.42vw;
   }
 }
+
+@media (max-width: 415px) {
+  .WebApps .marquee-container {
+    overflow: hidden;
+    width: 93vw;
+    padding-bottom: 71vw;
+  }
+  .WebApps .marquee {
+    font-size: 15vw;
+  }
+}

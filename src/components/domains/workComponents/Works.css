@@ -33,3 +33,12 @@
   text-decoration: none;
   color: var(--text-colour);
 }
+@media (max-width: 415px) {
+  .Works .heading {
+    font-size: 20vw;
+  }
+  .Works .tab {
+    font-size: 4.3vw;
+    padding: 5px;
+  }
+}

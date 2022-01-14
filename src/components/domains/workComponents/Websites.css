@@ -13,3 +13,13 @@
 .Websites .marquee:after {
   content: " build build build build";
 }
+@media (max-width: 415px) {
+  .Websites .marquee-container {
+    overflow: hidden;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .Websites .marquee {
+    font-size: 10.7vw;
+  }
+}
