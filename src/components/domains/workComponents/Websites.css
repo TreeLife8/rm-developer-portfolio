@@ -13,7 +13,17 @@
 .Websites .marquee:after {
   content: " build build build build";
 }
+.Websites .hide {
+  display: none;
+}
 @media (max-width: 415px) {
+  .Websites .hide {
+    display: block;
+    visibility: visible;
+  }
+  .Websites .mobile {
+    display: none;
+  }
   .Websites .marquee-container {
     overflow: hidden;
     padding-top: 10px;

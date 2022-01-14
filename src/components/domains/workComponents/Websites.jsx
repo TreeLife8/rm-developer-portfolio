@@ -10,6 +10,9 @@ const Websites = (props) => {
   return (
     <div className="Websites">
       <div className="row">
+        <div className="col-sm-6 hide">
+          <h1 className="heading">websites</h1>
+        </div>
         <div className="col-sm-6 projects-column pt-5">
           {props.projects.map((project, index) => {
             if (project.projectType !== "web app") {
@@ -32,7 +35,7 @@ const Websites = (props) => {
             <h3 className="marquee">build build</h3>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-6 mobile">
           <h1 className="heading">websites</h1>
         </div>
       </div>
