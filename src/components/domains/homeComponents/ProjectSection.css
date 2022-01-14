@@ -138,6 +138,12 @@ a.link {
     width: 170px;
   }
 }
+@media (max-width: 361px) {
+  .ProjectSection .big-heading {
+    font-size: 20vw;
+    padding-bottom: 0;
+  }
+}
 @media (max-width: 321px) {
   .ProjectSection .big-heading {
     font-size: 4rem;
