@@ -39,7 +39,7 @@ function App() {
       text: "website",
       projectType: "bookkeeping website",
       alt: "website for bookkeeping service",
-      href: "https://italladdsup.netlify.app/",
+      href: "http://italladdsup.com.au/",
       github: "https://github.com/regina-maher/italladdsup",
     },
     {
