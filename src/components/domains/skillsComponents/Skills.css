@@ -15,6 +15,7 @@
 .Skills .nav-links {
   padding: 50px 10px 10px;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .fade-name {
     animation-duration: 3s;

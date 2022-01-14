@@ -132,7 +132,7 @@
     opacity: 0.7;
   }
 }
-@media (max-width: 1700px) {
+@media (min-width: 1700px) {
   .Home .intro-description {
     width: 650px;
     font-size: 1.3rem;
@@ -155,7 +155,7 @@
     margin-left: -100px;
   }
 }
-@media (min-width: 1700px) {
+@media (max-width: 1600px) {
   .Home .intro-description {
     width: 650px;
     font-size: 1.3rem;
@@ -179,7 +179,7 @@
     margin-left: -100px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1290px) {
   .Home .intro-description {
     width: 600px;
     font-size: 1.1rem;
@@ -306,6 +306,26 @@
   }
   .Home .intro-description {
     width: 400px;
+  }
+}
+@media (max-width: 394px) {
+  .Home hr.banner {
+    width: 160px;
+  }
+  .Home img.chem-three,
+  .Home img.chem-two {
+    width: 120px;
+  }
+  .Home .chem-two {
+    height: 90px;
+    left: 0px;
+  }
+  .Home img.chem-three {
+    left: 190px;
+    top: 10px;
+  }
+  .Home .intro-description {
+    width: 350px;
   }
 }
 @media (max-width: 376px) {

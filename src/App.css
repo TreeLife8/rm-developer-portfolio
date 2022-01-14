@@ -99,8 +99,22 @@
     font-size: 4.5rem;
   }
   .App .subtitle {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding-top: 2px;
+  }
+  .App .heading {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 394px) {
+  .App .subtitle {
+    font-size: 1rem;
+    padding-top: 5px;
+  }
+  .App .heading {
+    font-size: 1.7rem;
+    margin-top: 2rem;
   }
 }
 @media (max-width: 376px) {
