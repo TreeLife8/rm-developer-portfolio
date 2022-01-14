@@ -21,20 +21,26 @@ body {
   }
 }
 
+@media (max-width: 1280px) {
+  .RubikAnimation {
+    height: 82vh;
+    width: 100vw;
+    top: -80vh;
+    left: 10vw;
+  }
+}
 @media (max-width: 1025px) {
   .RubikAnimation {
-    height: 42vh;
-    width: 200vw;
-
-    top: 127vh;
-    left: -40vw;
+    height: 82vh;
+    width: 100vw;
+    top: -20vh;
+    left: 10vw;
   }
 }
 
 @media (max-width: 768px) {
   .RubikAnimation {
     width: 200vw;
-
     height: 40vh;
     top: 50vh;
   }

@@ -144,7 +144,7 @@ export default function SkillsListed() {
         <div className="listed-skills row pb-5">
           {skills.map((skill, index) => {
             return (
-              <div className="col-sm">
+              <div className="col-sm" key={index}>
                 <div className="d-flex justify-content-evenly">
                   <div className="img-wrap">
                     <div className="img-description">{skill.text}</div>
@@ -152,7 +152,6 @@ export default function SkillsListed() {
                       className={
                         skill.completed ? "skill-icon" : "skill-icon incomplete"
                       }
-                      key={index}
                       src={skill.icon}
                       alt={skill.alt}
                     />

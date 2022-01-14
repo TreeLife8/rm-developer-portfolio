@@ -414,6 +414,35 @@
     margin-top: 2rem;
   }
 }
+@media (max-width: 361px) {
+  .Home hr.banner {
+    width: 160px;
+  }
+  .Home img.chemical {
+    width: 80px;
+  }
+  .Home img.chem-three,
+  .Home img.chem-two {
+    width: 110px;
+  }
+  .Home .chem-two {
+    height: 90px;
+    left: 0px;
+  }
+  .Home .dev-name {
+    font-size: 0.8rem;
+  }
+  .Home .intro-description {
+    font-size: 0.9rem;
+    width: 320px;
+  }
+  .Home .heading {
+    margin-top: 2rem;
+  }
+  .Home .subtitle {
+    padding-top: 6px;
+  }
+}
 @media (max-width: 321px) {
   .Home hr.banner {
     width: 160px;

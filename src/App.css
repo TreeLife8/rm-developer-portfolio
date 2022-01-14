@@ -129,6 +129,7 @@
     padding-top: 5px;
   }
 }
+
 @media (max-width: 321px) {
   .App .title-heading {
     font-size: 1rem;
