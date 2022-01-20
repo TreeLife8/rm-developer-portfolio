@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./Home.css";
 import SkillsGlance from "./SkillsGlance";
 import Aos from "aos";
@@ -8,18 +8,21 @@ import Hero from "./Hero";
 import Intro from "./Intro";
 import Footer from "../Footer";
 import Loader from "react-loader-spinner";
+import useMeasure from "../useMeasure";
 
 export default function Home(props) {
+  const [loaded, setLoading] = useState(false);
+  const homeRef = useRef();
+  const [introRect, introRef] = useMeasure();
   useEffect(() => {
     Aos.init({ duration: 1500 });
   });
-  const [loaded, setLoading] = useState(false);
   if (loaded) {
     return (
-      <div className="Home">
+      <div className="Home" ref={homeRef}>
         <div className="container-fluid">
-          <Hero />
-          <Intro />
+          <Hero introRef={introRef} introRect={introRect} />
+          <Intro introRef={introRef} />
           <SkillsGlance />
           <ProjectSection projects={props.projects} />
           <Footer />

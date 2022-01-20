@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import dopamine from "../../images/graphicElements/Dopamine.png";
 import penicillin from "../../images/graphicElements/penicillin.png";
 import mind from "../../images/graphicElements/Mind chemical.png";
 import ButtonInternal from "../buttons/ButtonInternal";
 
-export default function Intro() {
+export default function Intro(props) {
   return (
-    <div className="Intro ps-3">
+    <div className="Intro ps-3" ref={props.introRef}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-6">
